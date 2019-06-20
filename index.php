@@ -1,4 +1,4 @@
-kikikiokiok<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr" class="no-js">
 
 <head>
