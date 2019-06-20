@@ -14,7 +14,6 @@
     <link href="css/header.css" rel="stylesheet">
     <link href="css/hover-min.css" rel="stylesheet">
 
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <!-- LOAD JQUERY LIBRARY -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
 
@@ -27,7 +26,6 @@
 
     <!-- REVOLUTION STYLE SHEETS -->
     <link rel="stylesheet" type="text/css" href="slider/revolution/css/settings.css">
-
 
     <!-- FONT AND STYLE FOR BASIC DOCUMENTS, NO NEED FOR FURTHER USAGE IN YOUR PROJECTS-->
     <link href="http://fonts.googleapis.com/css?family=Roboto%3A700%2C300" rel="stylesheet" property="stylesheet"
