@@ -7,3 +7,10 @@
 }
 /* fin parallax*/
 
+.btn-lg{
+    background-color: #2C3034!important;
+}
+
+.btn-floating{
+    padding: 0;
+}

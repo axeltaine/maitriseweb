@@ -1,4 +1,4 @@
-kikikiokiok<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr" class="no-js">
 
 <head>
@@ -62,7 +62,7 @@ kikikiokiok<!DOCTYPE html>
     <header><?php include ('header.php'); ?> </header>
 
     <main class="global">
-        <div class="vide" style="height:80px"></div>
+        <div class="vide" id="section1" style="height:60px"></div>
         <div id="app">
             <div class="sections-menu">
                 <span class="menu-point" v-bind:class="{active: activeSection == index}"
@@ -73,7 +73,7 @@ kikikiokiok<!DOCTYPE html>
 
         <div class="container_fluide"><?php include ('slider.html'); ?></div>
 
-        <div class="container_fluide">
+        <div class="container_fluide" id="section2">
             <div class="jumbotron text-center">
                 <div class="container">
                     <h1 class="jumbotron-heading">Présentation</h1>
@@ -94,14 +94,14 @@ kikikiokiok<!DOCTYPE html>
 
         <?php include ('parallax.html'); ?>
 
-        <div class="container_fluide">
+        <div class="container_fluide" id="section4">
             <div class="jumbotron text-center">
                 <div class="container">
                     <h1 class="jumbotron-heading">CONTACT</h1>
                     <p class="lead text-muted">Un projet en tête ? venez nous en faire part. MAITRISE WEB répondra a vos
                         besoins en vous écoutant.</p>
                     <p class="lead">
-                        <a class="btn btn-primary btn-lg" href="#" role="button">CONTACTEZ NOUS</a>
+                        <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="#" role="button">CONTACTEZ NOUS</a>
                     </p>
 
                 </div>
@@ -111,7 +111,6 @@ kikikiokiok<!DOCTYPE html>
     </main>
 
     <footer><?php include ('footer.html'); ?></footer>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
