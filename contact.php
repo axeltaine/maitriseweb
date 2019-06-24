@@ -22,12 +22,21 @@
 
 <body>
     <header><?php include ('header.php'); ?> </header>
-    
+    <div class="header">
+		<h1>MAitrise Web <br><span>[ Contact ]</span></h1>
+	</div>
     <div id="top"></div>
     <main class="global">
         <div class="membre">
+        <div class="container_fluide" id="section2">
+            <div class="jumbotron text-center">
+                <div class="container">
+                    <h1 class="jumbotron-heading">Notre équipe de dev :</h1>
+                </div>
+            </div>
+        </div>
         <div class="container m-t-md">
-            <H2>Notre équipe :</H2>
+     
   <!-- First row -->
   <div class="row">
     <div class="col-xs-12 col-md-4">
