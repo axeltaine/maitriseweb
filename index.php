@@ -102,7 +102,7 @@
                     <p class="lead text-muted">Un projet en tête ? venez nous en faire part. MAITRISE WEB répondra a vos
                         besoins en vous écoutant.</p>
                     <p class="lead">
-                        <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="#" role="button">CONTACTEZ NOUS</a>
+                        <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php" role="button">CONTACTEZ NOUS</a>
                     </p>
 
                 </div>
