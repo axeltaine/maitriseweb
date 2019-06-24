@@ -29,7 +29,7 @@
                 <a class="nav-link" href="portfolio.php">Réalisations</a>
             </li>
             <li class="nav-item hvr-grow-shadow hvr-underline-from-center">
-                <a class="nav-link" href="#section4">Contact</a>
+                <a class="nav-link" href="contact.php">Contact</a>
             </li>
         </ul>
     </div>
