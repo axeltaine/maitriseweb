@@ -93,6 +93,7 @@
 
 
         <?php include ('parallax.html'); ?>
+        <?php include ('gallery.html'); ?>
 
         <div class="container_fluide" id="section4">
             <div class="jumbotron text-center">

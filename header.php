@@ -14,7 +14,7 @@
         <ul class="navbar-nav mr-auto">
 
             <li class="nav-item hvr-grow-shadow hvr-underline-from-center">
-                <a class="nav-link" href="#section1">Accueil</a>
+                <a class="nav-link" href="index.php">Accueil</a>
             </li>
 
             <li class="nav-item hvr-grow-shadow hvr-underline-from-center">
