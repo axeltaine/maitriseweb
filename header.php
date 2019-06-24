@@ -18,7 +18,7 @@
             </li>
 
             <li class="nav-item hvr-grow-shadow hvr-underline-from-center">
-                <a class="nav-link" href="#section2">Présentation</a>
+                <a class="nav-link" href="presentation.php">Présentation</a>
             </li>
 
             <a class="navbar-brand" href="index.php">
