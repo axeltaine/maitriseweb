@@ -10,6 +10,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/portfolio.css">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/hover-min.css" rel="stylesheet">
@@ -76,7 +77,7 @@
         <div class="container_fluide" id="section2">
             <div class="jumbotron text-center">
                 <div class="container">
-                    <h1 class="jumbotron-heading">Présentation</h1>
+                    <h2 class="jumbotron-heading">PRESENTATION</h1><br>
                     <p class="lead text-muted">Notre entreprise Maitrise WEB est située en Champagne-Ardennes, à
                         proximité de
                         Reims, Charlevilles-Mézières et Sedan. Spécialisé dans la création de site internet, le
@@ -90,7 +91,6 @@
                 </div>
             </div>
         </div>
-
 
         <?php include ('parallax.html'); ?>
         <?php include ('gallery.html'); ?>
@@ -123,6 +123,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script type="text/javascript" src="slider/assets/warning.js"></script>
     <script type="text/javascript" src="js/header.js"></script>
     <script src="js/parallax.min.js"></script>

@@ -1,331 +1,63 @@
-<style>
-#portfolio .container-fluid, 
-#portfolio .col-sm-3  {
-  overflow: hidden;
-  padding: 0;
-}
 
-#portfolio .folio-item {
-  position: relative;
-}
-
-#portfolio .overlay {
-  background-color: #000;
-  color: #fff; 
-  left: 0;
-  right:0;
-  bottom:-100%;
-  height: 0;
-  position: absolute;
-  text-align: center;
-  opacity:0;  
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-
-.overlay .overlay-content {
-  display: table;
-  height: 100%;
-  width: 100%;
-}
-
-.overlay .overlay-text {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.overlay .folio-info {
-  opacity: 0;
-  margin-bottom: 75px;
-  margin-top: -75px;
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-}
-
-.overlay .folio-info h3 {
-  margin-top: 0;
-  color: #fff;
-}
-
-.folio-overview a {
-  font-size: 18px;
-  color: #333;
-  height: 50px;
-  width: 50px;
-  line-height: 50px;
-  border-radius: 50%;
-  background-color: #fff;
-  display: inline-block;
-  margin-top: 20px;
-  margin-right: 5px;
-}
-
-.folio-overview a:hover {
-  color: #fff;
-}
-
-.folio-overview .folio-expand {
-  margin-top: -500px;
-  margin-left: -500px;
-}
-
-.folio-image, .folio-overview .folio-expand {
-  -webkit-transition: all 0.8s ease-in-out;
-  transition: all 0.8s ease-in-out;
-}
-
-#portfolio .folio-item:hover .folio-image {
-  -webkit-transform: scale(1.5) rotate(-15deg);
-  transform: scale(1.5) rotate(-15deg);
-}
-
-.folio-image img {
-  width: 100%;
-}
-
-#portfolio .folio-item:hover .overlay {
-  opacity: 0.8;
-  bottom: 0;
-  height: 100%;
-}
-
-#portfolio .folio-item:hover .folio-overview .folio-expand {
-  margin-top: 0;
-  margin-left:0;
-}
-
-#portfolio .folio-item:hover .overlay .folio-info {
-  opacity: 1;  
-  margin-bottom:0;
-  margin-top:0;
-}
-
-
-#single-portfolio {
-  padding: 90px 0;
-  background: #f5f5f5;
-  position: relative;
-}
-
-#single-portfolio img {
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-#single-portfolio .close-folio-item {
-  position: absolute;
-  top: 30px;
-  font-size: 34px;
-  width: 34px;
-  height: 34px;
-  left: 50%;
-  color: #999;
-  margin-left: -17px;
-}</style>
-<section id="portfolio">
-    <div class="container_fluide" id="section4">
-        <div class="jumbotron text-center">
-            <div class="container">
-                <h1 class="jumbotron-heading">NOS REFERENCES</h1>
-                
-                <p class="lead">
-                    <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="portfolio.php" role="button">Toutes nos créations</a>
-                </p>
-
-            </div>
+	<section class="gallery">
+		<div class="container">
+			<div class="row">
+        <h2 style="margin: 0 auto 4% auto;">NOS PROJETS & CREATIONS</h2>
+				<div class="col-sm-12">
+					<ul class="filter font-alt" id="filters">
+						<li><a class="current wow fadeInUp" href="#" data-filter="*"
+								style="visibility: visible; animation-name: fadeInUp;">TOUT</a></li>
+						<li><a class="wow fadeInUp" href="#" data-filter=".illustration" data-wow-delay="0.2s"
+								style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">Site
+								Web</a></li>
+						<li><a class="wow fadeInUp" href="#" data-filter=".marketing" data-wow-delay="0.4s"
+								style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">Flyer</a>
+						</li>
+						<li><a class="wow fadeInUp" href="#" data-filter=".photography" data-wow-delay="0.6s"
+								style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">Identité
+								visuelle</a></li>
+						<li><a class="wow fadeInUp" href="#" data-filter=".webdesign" data-wow-delay="0.6s"
+								style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">Projet en
+                Cours</a></li>
+					</ul>
         </div>
-    </div>
-   <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="img/37837640_1508245925943724_6633323753105260544_o.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Test</h3>
-                    <p>test</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#"
-                        data-single_url="portfolio-single.html"><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="img/37837640_1508245925943724_6633323753105260544_o.jpg"
-                        data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
+        <div class="col-12 drop">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  GENRES
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <button class="dropdown-item" type="button">Site Web</button>
+                  <button class="dropdown-item" type="button">Flyer</button>
+                  <button class="dropdown-item" type="button">Identité visuelle</button>
+                  <button class="dropdown-item" type="button">Projet en cours</button>
                 </div>
               </div>
-            </div>
-          </div>
         </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="img/37837640_1508245925943724_6633323753105260544_o.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Test</h3>
-                    <p>test</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#"
-                        data-single_url="portfolio-single.html"><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="img/37837640_1508245925943724_6633323753105260544_o.jpg"
-                        data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="img/37837640_1508245925943724_6633323753105260544_o.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Test</h3>
-                    <p>test</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#"
-                        data-single_url="portfolio-single.html"><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="img/37837640_1508245925943724_6633323753105260544_o.jpg"
-                        data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="img/37837640_1508245925943724_6633323753105260544_o.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Test</h3>
-                    <p>test</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#"
-                        data-single_url="portfolio-single.html"><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="img/37837640_1508245925943724_6633323753105260544_o.jpg"
-                        data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="img/37837640_1508245925943724_6633323753105260544_o.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Test</h3>
-                    <p>test</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#"
-                        data-single_url="portfolio-single.html"><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="img/37837640_1508245925943724_6633323753105260544_o.jpg"
-                        data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="img/37837640_1508245925943724_6633323753105260544_o.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Test</h3>
-                    <p>test</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#"
-                        data-single_url="portfolio-single.html"><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="img/37837640_1508245925943724_6633323753105260544_o.jpg"
-                        data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="img/37837640_1508245925943724_6633323753105260544_o.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Test</h3>
-                    <p>test</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#"
-                        data-single_url="portfolio-single.html"><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="img/37837640_1508245925943724_6633323753105260544_o.jpg"
-                        data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="img/37837640_1508245925943724_6633323753105260544_o.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Test</h3>
-                    <p>test</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#"
-                        data-single_url="portfolio-single.html"><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="img/37837640_1508245925943724_6633323753105260544_o.jpg"
-                        data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="portfolio-single-wrap">
-      <div id="portfolio-single">
-      </div>
-    </div><!-- /#portfolio-single-wrap-->
-  </section>
-  <!--/#portfolio-->
+				<a href="#" class="close"><i class="fas fa-times fa-2x" style="color: #2C3034 !important;"></i></a>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
+					<a href="#item01">
+						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
+					<a href="#item01">
+						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
+					<a href="#item01">
+						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
+					<a class="suite" href="portfolio.php">
+						<p class="voirplus">+ tout voir</p>
+					</a>
+				</div>
+			</div>			
+			</div>
+			<!-- / Item 02 -->
+		</div>
+	</section>
+

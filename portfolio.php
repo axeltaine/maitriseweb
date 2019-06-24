@@ -17,7 +17,7 @@
 </head>
 
 <body>
-	<header><?php include ('header.php');?>	</header>
+	<header><?php include ('header.php');?> </header>
 	<div class="header">
 		<h1>MAitrise Web <br><span>[ Portfolio]</span></h1>
 	</div>
@@ -26,6 +26,24 @@
 	<section class="gallery">
 		<div class="container">
 			<div class="row">
+				<div class="col-12">
+					<ul class="filter font-alt" id="filters">
+						<li><a class="current wow fadeInUp" href="#" data-filter="*"
+								style="visibility: visible; animation-name: fadeInUp;">TOUT</a></li>
+						<li><a class="wow fadeInUp" href="#" data-filter=".illustration" data-wow-delay="0.2s"
+								style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">Site
+								Web</a></li>
+						<li><a class="wow fadeInUp" href="#" data-filter=".marketing" data-wow-delay="0.4s"
+								style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">Flyer</a>
+						</li>
+						<li><a class="wow fadeInUp" href="#" data-filter=".photography" data-wow-delay="0.6s"
+								style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">Identité
+								visuelle</a></li>
+						<li><a class="wow fadeInUp" href="#" data-filter=".webdesign" data-wow-delay="0.6s"
+								style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">Projet en
+								Cours</a></li>
+					</ul>
+				</div>
 				<a href="#" class="close"><i class="fas fa-times fa-2x" style="color: #2C3034 !important;"></i></a>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item01">
@@ -67,20 +85,44 @@
 						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
 					</a>
 				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
+					<a href="#item02">
+						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
+					<a href="#item02">
+						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
+					<a href="#item02">
+						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+					</a>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
+					<a href="#item02">
+						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+					</a>
+				</div>
 			</div>
 
 			<!-- Item 01 -->
 			<div id="item01" class="port">
+
 				<div class="row">
-					<div class="description">
+					<div class="col-12 col-md-6">
+
 						<h1>Item 01</h1>
 						<p>Lorem ipsum dolor sit amet,
 							consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat
 							mi,
 							pulvinar ut magna eget,
 							consectetur auctor turpis. </p>
+
 					</div>
-					<div class="col-6"><img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+					<div class="col-12 col-md-6"><img src="img/37775430_1508245949277055_4923942506057433088_o.jpg"
+							alt="">
 					</div>
 				</div>
 				<div class="row text-align-center mx-auto mt-5">
@@ -98,15 +140,18 @@
 			<!-- Item 02 -->
 			<div id="item02" class="port">
 				<div class="row">
-					<div class="description">
+					<div class="col-12 col-md-6">
+
 						<h1>Item 01</h1>
 						<p>Lorem ipsum dolor sit amet,
 							consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est.
 							Proin erat mi,
 							pulvinar ut magna eget,
 							consectetur auctor turpis. </p>
+
 					</div>
-					<div class="col-6"><img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt=""></div>
+					<div class="col-12 col-md-6"><img src="img/37775430_1508245949277055_4923942506057433088_o.jpg"
+							alt=""></div>
 				</div>
 				<div class="row text-align-center mx-auto mt-5">
 					<div class="col-3"><img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt=""></div>
@@ -132,7 +177,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 	</script>
-		<script type="text/javascript" src="js/header.js"></script>
+	<script type="text/javascript" src="js/header.js"></script>
 	<script src="js/portfolio.js"></script>
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
