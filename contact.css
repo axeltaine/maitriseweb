@@ -1,0 +1,59 @@
+#contact {
+    padding-top: 45px;
+    padding-bottom: 0;
+  }
+  
+  #google-map {
+    height: 350px;
+  }
+  
+  #contact-us {
+    background-color:black;
+    padding-bottom: 90px; 
+  }
+  
+  #contact-us .heading {
+    padding-top: 95px;
+  }
+  
+  .form-control {
+    background-color: transparent;
+    border-color: rgba(255,255,255,.5);
+    height: 50px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  
+  textarea.form-control {
+    min-height: 180px;
+    resize:none;
+  }
+  
+  .form-group {
+    margin-bottom: 30px;
+  }
+  
+  .contact-info {
+    padding-left:70px;
+    font-weight: 300;
+  }
+  
+  ul.address {
+    margin-top: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-info ul li {
+    margin-bottom: 8px;
+  }
+  
+  .contact-info ul li a {
+    color: #fff;
+  }
+
+  .membre{
+      padding-top: 10em;
+  }
+ 
