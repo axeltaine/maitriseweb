@@ -1,32 +1,16 @@
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-*:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  line-height: 1.5;
-  color: #333;
-}
 
 a {
   color: #fff;
 }
 
-.row {
+.row{
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
   padding: 0;
   clear: both;
 }
+
 .row img {
   max-width: 100%;
   height: auto;
@@ -40,13 +24,13 @@ a {
   overflow: hidden;
 }
 
-header {
+.header {
   background-color: #84b4b1;
   color: #fff;
   text-align: center;
   padding: 140px 0 120px;
 }
-header h1 {
+.header h1 {
   text-align: center;
   text-transform: uppercase;
   font-size: 65px;
@@ -56,13 +40,13 @@ header h1 {
   padding-top: 50px;
   font-family: "Montserrat", sans-serif;
 }
-header h1 span {
+.header h1 span {
   text-transform: uppercase;
   letter-spacing: 7px;
   font-size: 25px;
   line-height: 1;
 }
-header p {
+.header p {
   padding-top: 30px;
 }
 
@@ -71,16 +55,16 @@ header p {
   position: relative;
   overflow: hidden;
 }
-.gallery ul {
+.gallery .site {
   padding-top: 50px;
   position: relative;
 }
-.gallery ul li {
+.gallery .site {
   margin-bottom: 20px;
   width: 23.24561%;
   position: relative;
 }
-.gallery ul li a {
+.gallery .site a {
   display: block;
   position: relative;
   width: 100%;
@@ -89,7 +73,7 @@ header p {
   padding: 0;
   line-height: 0;
 }
-.gallery ul li a:before {
+.gallery .site a:before {
   position: absolute;
   width: 100px;
   height: 100px;
@@ -104,11 +88,11 @@ header p {
   -moz-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
-.gallery ul li a:hover:before {
+.gallery .site a:hover:before {
   top: 50%;
   opacity: 0.8;
 }
-.gallery ul li a:after {
+.gallery .site a:after {
   position: absolute;
   width: 100%;
   top: 0;
@@ -119,8 +103,10 @@ header p {
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   transition: all 0.3s linear;
+  z-index: 30;
+  margin: 0;
 }
-.gallery ul li a:hover:after {
+.gallery .site a:hover:after {
   opacity: 1;
 }
 
