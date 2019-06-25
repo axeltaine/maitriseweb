@@ -49,11 +49,9 @@
               </div>
               <div class="social-icons">
                 <ul>
-                  <li><a class="facebook" href="#"><i class="fas fa-facebook"></i></a></li>
-                  <li><a class="twitter" href="#"><i class="fas fa-twitter"></i></a></li>
-                  <li><a class="linkedin" href="#"><i class="fas fa-linkedin"></i></a></li>
-                  <li><a class="dribbble" href="#"><i class="fas fa-dribbble"></i></a></li>
-                  <li><a class="rss" href="#"><i class="fas fa-rss"></i></a></li>
+                  <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+                  <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -70,11 +68,9 @@
               </div>
               <div class="social-icons">
                 <ul>
-                  <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                  <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                  <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
+                <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+                  <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -92,11 +88,9 @@
               </div>
               <div class="social-icons">
                 <ul>
-                  <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                  <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                  <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
+                <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+                  <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
                 </ul>
               </div>
             </div>
