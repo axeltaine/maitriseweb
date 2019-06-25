@@ -12,7 +12,7 @@ h2 {
 }
 
 .navbar {
-    background-color: #2C3034 !important;
+    background-color: #1E2022 !important;
     padding: 0;
     position: fixed;
     width: 100%;
@@ -30,7 +30,7 @@ h2 {
     width: 100%;
     padding: 0 3% 0 3%;
     height: 80px;
-    background-color: #2C3034 !important;
+    background-color: #1E2022 !important;
     transition: 0.5s;
 }
 
@@ -38,7 +38,7 @@ h2 {
     width: 12em;
     height: 110px;
     margin: 0 4%;
-    background-color: #2C3034 !important;
+    background-color: #1E2022 !important;
     border-radius: 50px;
     text-align: center;
     transition: 0.5s;
@@ -92,14 +92,14 @@ nav.black li,
 nav.black .logo {
     height: 60px;
     transition: 0.5s;
-    background-color: #2C3034 !important;
+    background-color: #1E2022 !important;
 }
 
 nav.black .navbar-brand {
     width: 10em;
     height: 80px;
     transition: 0.5s;
-    background-color: #2C3034 !important;
+    background-color: #1E2022 !important;
 }
 
 nav.black .nav-link {
