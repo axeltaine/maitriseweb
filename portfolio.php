@@ -45,78 +45,126 @@
 					</ul>
 				</div>
 				<div class="col-12 drop">
-				<div class="dropdown">
-					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Catégories
-					</button>
-					<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-						<button class="dropdown-item" type="button">Site Web</button>
-						<button class="dropdown-item" type="button">Flyer</button>
-						<button class="dropdown-item" type="button">Identité visuelle</button>
-						<button class="dropdown-item" type="button">Projet en cours</button>
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Catégories
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+							<button class="dropdown-item" type="button">Site Web</button>
+							<button class="dropdown-item" type="button">Flyer</button>
+							<button class="dropdown-item" type="button">Identité visuelle</button>
+							<button class="dropdown-item" type="button">Projet en cours</button>
+						</div>
 					</div>
 				</div>
-			</div>
-				<a href="#" class="close" id="cross"><i class="fas fa-times fa-2x" style="color: #2C3034 !important;"></i></a>
+				<a href="#" class="close" id="cross"><i class="fas fa-times fa-2x"
+						style="color: #2C3034 !important;"></i></a>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item01">
-						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
-					</a>
-				</div>
-				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
-					<a href="#item01">
-						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
+							data-wow-duration="1000ms" data-wow-delay="300ms"
+							style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: flipInY;"
+							alt="">
 					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item01">
-						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
+							data-wow-duration="1000ms" data-wow-delay="500ms"
+							style="visibility: visible; animation-duration: 1000ms; animation-delay: 500ms; animation-name: flipInY;"
+							alt="">
+					</a>
 					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item01">
-						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
+							data-wow-duration="1000ms" data-wow-delay="700ms"
+							style="visibility: visible; animation-duration: 1000ms; animation-delay: 700ms; animation-name: flipInY;"
+							alt="">
+					</a>
+					</a>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
+					<a href="#item01">
+						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
+							data-wow-duration="1000ms" data-wow-delay="900ms"
+							style="visibility: visible; animation-duration: 1000ms; animation-delay: 900ms; animation-name: flipInY;"
+							alt="">
+					</a>
 					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
-						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
+							data-wow-duration="1000ms" data-wow-delay="1100ms"
+							style="visibility: visible; animation-duration: 1000ms; animation-delay: 1100ms; animation-name: flipInY;"
+							alt="">
+					</a>
 					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
-						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
+							data-wow-duration="1000ms" data-wow-delay="1300ms"
+							style="visibility: visible; animation-duration: 1000ms; animation-delay: 1300ms; animation-name: flipInY;"
+							alt="">
+					</a>
 					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
-						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
+							data-wow-duration="1000ms" data-wow-delay="1500ms"
+							style="visibility: visible; animation-duration: 1000ms; animation-delay: 1500ms; animation-name: flipInY;"
+							alt="">
+					</a>
 					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
-						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
+							data-wow-duration="1000ms" data-wow-delay="1700ms"
+							style="visibility: visible; animation-duration: 1000ms; animation-delay: 1700ms; animation-name: flipInY;"
+							alt="">
+					</a>
 					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
-						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
+							data-wow-duration="1000ms" data-wow-delay="1900ms"
+							style="visibility: visible; animation-duration: 1000ms; animation-delay: 1900ms; animation-name: flipInY;"
+							alt="">
+					</a>
 					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
-						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
+							data-wow-duration="1000ms" data-wow-delay="2100ms"
+							style="visibility: visible; animation-duration: 1000ms; animation-delay: 2100ms; animation-name: flipInY;"
+							alt="">
+					</a>
 					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
-						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
+							data-wow-duration="1000ms" data-wow-delay="2300ms"
+							style="visibility: visible; animation-duration: 1000ms; animation-delay: 2300ms; animation-name: flipInY;"
+							alt="">
+					</a>
 					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
-						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
+							data-wow-duration="1000ms" data-wow-delay="2500ms"
+							style="visibility: visible; animation-duration: 1000ms; animation-delay: 2500ms; animation-name: flipInY;"
+							alt="">
+					</a>
 					</a>
 				</div>
 			</div>
@@ -139,15 +187,22 @@
 					</div>
 				</div>
 				<div class="row text-align-center mx-auto mt-5">
-					<div class="col-3"><img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+					<div class="col-3"> <img src="img/37775430_1508245949277055_4923942506057433088_o.jpg"
+							class="wow flipInY animated" data-wow-duration="1000ms" data-wow-delay="300ms"
+							style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: flipInY;"
+							alt="">
+						</a>
 					</div>
-					<div class="col-3"><img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
+					<div class="col-3"> <img src="img/37775430_1508245949277055_4923942506057433088_o.jpg"
+							class="wow flipInY animated" data-wow-duration="1000ms" data-wow-delay="300ms"
+							style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: flipInY;"
+							alt="">
+						</a>
 					</div>
 					<div class="col-6 mt-5" style="text-align:center!important;"><a
 							class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="#"
 							role="button">Visiter le site</a>
-							<a
-							class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center close" href="#"
+						<a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center close" href="#"
 							role="button" style="margin-left: 5%;">Fermer</a></div>
 				</div>
 				<!-- / row -->
@@ -170,13 +225,20 @@
 							alt=""></div>
 				</div>
 				<div class="row text-align-center mx-auto mt-5">
-					<div class="col-3"><img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt=""></div>
-					<div class="col-3"><img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt=""></div>
+					<div class="col-3"> <img src="img/37775430_1508245949277055_4923942506057433088_o.jpg"
+							class="wow flipInY animated" data-wow-duration="1000ms" data-wow-delay="300ms"
+							style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: flipInY;"
+							alt="">
+						</a></div>
+					<div class="col-3"> <img src="img/37775430_1508245949277055_4923942506057433088_o.jpg"
+							class="wow flipInY animated" data-wow-duration="1000ms" data-wow-delay="300ms"
+							style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: flipInY;"
+							alt="">
+						</a></div>
 					<div class="col-6 mt-5 boutons" style="text-align:center!important;"><a
 							class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="#"
 							role="button">Visiter le site</a>
-							<a
-							class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center close" href="#"
+						<a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center close" href="#"
 							role="button" style="margin-left: 5%;">Fermer</a></div>
 				</div>
 				<!-- / row -->
