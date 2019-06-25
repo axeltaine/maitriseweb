@@ -1,9 +1,73 @@
+<style>
+  .icon-text {
+    font-size: 26px;
+    margin: 15% 1%;
+  }
+
+  .icon {
+    text-align: center;
+    margin-top: 10rem;
+  }
+
+  #parallax-mobile {
+    display: none;
+  }
+
+  @media only screen and (max-width: 767px) {
+    #parallax-mobile {
+      display: block;
+    }
+
+    #parallax {
+      display: none;
+    }
+  
+  .icon {
+    margin-top:6rem;
+  }
+
+    .icon-text {
+    font-size: 18px;
+    margin: 10% 5%;
+  }
+  }
+</style>
 
 <div class="container_fluide">
   <section id="parallax">
-        <div class="parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
-          <i class="fas fa-tools" style="margin-left: 20px;"></i>
-        </div>
-        
-    </section>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
+      <div class="row text-align-center icon-rang">
+        <div class="col-6 col-md-3 icon"><i class="fas fa-pencil-ruler fa-7x">
+            <p class="icon-text">designs & interfaces</p>
+          </i></div>
+        <div class="col-6 col-md-3 icon"><i class="fas fa-tachometer-alt fa-7x">
+            <p class="icon-text">optimisation de la vitesse</p>
+          </i></div>
+        <div class="col-6 col-md-3 icon"><i class="fas fa-mobile-alt fa-7x">
+            <p class="icon-text">responsive design</p>
+          </i></div>
+        <div class="col-6 col-md-3 icon"><i class="fas fa-info fa-7x">
+            <p class="icon-text">support dédié</p>
+          </i></div>
+      </div>
+    </div>
+  </section>
+  <section id="parallax-mobile">
+    <div class="parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
+      <div class="row text-align-center icon-rang">
+        <div class="col-6 col-md-3 icon"><i class="fas fa-pencil-ruler fa-5x">
+            <p class="icon-text">designs & interfaces</p>
+          </i></div>
+        <div class="col-6 col-md-3 icon"><i class="fas fa-tachometer-alt fa-5x">
+            <p class="icon-text">optimisation de la vitesse</p>
+          </i></div>
+        <div class="col-6 col-md-3 icon"><i class="fas fa-mobile-alt fa-5x">
+            <p class="icon-text">responsive design</p>
+          </i></div>
+        <div class="col-6 col-md-3 icon"><i class="fas fa-info fa-5x">
+            <p class="icon-text">support dédié</p>
+          </i></div>
+      </div>
+    </div>
+  </section>
 </div>
