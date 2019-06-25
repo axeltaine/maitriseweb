@@ -329,4 +329,23 @@ footer a:hover{
     .header{
         height: 100vh;
     }
+
+    .tp-mask-wrap{
+        text-align: center!important;
+    }
+
+    .tp-parallax-wrap{
+        left: 10px!important;
+    }
+
+    .tp-splitted{
+        display: flex!important;
+        justify-content: center!important;
+    }
+
+    .sous-texte{
+        margin-left: 20%;
+        margin-top:50%;
+
+    }
 }
