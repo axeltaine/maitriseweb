@@ -42,13 +42,14 @@
 }
 
 #dropdownMenu2{
-    background-color: #1E2022!important;
+    background-color: white!important;
+    color: black!important;
     font-size: 20px;
     padding: 1% 3%;
 }
 
 .dropdown-menu{
-    margin-left: -18px;
+
     line-height: 3em;
 }
 
@@ -60,7 +61,7 @@
 
     .drop{
         display: block;
-        text-align: center;
+        margin-top: 2%;
     }
 
 
