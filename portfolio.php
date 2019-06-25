@@ -24,7 +24,7 @@
 	</div>
 	<div id="top"></div>
 	<section class="gallery">
-		<div class="container">
+		<div class="container mini-gallery">
 			<div class="row">
 				<div class="col-12">
 					<ul class="filter font-alt" id="filters">

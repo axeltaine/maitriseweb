@@ -49,7 +49,6 @@
 }
 
 .dropdown-menu{
-
     line-height: 3em;
 }
 
@@ -61,7 +60,7 @@
 
     .drop{
         display: block;
-        margin-top: 2%;
+        margin: 3% 0;
     }
 
 
@@ -315,3 +314,15 @@ footer a:hover{
 }
 
 /*-----Testimonial  close-------*/
+
+@media only screen and (max-width: 767px) {
+
+    .mini-gallery{
+        padding: 0!important;
+    }
+
+    .gallery .site{
+        padding: 0;
+        margin-top: 10px;
+    }
+}
