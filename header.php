@@ -8,7 +8,7 @@
     </button>
     <h2 class="nav-title" style="color:#eee">Maitrise WEB</h2>
     <a class="navbar-brand2" href="index.php">
-        <h1><img class="logo2" src="img/logo_transpa.png" alt="logo"></h1>
+        <h1 style="margin: 0!important"><img class="logo2" src="img/logo_transpa.png" alt="logo"></h1>
     </a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
