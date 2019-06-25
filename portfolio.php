@@ -22,7 +22,6 @@
 	<div class="header fadeInLeft animated">
 		<h1>MAitrise Web <br><span>[ Portfolio]</span></h1>
 	</div>
-
 	<div id="top"></div>
 	<section class="gallery">
 		<div class="container">
@@ -107,7 +106,6 @@
 					</a>
 				</div>
 			</div>
-
 			<!-- Item 01 -->
 			<div id="item01" class="port">
 
@@ -181,7 +179,6 @@
 	<script type="text/javascript" src="js/header.js"></script>
 	<script src="js/portfolio.js"></script>
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
 </body>
 
 </html>

@@ -71,69 +71,76 @@
                 </span>
             </div>
         </div>
-
         <div class="container_fluide"><?php include ('slider.html'); ?></div>
-
         <div class="container_fluide" id="section2">
             <div class="jumbotron text-center">
                 <div class="container">
                     <h2 class="jumbotron-heading">PRESENTATION</h1><br>
-                    <p class="lead text-muted">Notre entreprise Maitrise WEB est située en Champagne-Ardennes, à
-                        proximité de
-                        Reims, Charlevilles-Mézières et Sedan. Spécialisé dans la création de site internet, le
-                        référencement,
-                        la rédaction web ainsi que l'intranet. Nous concevons le site internet qui répond aux objectifs
-                        de votre
-                        entreprise : augmenter votre chiffre d'affaire, générer des contacts entrants, etc. Profitez de
-                        notre
-                        expérience pour que la création de votre site internet soit une réussite !</p>
-
+                        <p class="lead text-muted">Notre entreprise Maitrise WEB est située en Champagne-Ardennes, à
+                            proximité de
+                            Reims, Charlevilles-Mézières et Sedan. Spécialisé dans la création de site internet, le
+                            référencement,
+                            la rédaction web ainsi que l'intranet. Nous concevons le site internet qui répond aux
+                            objectifs
+                            de votre
+                            entreprise : augmenter votre chiffre d'affaire, générer des contacts entrants, etc. Profitez
+                            de
+                            notre
+                            expérience pour que la création de votre site internet soit une réussite !</p>
                 </div>
             </div>
         </div>
-
         <?php include ('parallax.html'); ?>
         <?php include ('gallery.html'); ?>
         <section class="testimonial text-center">
-        <div class="container">
-
-            <div class="heading white-heading">
-                Ils nous on fait confiance :
-            </div>
-            <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
-             
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
-                        <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <h4>Client 1</h4>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" /><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <h4>Client 2</h4>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <h4>Client 3</h4>
-                        </div>
-                    </div>
+            <div class="container">
+                <div class="heading white-heading">
+                    Ils nous on fait confiance :
                 </div>
-                <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#testimonial4" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
+                <div id="testimonial4"
+                    class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x"
+                    data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="testimonial4_slide">
+                                <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                                <h4>Client 1</h4>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial4_slide">
+                                <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                                <h4>Client 2</h4>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial4_slide">
+                                <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                                <h4>Client 3</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#testimonial4" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
             </div>
-        </div>
-    </section>
-
+        </section>
         <div class="container_fluide" id="section4">
             <div class="jumbotron text-center">
                 <div class="container">
@@ -141,7 +148,8 @@
                     <p class="lead text-muted">Un projet en tête ? venez nous en faire part. MAITRISE WEB répondra a vos
                         besoins en vous écoutant.</p>
                     <p class="lead">
-                        <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php" role="button">CONTACTEZ NOUS</a>
+                        <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
+                            role="button">CONTACTEZ NOUS</a>
                     </p>
 
                 </div>
@@ -162,7 +170,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-    	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script type="text/javascript" src="slider/assets/warning.js"></script>
     <script type="text/javascript" src="js/header.js"></script>
     <script src="js/parallax.min.js"></script>

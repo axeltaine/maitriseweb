@@ -12,19 +12,15 @@
     </a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-
             <li class="nav-item hvr-grow-shadow hvr-underline-from-center">
                 <a class="nav-link" href="index.php">Accueil</a>
             </li>
-
             <li class="nav-item hvr-grow-shadow hvr-underline-from-center">
                 <a class="nav-link" href="presentation.php">Présentation</a>
             </li>
-
             <a class="navbar-brand" href="index.php">
                 <h1><img class="logo" src="img/logo_transpa.png" alt="logo"></h1>
             </a>
-
             <li class="nav-item hvr-grow-shadow hvr-underline-from-center">
                 <a class="nav-link" href="portfolio.php">Réalisations</a>
             </li>
