@@ -315,7 +315,7 @@ footer a:hover{
 
 /*-----Testimonial  close-------*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 576px) {
 
     .mini-gallery{
         padding: 0!important;
