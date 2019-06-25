@@ -22,7 +22,7 @@
 
 <body>
     <header><?php include ('header.php'); ?> </header>
-    <div class="header">
+    <div class="header fadeInLeft animated">
 		<h1>MAitrise Web <br><span>[ Contact ]</span></h1>
 	</div>
     <div id="top"></div>
