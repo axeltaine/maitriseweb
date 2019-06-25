@@ -44,6 +44,20 @@
 								Cours</a></li>
 					</ul>
 				</div>
+				<div class="col-12 drop">
+				<div class="dropdown">
+					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Catégories
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+						<button class="dropdown-item" type="button">Site Web</button>
+						<button class="dropdown-item" type="button">Flyer</button>
+						<button class="dropdown-item" type="button">Identité visuelle</button>
+						<button class="dropdown-item" type="button">Projet en cours</button>
+					</div>
+				</div>
+			</div>
 				<a href="#" class="close" id="cross"><i class="fas fa-times fa-2x" style="color: #2C3034 !important;"></i></a>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item01">
