@@ -75,7 +75,6 @@
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 500ms; animation-name: flipInY;"
 							alt="">
 					</a>
-					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item01">
@@ -83,7 +82,6 @@
 							data-wow-duration="1000ms" data-wow-delay="700ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 700ms; animation-name: flipInY;"
 							alt="">
-					</a>
 					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
@@ -93,7 +91,6 @@
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 900ms; animation-name: flipInY;"
 							alt="">
 					</a>
-					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
@@ -101,7 +98,6 @@
 							data-wow-duration="1000ms" data-wow-delay="1100ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 1100ms; animation-name: flipInY;"
 							alt="">
-					</a>
 					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
@@ -111,7 +107,6 @@
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 1300ms; animation-name: flipInY;"
 							alt="">
 					</a>
-					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
@@ -119,7 +114,6 @@
 							data-wow-duration="1000ms" data-wow-delay="1500ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 1500ms; animation-name: flipInY;"
 							alt="">
-					</a>
 					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
@@ -129,7 +123,6 @@
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 1700ms; animation-name: flipInY;"
 							alt="">
 					</a>
-					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
@@ -137,7 +130,6 @@
 							data-wow-duration="1000ms" data-wow-delay="1900ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 1900ms; animation-name: flipInY;"
 							alt="">
-					</a>
 					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
@@ -147,7 +139,6 @@
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 2100ms; animation-name: flipInY;"
 							alt="">
 					</a>
-					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
@@ -156,7 +147,6 @@
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 2300ms; animation-name: flipInY;"
 							alt="">
 					</a>
-					</a>
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
@@ -164,7 +154,6 @@
 							data-wow-duration="1000ms" data-wow-delay="2500ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 2500ms; animation-name: flipInY;"
 							alt="">
-					</a>
 					</a>
 				</div>
 			</div>
