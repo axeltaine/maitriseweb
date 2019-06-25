@@ -44,7 +44,7 @@
 								Cours</a></li>
 					</ul>
 				</div>
-				<a href="#" class="close"><i class="fas fa-times fa-2x" style="color: #2C3034 !important;"></i></a>
+				<a href="#" class="close" id="cross"><i class="fas fa-times fa-2x" style="color: #2C3034 !important;"></i></a>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item01">
 						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
@@ -131,7 +131,10 @@
 					</div>
 					<div class="col-6 mt-5" style="text-align:center!important;"><a
 							class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="#"
-							role="button">Visiter le site</a></div>
+							role="button">Visiter le site</a>
+							<a
+							class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center close" href="#"
+							role="button" style="margin-left: 5%;">Fermer</a></div>
 				</div>
 				<!-- / row -->
 			</div>
@@ -157,7 +160,10 @@
 					<div class="col-3"><img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt=""></div>
 					<div class="col-6 mt-5" style="text-align:center!important;"><a
 							class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="#"
-							role="button">Visiter le site</a></div>
+							role="button">Visiter le site</a>
+							<a
+							class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center close" href="#"
+							role="button" style="margin-left: 5%;">Fermer</a></div>
 				</div>
 				<!-- / row -->
 			</div>
