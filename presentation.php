@@ -30,7 +30,7 @@
     <section id="team">
     <div class="container">
       <div class="row">
-        <div class="heading2 text-center col-sm-8 col-sm-offset-2 wow fadeInUp animated" data-wow-duration="1200ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1200ms; animation-delay: 300ms; animation-name: fadeInUp;">
+        <div class="heading2 text-center col-sm-12 col-sm-offset-2 wow fadeInUp animated" data-wow-duration="1200ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1200ms; animation-delay: 300ms; animation-name: fadeInUp;">
           <h2>The Team</h2>
           <p>Notre entreprise Maitrise WEB est située en Champagne-Ardennes, à proximité de Reims, Charlevilles-Mézières et Sedan. Spécialisé dans la création de site internet, le référencement, la rédaction web ainsi que l'intranet. Nous concevons le site internet qui répond aux objectifs de votre entreprise : augmenter votre chiffre d'affaire, générer des contacts entrants, etc. Profitez de notre expérience pour que la création de votre site internet soit une réussite !</p>
         </div>
@@ -43,8 +43,8 @@
                 <img class="img-responsive" src="img/19105875_10211933330962903_8610926667809294383_n.jpg" alt="">
               </div>
               <div class="member-info">
-                <h3>Marian Dixon</h3>
-                <h4>CEO &amp; Founder</h4>
+                <h3>Petit Romain</h3>
+                <h4>Directeur &amp; Developpeur</h4>
                 <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
               </div>
               <div class="social-icons">
