@@ -29,9 +29,7 @@
     <main class="global">
        
         <section id="contact">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2576.9561940697363!2d4.720275315706772!3d49.768080979387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ea0e062e03d7e9%3A0xc5cc5f6ee91f2b25!2sCCI+des+Ardennes!5e0!3m2!1sfr!2sfr!4v1553546933236"
-                width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            
             <div id="contact-us" class="parallax">
                 <div class="container">
                     <div class="row">
@@ -93,6 +91,9 @@
                 </div>
             </div>
         </section>
+        <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2576.9561940697363!2d4.720275315706772!3d49.768080979387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ea0e062e03d7e9%3A0xc5cc5f6ee91f2b25!2sCCI+des+Ardennes!5e0!3m2!1sfr!2sfr!4v1553546933236"
+                width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
     </main>
     <footer><?php include ('footer.html'); ?></footer>
     

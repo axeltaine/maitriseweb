@@ -86,8 +86,8 @@
                 <img class="img-responsive" src="img/19105875_10211933330962903_8610926667809294383_n.jpg" alt="">
               </div>
               <div class="member-info">
-                <h3>Marian Dixon</h3>
-                <h4>Support Manager</h4>
+                <h3>Jordan Collos</h3>
+                <h4>Commercial</h4>
                 <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
               </div>
               <div class="social-icons">
