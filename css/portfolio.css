@@ -218,3 +218,10 @@
 .close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover{
   opacity: 1;
 }
+
+@media only screen and (max-width: 576px) {
+
+  .boutons{ 
+    margin-top: 0!important;
+  }
+}

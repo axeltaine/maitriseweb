@@ -158,7 +158,7 @@
 				<div class="row text-align-center mx-auto mt-5">
 					<div class="col-3"><img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt=""></div>
 					<div class="col-3"><img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt=""></div>
-					<div class="col-6 mt-5" style="text-align:center!important;"><a
+					<div class="col-6 mt-5 boutons" style="text-align:center!important;"><a
 							class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="#"
 							role="button">Visiter le site</a>
 							<a
