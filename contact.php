@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="contact.css" rel="stylesheet">
-        
-        
     <link href="css/style.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/hover-min.css" rel="stylesheet">
@@ -22,7 +20,7 @@
 
 <body>
     <header><?php include ('header.php'); ?> </header>
-    <div class="header fadeInLeft animated">
+    <div class="header ">
 		<h1>MAitrise Web <br><span>[ Contact ]</span></h1>
 	</div>
     <div id="top"></div>
@@ -83,17 +81,7 @@
                 </div>
             </div>
         </section>
-        <div class="container">
-  <div class="row">
-    <div class="col-sm-6">
-      One of three columns
-    </div>
-    <div class="col-sm-6">
-      One of three columns
-    </div>
-    
-  </div>
-</div>
+ 
         <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2576.9561940697363!2d4.720275315706772!3d49.768080979387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ea0e062e03d7e9%3A0xc5cc5f6ee91f2b25!2sCCI+des+Ardennes!5e0!3m2!1sfr!2sfr!4v1553546933236"
                 width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>

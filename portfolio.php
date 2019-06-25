@@ -19,7 +19,7 @@
 
 <body>
 	<header><?php include ('header.php');?> </header>
-	<div class="header fadeInLeft animated">
+	<div class="header ">
 		<h1>MAitrise Web <br><span>[ Portfolio]</span></h1>
 	</div>
 	<div id="top"></div>
