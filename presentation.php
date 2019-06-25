@@ -27,56 +27,84 @@
 	</div>
     <div id="top"></div>
     <main class="global">
-        <div class="membre">
-        <div class="container_fluide" id="">
-            <div class="jumbotron text-center">
-                <div class="container">
-                    <h1 class="jumbotron-heading">Notre équipe de dev :</h1>
-                </div>
+    <section id="team">
+    <div class="container">
+      <div class="row">
+        <div class="heading2 text-center col-sm-8 col-sm-offset-2 wow fadeInUp animated" data-wow-duration="1200ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1200ms; animation-delay: 300ms; animation-name: fadeInUp;">
+          <h2>The Team</h2>
+          <p>Notre entreprise Maitrise WEB est située en Champagne-Ardennes, à proximité de Reims, Charlevilles-Mézières et Sedan. Spécialisé dans la création de site internet, le référencement, la rédaction web ainsi que l'intranet. Nous concevons le site internet qui répond aux objectifs de votre entreprise : augmenter votre chiffre d'affaire, générer des contacts entrants, etc. Profitez de notre expérience pour que la création de votre site internet soit une réussite !</p>
+        </div>
+      </div>
+      <div class="team-members">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="team-member wow flipInY animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: flipInY;">
+              <div class="member-image">
+                <img class="img-responsive" src="img/19105875_10211933330962903_8610926667809294383_n.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h3>Marian Dixon</h3>
+                <h4>CEO &amp; Founder</h4>
+                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="facebook" href="#"><i class="fas fa-facebook"></i></a></li>
+                  <li><a class="twitter" href="#"><i class="fas fa-twitter"></i></a></li>
+                  <li><a class="linkedin" href="#"><i class="fas fa-linkedin"></i></a></li>
+                  <li><a class="dribbble" href="#"><i class="fas fa-dribbble"></i></a></li>
+                  <li><a class="rss" href="#"><i class="fas fa-rss"></i></a></li>
+                </ul>
+              </div>
             </div>
-        </div>
-        <div class="container m-t-md">
-     
-  <!-- First row -->
-  <div class="row">
-    <div class="col-xs-12 col-md-4">
-      <!-- Card -->
-      <article class="card animated fadeInLeft">
-        <img class="card-img-top img-responsive" src="img/19105875_10211933330962903_8610926667809294383_n.jpg" style="max-height: 10em; "alt="Deer in nature" />
-        <div class="card-block">
-          <h4 class="card-title">Animal Farm</h4>
-          <p class="card-text">Tired of their servitude to man, a group of farm animals revolt and establish their own society, only to be betrayed into worse servitude by their leaders, the pigs. This satire addresses the communist philosophy the Soviet Union.</p>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member wow flipInY animated" data-wow-duration="1000ms" data-wow-delay="500ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 500ms; animation-name: flipInY;">
+              <div class="member-image">
+                <img class="img-responsive" src="img/19105875_10211933330962903_8610926667809294383_n.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h3>Lawrence Lane</h3>
+                <h4>UI/UX Designer</h4>
+                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                  <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
           
+          <div class="col-sm-4">
+            <div class="team-member wow flipInY animated" data-wow-duration="1000ms" data-wow-delay="1100ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 1100ms; animation-name: flipInY;">
+              <div class="member-image">
+                <img class="img-responsive" src="img/19105875_10211933330962903_8610926667809294383_n.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h3>Marian Dixon</h3>
+                <h4>Support Manager</h4>
+                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                  <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-      </article><!-- .end Card -->
+      </div>            
     </div>
-    <div class="col-xs-12 col-md-4">
-      <!-- Card -->
-      <article class="card animated fadeInUp">
-        <img class="card-img-top img-responsive" src="img/19105875_10211933330962903_8610926667809294383_n.jpg" style="max-height: 10em; " alt="Deer in nature" />
-        <div class="card-block">
-          <h4 class="card-title">Animal Farm</h4>
-          <p class="card-text">Tired of their servitude to man, a group of farm animals revolt and establish their own society, only to be betrayed into worse servitude by their leaders, the pigs. This satire addresses the communist philosophy the Soviet Union.</p>
-          
-        </div>
-      </article>
-      <!-- .end Card -->
-    </div>
-    <div class="col-xs-12 col-md-4">
-      <!-- Card -->
-      <article class="card animated fadeInRight">
-        <img class="card-img-top img-responsive" src="img/19105875_10211933330962903_8610926667809294383_n.jpg" style="max-height: 10em; " alt="Deer in nature" />
-        <div class="card-block">
-          <h4 class="card-title">Animal Farm</h4>
-          <p class="card-text">Tired of their servitude to man, a group of farm animals revolt and establish their own society, only to be betrayed into worse servitude by their leaders, the pigs. This satire addresses the communist philosophy the Soviet Union.</p>
-          
-        </div>
-      </article>
-      <!-- .end Card -->
-    </div>
-  </div><!-- .end First row -->
-</div><!-- .end First row -->
-</div>
+  </section>
  
     </main>
     <footer><?php include ('footer.html'); ?></footer>
