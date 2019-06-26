@@ -47,22 +47,14 @@
     <section id="services1">
     <div class="container-fluid">
       
-      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="heading wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms">
       <h2>services1</h2>
-        <div class="row">
+        <div class="row "id="service">
           
-          <div class="text-left col-sm-6">
+          <div class="text-center justify-content-around col-sm-6">
             <h2>Lorem ipsum dolor sit</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in, laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem voluptas iste porro eligendi.
-            </p><br>
-            <h2>Lorem ipsum dolor sit</h2>
-                <ul class="e-list">
-                  <li>Lorem ipsum dolor sit</li>
-                  <li>VLorem ipsum dolor sit</li>
-                  <li>Lorem ipsum dolor sit</li>
-                  <li>Lorem ipsum dolor sit</li>
-                  
-                </ul>          
+            </p>        
           </div>
           <div class="text-right col-sm-6">
             <img class="img float-right" src="img/para-flou.jpg" alt="">
@@ -73,24 +65,16 @@
   </section>
   <section id="services2">
     <div class="container-fluid">
-      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="heading wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms">
       <h2>services2</h2>
-        <div class="row">
+        <div class="row" id="service">
           <div class="text-left col-sm-6">
           <img class="img float-right" src="img/para-flou.jpg" alt="">         
           </div>
-          <div class="text-right col-sm-6">
+          <div class="text-center col-sm-6">
           <h2>Lorem ipsum dolor sit</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in, laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem voluptas iste porro eligendi.
-            </p><br>
-            <h2>Lorem ipsum dolor sit</h2>
-                <ul class="e-list">
-                  <li>Lorem ipsum dolor sit</li>
-                  <li>VLorem ipsum dolor sit</li>
-                  <li>Lorem ipsum dolor sit</li>
-                  <li>Lorem ipsum dolor sit</li>
-                  
-                </ul>          
+            </p>        
             
           </div>
         </div>
@@ -99,21 +83,13 @@
   </section>
   <section id="services1">
     <div class="container-fluid">
-      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="heading wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms">
       <h2>services3</h2>
-        <div class="row">
-          <div class="text-left col-sm-6">
+        <div class="row" id="service">
+          <div class="text-center col-sm-6">
             <h2>Lorem ipsum dolor sit</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in, laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem voluptas iste porro eligendi.
-            </p><br>
-            <h2>Lorem ipsum dolor sit</h2>
-                <ul class="e-list">
-                  <li>Lorem ipsum dolor sit</li>
-                  <li>VLorem ipsum dolor sit</li>
-                  <li>Lorem ipsum dolor sit</li>
-                  <li>Lorem ipsum dolor sit</li>
-                  
-                </ul>          
+            </p>        
           </div>
           <div class="text-right col-sm-6">
             <img class="img float-right" src="img/para-flou.jpg" alt="">
@@ -124,24 +100,16 @@
   </section>
   <section id="services2">
     <div class="container-fluid">
-      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="heading wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms">
       <h2>services4</h2>
-        <div class="row">
+        <div class="row" id="service">
           <div class="text-left col-sm-6">
           <img class="img float-right" src="img/para-flou.jpg" alt="">         
           </div>
-          <div class="text-right col-sm-6">
+          <div class="text-center col-sm-6">
           <h2>Lorem ipsum dolor sit</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in, laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem voluptas iste porro eligendi.
-            </p><br>
-            <h2>Lorem ipsum dolor sit</h2>
-                <ul class="e-list">
-                  <li>Lorem ipsum dolor sit</li>
-                  <li>VLorem ipsum dolor sit</li>
-                  <li>Lorem ipsum dolor sit</li>
-                  <li>Lorem ipsum dolor sit</li>
-                  
-                </ul>          
+            </p>        
             
           </div>
         </div>
@@ -162,7 +130,7 @@
         </div>
         <div class="team-members">
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-6">
               <div class="team-member wow flipInY animated" data-wow-duration="1000ms" data-wow-delay="300ms"
                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: flipInY;">
                 <div class="member-image">
@@ -182,7 +150,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-6">
               <div class="team-member wow flipInY animated" data-wow-duration="1000ms" data-wow-delay="500ms"
                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 500ms; animation-name: flipInY;">
                 <div class="member-image">
@@ -202,7 +170,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-6">
               <div class="team-member wow flipInY animated" data-wow-duration="1000ms" data-wow-delay="1100ms"
                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 1100ms; animation-name: flipInY;">
                 <div class="member-image">
