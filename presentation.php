@@ -18,7 +18,6 @@
   <link href="css/header.css" rel="stylesheet">
   <link href="css/hover-min.css" rel="stylesheet">
 </head>
-
 <body>
   <header><?php include ('header.php'); ?> </header>
   <div class="header ">
@@ -48,7 +47,7 @@
       <div class="container-fluid">
         <div class="heading wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="300ms">
           <hr>
-          <h2>Site Vitrine</h2>
+          <h2>Site One Page</h2>
           <hr>
           <div class="row align-items-center" id="service">
             <div class="text-center col-sm-6">
@@ -143,10 +142,10 @@
     <section id="team">
       <div class="container-fluid">
         <div class="row">
-          <div class="heading2 text-center col-sm-12 col-sm-offset-2 wow fadeInUp " data-wow-duration="1200ms"
+          <div class="heading text-center col-sm-12 col-sm-offset-2 wow fadeInUp " data-wow-duration="1200ms"
             data-wow-delay="300ms"
             style="visibility: visible; animation-duration: 1200ms; animation-delay: 300ms; animation-name: fadeInUp;">
-            <h2>Notre Equipe</h2>
+            <hr><h2>Notre Equipe</h2><hr>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid consectetur voluptatum incidunt
               nostrum, laborum voluptatem rerum beatae sint distinctio, dolor corrupti, non reprehenderit dolore.
               Expedita saepe corporis quas doloribus.</p>
@@ -158,7 +157,7 @@
               <div class="team-member wow flipInY " data-wow-duration="1000ms" data-wow-delay="300ms"
                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: flipInY;">
                 <div class="member-image">
-                  <img class="img-responsive" src="img/19105875_10211933330962903_8610926667809294383_n.jpg" alt="">
+                  <img class="img-responsive" src="img/enseigne.jpg" alt="">
                 </div>
                 <div class="member-info">
                   <h3>Petit Romain</h3>
@@ -178,7 +177,7 @@
               <div class="team-member wow flipInY " data-wow-duration="1000ms" data-wow-delay="500ms"
                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 500ms; animation-name: flipInY;">
                 <div class="member-image">
-                  <img class="img-responsive" src="img/19105875_10211933330962903_8610926667809294383_n.jpg" alt="">
+                  <img class="img-responsive" src="img/enseigne.jpg" alt="">
                 </div>
                 <div class="member-info">
                   <h3>Joris Lane</h3>
@@ -198,7 +197,7 @@
               <div class="team-member wow flipInY " data-wow-duration="1000ms" data-wow-delay="1100ms"
                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 1100ms; animation-name: flipInY;">
                 <div class="member-image">
-                  <img class="img-responsive" src="img/19105875_10211933330962903_8610926667809294383_n.jpg" alt="">
+                  <img class="img-responsive" src="img/enseigne.jpg" alt="">
                 </div>
                 <div class="member-info">
                   <h3>Jordan Collos</h3>
