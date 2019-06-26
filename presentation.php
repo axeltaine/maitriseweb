@@ -47,11 +47,13 @@
     <section id="services1">
     <div class="container-fluid">
       
-      <div class="heading wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms">
-      <h2>services1</h2>
-        <div class="row "id="service">
+      <div class="heading wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="300ms">
+        <hr>
+      <h2>Site One Page</h2>
+      <hr>
+        <div class="row align-items-center"id="service">
           
-          <div class="text-center justify-content-around col-sm-6">
+          <div class="text-center col-sm-6">
             <h2>Lorem ipsum dolor sit</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in, laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem voluptas iste porro eligendi.
             </p>        
@@ -65,9 +67,11 @@
   </section>
   <section id="services2">
     <div class="container-fluid">
-      <div class="heading wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms">
-      <h2>services2</h2>
-        <div class="row" id="service">
+      <div class="heading wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="300ms">
+      <hr>
+      <h2>Site E-commerce</h2>
+      <hr>
+        <div class="row align-items-center" id="service">
         <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
            
            </div>
@@ -81,11 +85,13 @@
       </div>
     </div>
   </section>
-  <section id="services1">
+  <section id="services3">
     <div class="container-fluid">
-      <div class="heading wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms">
-      <h2>services3</h2>
-        <div class="row" id="service">
+      <div class="heading wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="300ms">
+      <hr>
+      <h2>Application interne</h2>
+      <hr>
+        <div class="row align-items-center" id="service">
           <div class="text-center col-sm-6">
             <h2>Lorem ipsum dolor sit</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in, laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem voluptas iste porro eligendi.
@@ -98,11 +104,13 @@
       </div>
     </div>
   </section>
-  <section id="services2">
+  <section id="services4">
     <div class="container-fluid">
-      <div class="heading wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms">
-      <h2>services4</h2>
-        <div class="row" id="service">
+      <div class="heading wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="300ms">
+      <hr>
+      <h2>Identitée visuel</h2>
+      <hr>
+        <div class="row align-items-center" id="service">
         <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
            
            </div>
@@ -119,7 +127,7 @@
     <section id="team">
       <div class="container-fluid">
         <div class="row">
-          <div class="heading2 text-center col-sm-12 col-sm-offset-2 wow fadeInUp animated" data-wow-duration="1200ms"
+          <div class="heading2 text-center col-sm-12 col-sm-offset-2 wow fadeInUp " data-wow-duration="1200ms"
             data-wow-delay="300ms"
             style="visibility: visible; animation-duration: 1200ms; animation-delay: 300ms; animation-name: fadeInUp;">
             <h2>Notre Equipe</h2>
@@ -131,7 +139,7 @@
         <div class="team-members">
           <div class="row">
             <div class="col-sm-6">
-              <div class="team-member wow flipInY animated" data-wow-duration="1000ms" data-wow-delay="300ms"
+              <div class="team-member wow flipInY " data-wow-duration="1000ms" data-wow-delay="300ms"
                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: flipInY;">
                 <div class="member-image">
                   <img class="img-responsive" src="img/19105875_10211933330962903_8610926667809294383_n.jpg" alt="">
@@ -151,7 +159,7 @@
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="team-member wow flipInY animated" data-wow-duration="1000ms" data-wow-delay="500ms"
+              <div class="team-member wow flipInY " data-wow-duration="1000ms" data-wow-delay="500ms"
                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 500ms; animation-name: flipInY;">
                 <div class="member-image">
                   <img class="img-responsive" src="img/19105875_10211933330962903_8610926667809294383_n.jpg" alt="">
@@ -171,7 +179,7 @@
               </div>
             </div>
             <div class="col-sm-6">
-              <div class="team-member wow flipInY animated" data-wow-duration="1000ms" data-wow-delay="1100ms"
+              <div class="team-member wow flipInY " data-wow-duration="1000ms" data-wow-delay="1100ms"
                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 1100ms; animation-name: flipInY;">
                 <div class="member-image">
                   <img class="img-responsive" src="img/19105875_10211933330962903_8610926667809294383_n.jpg" alt="">
