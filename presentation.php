@@ -56,8 +56,8 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in, laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem voluptas iste porro eligendi.
             </p>        
           </div>
-          <div class="text-right col-sm-6">
-            <img class="img float-right" src="img/para-flou.jpg" alt="">
+          <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
+           
           </div>
         </div>
       </div>
@@ -68,9 +68,9 @@
       <div class="heading wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms">
       <h2>services2</h2>
         <div class="row" id="service">
-          <div class="text-left col-sm-6">
-          <img class="img float-right" src="img/para-flou.jpg" alt="">         
-          </div>
+        <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
+           
+           </div>
           <div class="text-center col-sm-6">
           <h2>Lorem ipsum dolor sit</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in, laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem voluptas iste porro eligendi.
@@ -91,9 +91,9 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in, laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem voluptas iste porro eligendi.
             </p>        
           </div>
-          <div class="text-right col-sm-6">
-            <img class="img float-right" src="img/para-flou.jpg" alt="">
-          </div>
+          <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
+           
+           </div>
         </div>
       </div>
     </div>
@@ -103,9 +103,9 @@
       <div class="heading wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms">
       <h2>services4</h2>
         <div class="row" id="service">
-          <div class="text-left col-sm-6">
-          <img class="img float-right" src="img/para-flou.jpg" alt="">         
-          </div>
+        <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
+           
+           </div>
           <div class="text-center col-sm-6">
           <h2>Lorem ipsum dolor sit</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in, laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem voluptas iste porro eligendi.
@@ -209,7 +209,7 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
   <script type="text/javascript" src="js/header.js"></script>
-
+  <script src="js/parallax.min.js"></script>
 </body>
 
 </html>
