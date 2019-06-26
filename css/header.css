@@ -50,6 +50,7 @@ h2 {
 .nav-item {
     height: 80px;
     width: 25%;
+    margin-top: -3px;
     font-size: 1.6em;
     text-align: center;
 }
