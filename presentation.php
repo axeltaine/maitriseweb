@@ -26,26 +26,130 @@
   </div>
   <div id="top"></div>
   <main class="global">
-  <div class="container_fluide" id="section2">
-            <div class="jumbotron text-center">
-                <div class="container">
-                    <h2 class="jumbotron-heading">PRESENTATION</h1><br>
-                        <p class="lead text-muted">Notre entreprise Maitrise WEB est située en Champagne-Ardennes, à
-                            proximité de
-                            Reims, Charlevilles-Mézières et Sedan. Spécialisé dans la création de site internet, le
-                            référencement,
-                            la rédaction web ainsi que l'intranet. Nous concevons le site internet qui répond aux
-                            objectifs
-                            de votre
-                            entreprise : augmenter votre chiffre d'affaire, générer des contacts entrants, etc. Profitez
-                            de
-                            notre
-                            expérience pour que la création de votre site internet soit une réussite !</p>
-                </div>
-            </div>
+    <div class="container_fluide">
+      <div class="jumbotron text-center">
+        <div class="container">
+          <h2 class="jumbotron-heading">PRESENTATION</h1><br>
+            <p class="lead text-muted">Notre entreprise Maitrise WEB est située en Champagne-Ardennes, à
+              proximité de
+              Reims, Charlevilles-Mézières et Sedan. Spécialisé dans la création de site internet, le
+              référencement,
+              la rédaction web ainsi que l'intranet. Nous concevons le site internet qui répond aux
+              objectifs
+              de votre
+              entreprise : augmenter votre chiffre d'affaire, générer des contacts entrants, etc. Profitez
+              de
+              notre
+              expérience pour que la création de votre site internet soit une réussite !</p>
         </div>
+      </div>
+    </div>
+    <section id="services1">
+    <div class="container-fluid">
+      
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <h2>services1</h2>
+        <div class="row">
+          
+          <div class="text-left col-sm-6">
+            <h2>Lorem ipsum dolor sit</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in, laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem voluptas iste porro eligendi.
+            </p><br>
+            <h2>Lorem ipsum dolor sit</h2>
+                <ul class="e-list">
+                  <li>Lorem ipsum dolor sit</li>
+                  <li>VLorem ipsum dolor sit</li>
+                  <li>Lorem ipsum dolor sit</li>
+                  <li>Lorem ipsum dolor sit</li>
+                  
+                </ul>          
+          </div>
+          <div class="text-right col-sm-6">
+            <img class="img float-right" src="img/para-flou.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services2">
+    <div class="container-fluid">
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <h2>services2</h2>
+        <div class="row">
+          <div class="text-left col-sm-6">
+          <img class="img float-right" src="img/para-flou.jpg" alt="">         
+          </div>
+          <div class="text-right col-sm-6">
+          <h2>Lorem ipsum dolor sit</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in, laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem voluptas iste porro eligendi.
+            </p><br>
+            <h2>Lorem ipsum dolor sit</h2>
+                <ul class="e-list">
+                  <li>Lorem ipsum dolor sit</li>
+                  <li>VLorem ipsum dolor sit</li>
+                  <li>Lorem ipsum dolor sit</li>
+                  <li>Lorem ipsum dolor sit</li>
+                  
+                </ul>          
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services1">
+    <div class="container-fluid">
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <h2>services3</h2>
+        <div class="row">
+          <div class="text-left col-sm-6">
+            <h2>Lorem ipsum dolor sit</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in, laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem voluptas iste porro eligendi.
+            </p><br>
+            <h2>Lorem ipsum dolor sit</h2>
+                <ul class="e-list">
+                  <li>Lorem ipsum dolor sit</li>
+                  <li>VLorem ipsum dolor sit</li>
+                  <li>Lorem ipsum dolor sit</li>
+                  <li>Lorem ipsum dolor sit</li>
+                  
+                </ul>          
+          </div>
+          <div class="text-right col-sm-6">
+            <img class="img float-right" src="img/para-flou.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services2">
+    <div class="container-fluid">
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <h2>services4</h2>
+        <div class="row">
+          <div class="text-left col-sm-6">
+          <img class="img float-right" src="img/para-flou.jpg" alt="">         
+          </div>
+          <div class="text-right col-sm-6">
+          <h2>Lorem ipsum dolor sit</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in, laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem voluptas iste porro eligendi.
+            </p><br>
+            <h2>Lorem ipsum dolor sit</h2>
+                <ul class="e-list">
+                  <li>Lorem ipsum dolor sit</li>
+                  <li>VLorem ipsum dolor sit</li>
+                  <li>Lorem ipsum dolor sit</li>
+                  <li>Lorem ipsum dolor sit</li>
+                  
+                </ul>          
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
     <section id="team">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="heading2 text-center col-sm-12 col-sm-offset-2 wow fadeInUp animated" data-wow-duration="1200ms"
             data-wow-delay="300ms"
