@@ -4,7 +4,7 @@
 h2 {
   text-align: center;
   padding-top: 1em;
-  padding-bottom: 2em; 
+  padding-bottom: 1em; 
 }
 .team-members {
   margin-bottom: 25px;
@@ -46,6 +46,9 @@ h2 {
   opacity: 1;
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
+}
+hr {
+  color: red;
 }
 
 .team-member {

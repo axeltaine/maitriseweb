@@ -45,85 +45,101 @@
       </div>
     </div>
     <section id="services1">
-    <div class="container-fluid">
-      
-      <div class="heading wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="300ms">
-        <hr>
-      <h2>Site One Page</h2>
-      <hr>
-        <div class="row align-items-center"id="service">
-          
-          <div class="text-center col-sm-6">
+      <div class="container-fluid">
+        <div class="heading wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="300ms">
+          <hr>
+          <h2>Site Vitrine</h2>
+          <hr>
+          <div class="row align-items-center" id="service">
+            <div class="text-center col-sm-6">
+              <h2>Lorem ipsum dolor sit</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
+                laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
+                voluptas iste porro eligendi.
+              </p><br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
+                laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
+                voluptas iste porro eligendi.
+              </p>
+            </div>
+            <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services2">
+      <div class="container-fluid">
+        <div class="heading wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="300ms">
+          <hr>
+          <h2>Site E-commerce</h2>
+          <hr>
+          <div class="row align-items-center" id="service">
+            <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
+            </div>
+            <div class="text-center col-sm-6">
             <h2>Lorem ipsum dolor sit</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in, laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem voluptas iste porro eligendi.
-            </p>        
-          </div>
-          <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
-           
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="services2">
-    <div class="container-fluid">
-      <div class="heading wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="300ms">
-      <hr>
-      <h2>Site E-commerce</h2>
-      <hr>
-        <div class="row align-items-center" id="service">
-        <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
-           
-           </div>
-          <div class="text-center col-sm-6">
-          <h2>Lorem ipsum dolor sit</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in, laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem voluptas iste porro eligendi.
-            </p>        
-            
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
+                laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
+                voluptas iste porro eligendi.
+              </p><br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
+                laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
+                voluptas iste porro eligendi.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section id="services3">
-    <div class="container-fluid">
-      <div class="heading wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="300ms">
-      <hr>
-      <h2>Application interne</h2>
-      <hr>
-        <div class="row align-items-center" id="service">
-          <div class="text-center col-sm-6">
+    </section>
+    <section id="services3">
+      <div class="container-fluid">
+        <div class="heading wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="300ms">
+          <hr>
+          <h2>Application interne</h2>
+          <hr>
+          <div class="row align-items-center" id="service">
+            <div class="text-center col-sm-6">
             <h2>Lorem ipsum dolor sit</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in, laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem voluptas iste porro eligendi.
-            </p>        
-          </div>
-          <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
-           
-           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="services4">
-    <div class="container-fluid">
-      <div class="heading wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="300ms">
-      <hr>
-      <h2>Identitée visuel</h2>
-      <hr>
-        <div class="row align-items-center" id="service">
-        <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
-           
-           </div>
-          <div class="text-center col-sm-6">
-          <h2>Lorem ipsum dolor sit</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in, laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem voluptas iste porro eligendi.
-            </p>        
-            
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
+                laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
+                voluptas iste porro eligendi.
+              </p><br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
+                laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
+                voluptas iste porro eligendi.
+              </p>
+            </div>
+            <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <section id="services4">
+      <div class="container-fluid">
+        <div class="heading wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="300ms">
+          <hr>
+          <h2>Identitée visuel</h2>
+          <hr>
+          <div class="row align-items-center" id="service">
+            <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
+            </div>
+            <div class="text-center col-sm-6">
+            <h2>Lorem ipsum dolor sit</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
+                laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
+                voluptas iste porro eligendi.
+              </p><br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
+                laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
+                voluptas iste porro eligendi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="team">
       <div class="container-fluid">
         <div class="row">
@@ -138,7 +154,7 @@
         </div>
         <div class="team-members">
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-4">
               <div class="team-member wow flipInY " data-wow-duration="1000ms" data-wow-delay="300ms"
                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: flipInY;">
                 <div class="member-image">
@@ -158,7 +174,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-4">
               <div class="team-member wow flipInY " data-wow-duration="1000ms" data-wow-delay="500ms"
                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 500ms; animation-name: flipInY;">
                 <div class="member-image">
@@ -178,7 +194,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-4">
               <div class="team-member wow flipInY " data-wow-duration="1000ms" data-wow-delay="1100ms"
                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 1100ms; animation-name: flipInY;">
                 <div class="member-image">
