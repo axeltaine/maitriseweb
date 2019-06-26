@@ -59,7 +59,8 @@
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
                 laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
                 voluptas iste porro eligendi.
-              </p>
+              </p><a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
+                            role="button">EN VOIR PLUS</a>
             </div>
             <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
             </div>
@@ -85,7 +86,9 @@
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
                 laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
                 voluptas iste porro eligendi.
-              </p>
+              </p><br>
+              <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
+                            role="button">EN VOIR PLUS</a>
             </div>
           </div>
         </div>
@@ -107,7 +110,9 @@
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
                 laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
                 voluptas iste porro eligendi.
-              </p>
+              </p><br>
+              <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
+                            role="button">EN VOIR PLUS</a>
             </div>
             <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
             </div>
@@ -133,7 +138,9 @@
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
                 laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
                 voluptas iste porro eligendi.
-              </p>
+              </p><br>
+              <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
+                            role="button">EN VOIR PLUS</a>
             </div>
           </div>
         </div>
@@ -146,9 +153,7 @@
             data-wow-delay="300ms"
             style="visibility: visible; animation-duration: 1200ms; animation-delay: 300ms; animation-name: fadeInUp;">
             <hr><h2>Notre Equipe</h2><hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid consectetur voluptatum incidunt
-              nostrum, laborum voluptatem rerum beatae sint distinctio, dolor corrupti, non reprehenderit dolore.
-              Expedita saepe corporis quas doloribus.</p>
+            <p>SI TU VEUT DU TEST ICI</p>
           </div>
         </div>
         <div class="team-members">
