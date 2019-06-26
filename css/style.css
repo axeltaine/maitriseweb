@@ -1,5 +1,5 @@
 .jumbotron {
-    margin-bottom: 0em;
+    margin-bottom: 0;
     background-color: white;
 }
 
@@ -71,14 +71,14 @@
     font-weight: 700;
     position: relative;
     text-transform: uppercase;
-    margin-bottom:2em;
-    margin-top:2em;
+    margin-bottom:1.2em;
+    margin-top:1.5em;
   
 }
 .white-heading{
     color: #ffffff;
 }
-.heading:after {
+/*.heading:after {
     content: ' ';
     position: absolute;
     top: 100%;

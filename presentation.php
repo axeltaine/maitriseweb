@@ -28,7 +28,7 @@
     <div class="container_fluide">
       <div class="jumbotron text-center">
         <div class="container">
-          <h2 class="jumbotron-heading">PRESENTATION</h1><br>
+          <h2 class="jumbotron-heading">PRESENTATION</h2><br>
             <p class="lead text-muted">Notre entreprise Maitrise WEB est située en Champagne-Ardennes, à
               proximité de
               Reims, Charlevilles-Mézières et Sedan. Spécialisé dans la création de site internet, le
@@ -45,9 +45,9 @@
     </div>
     <section id="services1">
       <div class="container-fluid">
-        <div class="heading wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="heading  " data-wow-duration="1000ms" data-wow-delay="300ms">
           <hr>
-          <h2>Site One Page</h2>
+          <h2>Nos Site One Page</h2>
           <hr>
           <div class="row align-items-center" id="service">
             <div class="text-center col-sm-6">
@@ -69,9 +69,9 @@
     </section>
     <section id="services2">
       <div class="container-fluid">
-        <div class="heading wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="heading  " data-wow-duration="1000ms" data-wow-delay="300ms">
           <hr>
-          <h2>Site E-commerce</h2>
+          <h2>Nos Site E-commerce</h2>
           <hr>
           <div class="row align-items-center" id="service">
             <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
@@ -93,9 +93,9 @@
     </section>
     <section id="services3">
       <div class="container-fluid">
-        <div class="heading wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="heading  " data-wow-duration="1000ms" data-wow-delay="300ms">
           <hr>
-          <h2>Application interne</h2>
+          <h2>Nos Application interne</h2>
           <hr>
           <div class="row align-items-center" id="service">
             <div class="text-center col-sm-6">
@@ -117,9 +117,9 @@
     </section>
     <section id="services4">
       <div class="container-fluid">
-        <div class="heading wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="heading  " data-wow-duration="1000ms" data-wow-delay="300ms">
           <hr>
-          <h2>Identitée visuel</h2>
+          <h2>Nos Identitées visuel</h2>
           <hr>
           <div class="row align-items-center" id="service">
             <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
@@ -142,7 +142,7 @@
     <section id="team">
       <div class="container-fluid">
         <div class="row">
-          <div class="heading text-center col-sm-12 col-sm-offset-2 wow fadeInUp " data-wow-duration="1200ms"
+          <div class="heading text-center col-sm-12 col-sm-offset-2  " data-wow-duration="1200ms"
             data-wow-delay="300ms"
             style="visibility: visible; animation-duration: 1200ms; animation-delay: 300ms; animation-name: fadeInUp;">
             <hr><h2>Notre Equipe</h2><hr>
