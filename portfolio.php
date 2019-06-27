@@ -236,6 +236,19 @@
 		</div>
 	</section>
 	<!-- / projects -->
+	<div class="container_fluide" id="section4">
+            <div class="jumbotron text-center">
+                <div class="container">
+                    
+                    <p class="lead text-muted">VOUS AVEZ UN PROJET WEB ?</p>
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
+                            role="button">PARLONS-EN !</a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
 	<footer><?php include ('footer.html');?></footer>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
