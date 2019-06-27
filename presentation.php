@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8">
@@ -18,51 +18,151 @@
   <link href="css/header.css" rel="stylesheet">
   <link href="css/hover-min.css" rel="stylesheet">
 </head>
-
 <body>
   <header><?php include ('header.php'); ?> </header>
-  <div class="header ">
+  <div class="header">
     <h1>MAitrise Web <br><span>[ Présentation ]</span></h1>
   </div>
   <div id="top"></div>
   <main class="global">
-  <div class="container_fluide" id="section2">
-            <div class="jumbotron text-center">
-                <div class="container">
-                    <h2 class="jumbotron-heading">PRESENTATION</h1><br>
-                        <p class="lead text-muted">Notre entreprise Maitrise WEB est située en Champagne-Ardennes, à
-                            proximité de
-                            Reims, Charlevilles-Mézières et Sedan. Spécialisé dans la création de site internet, le
-                            référencement,
-                            la rédaction web ainsi que l'intranet. Nous concevons le site internet qui répond aux
-                            objectifs
-                            de votre
-                            entreprise : augmenter votre chiffre d'affaire, générer des contacts entrants, etc. Profitez
-                            de
-                            notre
-                            expérience pour que la création de votre site internet soit une réussite !</p>
-                </div>
-            </div>
+    <div class="container_fluide">
+      <div class="jumbotron text-center">
+        <div class="container">
+          <h2 class="jumbotron-heading">PRESENTATION</h2><br>
+            <p class="lead text-muted">Notre entreprise Maitrise WEB est située en Champagne-Ardennes, à
+              proximité de
+              Reims, Charlevilles-Mézières et Sedan. Spécialisé dans la création de site internet, le
+              référencement,
+              la rédaction web ainsi que l'intranet. Nous concevons le site internet qui répond aux
+              objectifs
+              de votre
+              entreprise : augmenter votre chiffre d'affaire, générer des contacts entrants, etc. Profitez
+              de
+              notre
+              expérience pour que la création de votre site internet soit une réussite !</p>
         </div>
+      </div>
+    </div>
+    <section id="services1">
+      <div class="container-fluid">
+        <div class="heading  " data-wow-duration="1000ms" data-wow-delay="300ms">
+          <hr>
+          <h2>Nos Sites Vitrine</h2>
+          <hr>
+          <div class="row align-items-center" id="service">
+            <div class="text-center col-sm-6">
+              <h2>Lorem ipsum dolor sit</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
+                laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
+                voluptas iste porro eligendi.
+              </p><br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
+                laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
+                voluptas iste porro eligendi.
+              </p><a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
+                            role="button">EN VOIR PLUS</a>
+            </div>
+            <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services2">
+      <div class="container-fluid">
+        <div class="heading  " data-wow-duration="1000ms" data-wow-delay="300ms">
+          <hr>
+          <h2>Nos Sites E-commerce</h2>
+          <hr>
+          <div class="row align-items-center" id="service">
+            <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
+            </div>
+            <div class="text-center col-sm-6">
+            <h2>Lorem ipsum dolor sit</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
+                laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
+                voluptas iste porro eligendi.
+              </p><br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
+                laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
+                voluptas iste porro eligendi.
+              </p><br>
+              <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
+                            role="button">EN VOIR PLUS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services3">
+      <div class="container-fluid">
+        <div class="heading  " data-wow-duration="1000ms" data-wow-delay="300ms">
+          <hr>
+          <h2>Nos Applications interne</h2>
+          <hr>
+          <div class="row align-items-center" id="service">
+            <div class="text-center col-sm-6">
+            <h2>Lorem ipsum dolor sit</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
+                laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
+                voluptas iste porro eligendi.
+              </p><br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
+                laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
+                voluptas iste porro eligendi.
+              </p><br>
+              <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
+                            role="button">EN VOIR PLUS</a>
+            </div>
+            <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services4">
+      <div class="container-fluid">
+        <div class="heading  " data-wow-duration="1000ms" data-wow-delay="300ms">
+          <hr>
+          <h2>Nos Identitées visuel</h2>
+          <hr>
+          <div class="row align-items-center" id="service">
+            <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
+            </div>
+            <div class="text-center col-sm-6">
+            <h2>Lorem ipsum dolor sit</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
+                laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
+                voluptas iste porro eligendi.
+              </p><br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
+                laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
+                voluptas iste porro eligendi.
+              </p><br>
+              <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
+                            role="button">EN VOIR PLUS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="team">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <div class="heading2 text-center col-sm-12 col-sm-offset-2 wow fadeInUp animated" data-wow-duration="1200ms"
+          <div class="heading text-center col-sm-12 col-sm-offset-2  " data-wow-duration="1200ms"
             data-wow-delay="300ms"
             style="visibility: visible; animation-duration: 1200ms; animation-delay: 300ms; animation-name: fadeInUp;">
-            <h2>Notre Equipe</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aliquid consectetur voluptatum incidunt
-              nostrum, laborum voluptatem rerum beatae sint distinctio, dolor corrupti, non reprehenderit dolore.
-              Expedita saepe corporis quas doloribus.</p>
+            <hr><h2>Notre Equipe</h2><hr>
+            <p>SI TU VEUT DU TEST ICI</p>
           </div>
         </div>
         <div class="team-members">
           <div class="row">
             <div class="col-sm-4">
-              <div class="team-member wow flipInY animated" data-wow-duration="1000ms" data-wow-delay="300ms"
+              <div class="team-member wow flipInY " data-wow-duration="1000ms" data-wow-delay="300ms"
                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: flipInY;">
                 <div class="member-image">
-                  <img class="img-responsive" src="img/19105875_10211933330962903_8610926667809294383_n.jpg" alt="">
+                  <img class="img-responsive" src="img/enseigne.jpg" alt="">
                 </div>
                 <div class="member-info">
                   <h3>Petit Romain</h3>
@@ -79,10 +179,10 @@
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="team-member wow flipInY animated" data-wow-duration="1000ms" data-wow-delay="500ms"
+              <div class="team-member wow flipInY " data-wow-duration="1000ms" data-wow-delay="500ms"
                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 500ms; animation-name: flipInY;">
                 <div class="member-image">
-                  <img class="img-responsive" src="img/19105875_10211933330962903_8610926667809294383_n.jpg" alt="">
+                  <img class="img-responsive" src="img/enseigne.jpg" alt="">
                 </div>
                 <div class="member-info">
                   <h3>Joris Lane</h3>
@@ -99,10 +199,10 @@
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="team-member wow flipInY animated" data-wow-duration="1000ms" data-wow-delay="1100ms"
+              <div class="team-member wow flipInY " data-wow-duration="1000ms" data-wow-delay="1100ms"
                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 1100ms; animation-name: flipInY;">
                 <div class="member-image">
-                  <img class="img-responsive" src="img/19105875_10211933330962903_8610926667809294383_n.jpg" alt="">
+                  <img class="img-responsive" src="img/enseigne.jpg" alt="">
                 </div>
                 <div class="member-info">
                   <h3>Jordan Collos</h3>
@@ -122,6 +222,19 @@
         </div>
       </div>
     </section>
+    <div class="container_fluide" id="section4">
+            <div class="jumbotron text-center">
+                <div class="container">
+                    
+                    <p class="lead text-muted">VOUS AVEZ UN PROJET WEB ?</p>
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
+                            role="button">PARLONS-EN !</a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
   </main>
 
   <footer><?php include ('footer.html'); ?></footer>
@@ -137,7 +250,7 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
   <script type="text/javascript" src="js/header.js"></script>
-
+  <script src="js/parallax.min.js"></script>
 </body>
 
 </html>

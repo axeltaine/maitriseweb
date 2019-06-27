@@ -1,5 +1,6 @@
 .jumbotron {
-    margin-bottom: 0em;
+    margin-bottom: 0;
+    background-color: white;
 }
 
 /*parallax*/
@@ -67,17 +68,16 @@
 }.heading {
    
     color: #454343;
-   
     font-weight: 700;
     position: relative;
-    margin-bottom: 70px;
     text-transform: uppercase;
+    
   
 }
 .white-heading{
     color: #ffffff;
 }
-.heading:after {
+/*.heading:after {
     content: ' ';
     position: absolute;
     top: 100%;
