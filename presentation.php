@@ -239,6 +239,14 @@
 
   <footer><?php include ('footer.html'); ?></footer>
 
+   <!--debut back-to-top-->
+
+   <div id="back-to-top">
+        <a href="#" title="Haut de page" class="scrollup"><i class="fa fa-arrow-circle-up"></i></a> 
+    </div>
+
+    <!--fin back-to-top-->
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

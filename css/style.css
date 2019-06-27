@@ -354,3 +354,18 @@ footer a:hover{
 
     }
 }
+
+/* debut back-to-top*/
+
+#back-to-top {
+    position: fixed;
+    z-index: 99;
+    right: 2%;
+    bottom: 4%;
+  }
+  
+  .fa-arrow-circle-up {
+    color: black;
+  }
+  
+  /* fin back-to-top*/
