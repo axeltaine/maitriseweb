@@ -18,10 +18,10 @@
             <li class="nav-item dropdown hvr-grow-shadow "><!-- hvr-underline-from-center pose probleme pour le menu-->
                 <a class="nav-link dropdown-toggle" href="presentation.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Présentation</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="presentation.php?#service1">Site Vitrine</a>
-          <a class="dropdown-item" href="presentation.php?#service2">Site E-commerce</a>
-          <a class="dropdown-item" href="presentation.php?#service3">Application interne</a>
-          <a class="dropdown-item" href="presentation.php?#service4">Identitée visuel</a>
+          <a class="dropdown-item" href="presentation.php?#services1">Site Vitrine</a>
+          <a class="dropdown-item" href="presentation.php?#services2">Site E-commerce</a>
+          <a class="dropdown-item" href="presentation.php?#services3">Application interne</a>
+          <a class="dropdown-item" href="presentation.php?#services4">Identitée visuel</a>
         </div>
             </li>
             <a class="navbar-brand" href="index.php">
