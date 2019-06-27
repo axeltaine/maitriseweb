@@ -56,6 +56,14 @@
     <script type="text/javascript" src="slider/revolution/js/extensions/revolution.extension.slideanims.min.js">
     </script>
     <script type="text/javascript" src="slider/revolution/js/extensions/revolution.extension.video.min.js"></script>
+
+    <style>
+        .truc:hover {
+            transform: scale(1.1);
+            transition: 0.5s ease;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -72,24 +80,26 @@
             </div>
         </div>
         <div class="container_fluide"><?php include ('slider.html'); ?></div>
-        <div class="container_fluide" id="section2">
-            <div class="jumbotron text-center">
-                <div class="container">
-                    <h2 class="jumbotron-heading">PRESENTATION</h1><br>
-                        <p class="lead text-muted">Notre entreprise Maitrise WEB est située en Champagne-Ardennes, à
-                            proximité de
-                            Reims, Charlevilles-Mézières et Sedan. Spécialisé dans la création de site internet, le
-                            référencement,
-                            la rédaction web ainsi que l'intranet. Nous concevons le site internet qui répond aux
-                            objectifs
-                            de votre
-                            entreprise : augmenter votre chiffre d'affaire, générer des contacts entrants, etc. Profitez
-                            de
-                            notre
-                            expérience pour que la création de votre site internet soit une réussite !</p>
-                </div>
-            </div>
+
+
+
+        <div class="bidule" style="height: 100vh; padding: 0; margin: 3% 0; display: flex; overflow: hidden ">
+
+            <div class="truc" style="height: 100%; width: 25%; padding: 0; cursor: pointer;"><img
+                    style="height: 100%; width: 100%; overflow: hidden;"
+                    src="img/38018499_1520923464675970_2235721715281821696_o.jpg" alt=""></div>
+            <div class="truc" style="height: 100%; width: 25%; padding: 0; cursor: pointer;"><img
+                    style="height: 100%; width: 100%; overflow: hidden;"
+                    src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt=""></div>
+            <div class="truc" style="height: 100%; width: 25%; padding: 0; cursor: pointer;"><img
+                    style="height: 100%; width: 100%; overflow: hidden;"
+                    src="img/37854358_1508245979277052_1686911270940311552_o.jpg" alt=""></div>
+            <div class="truc" style="height: 100%; width: 25%; padding: 0; cursor: pointer;"><img
+                    style="height: 100%; width: 100%; overflow: hidden;"
+                    src="img/49608100_1716725738429074_4809086061131071488_o.jpg" alt=""></div>
+
         </div>
+
         <?php include ('parallax.html'); ?>
         <?php include ('gallery.html'); ?>
         <section class="testimonial text-center">

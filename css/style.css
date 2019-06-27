@@ -321,6 +321,11 @@ footer a:hover{
         padding: 0!important;
     }
 
+    .mini-gallery .site{
+        padding: 0;
+    }
+
+
     .gallery .site{
         padding: 0;
         margin-top: 10px;
