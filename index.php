@@ -58,9 +58,13 @@
     <script type="text/javascript" src="slider/revolution/js/extensions/revolution.extension.video.min.js"></script>
 
     <style>
-        .truc:hover {
-            transform: scale(1.1);
-            transition: 0.5s ease;
+        .stripes-content {
+            overflow: hidden;
+        }
+
+        .stripes-content:hover {
+            transform: scale(1.2);
+            transition: 2s ease-in-out;
         }
     </style>
 
@@ -83,20 +87,23 @@
 
 
 
-        <div class="bidule" style="height: 100vh; padding: 0; margin: 3% 0; display: flex; overflow: hidden ">
-
-            <div class="truc" style="height: 100%; width: 25%; padding: 0; cursor: pointer;"><img
-                    style="height: 100%; width: 100%; overflow: hidden;"
-                    src="img/38018499_1520923464675970_2235721715281821696_o.jpg" alt=""></div>
-            <div class="truc" style="height: 100%; width: 25%; padding: 0; cursor: pointer;"><img
-                    style="height: 100%; width: 100%; overflow: hidden;"
-                    src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt=""></div>
-            <div class="truc" style="height: 100%; width: 25%; padding: 0; cursor: pointer;"><img
-                    style="height: 100%; width: 100%; overflow: hidden;"
-                    src="img/37854358_1508245979277052_1686911270940311552_o.jpg" alt=""></div>
-            <div class="truc" style="height: 100%; width: 25%; padding: 0; cursor: pointer;"><img
-                    style="height: 100%; width: 100%; overflow: hidden;"
-                    src="img/49608100_1716725738429074_4809086061131071488_o.jpg" alt=""></div>
+        <div class="stripes-card" style="height: 100vh; padding: 0; margin: 3% 0; display: flex; overflow: hidden ">
+            <div class="stripes" style="height: 100%; width: 25%; padding: 0; cursor: pointer; overflow: hidden">
+                <div class="stripes-content" style="height: 100%;"><img style="height: 100%; width: 100%; overflow: hidden;"
+                        src="img/38018499_1520923464675970_2235721715281821696_o.jpg" alt=""></div>
+            </div>
+            <div class="stripes" style="height: 100%; width: 25%; padding: 0; cursor: pointer; overflow: hidden">
+                <div class="stripes-content" style="height: 100%;"><img style="height: 100%; width: 100%; overflow: hidden;"
+                        src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt=""></div>
+            </div>
+            <div class="stripes" style="height: 100%; width: 25%; padding: 0; cursor: pointer; overflow: hidden">
+                <div class="stripes-content" style="height: 100%;"><img style="height: 100%; width: 100%; overflow: hidden;"
+                        src="img/37854358_1508245979277052_1686911270940311552_o.jpg" alt=""></div>
+            </div>
+            <div class="stripes" style="height: 100%; width: 25%; padding: 0; cursor: pointer; overflow: hidden">
+                <div class="stripes-content" style="height: 100%;"><img style="height: 100%; width: 100%; overflow: hidden;"
+                        src="img/49608100_1716725738429074_4809086061131071488_o.jpg" alt=""></div>
+            </div>
 
         </div>
 
