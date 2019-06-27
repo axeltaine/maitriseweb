@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8">
@@ -20,7 +20,7 @@
 </head>
 <body>
   <header><?php include ('header.php'); ?> </header>
-  <div class="header ">
+  <div class="header">
     <h1>MAitrise Web <br><span>[ Présentation ]</span></h1>
   </div>
   <div id="top"></div>
@@ -47,7 +47,7 @@
       <div class="container-fluid">
         <div class="heading  " data-wow-duration="1000ms" data-wow-delay="300ms">
           <hr>
-          <h2>Nos Site One Page</h2>
+          <h2>Nos Sites Vitrine</h2>
           <hr>
           <div class="row align-items-center" id="service">
             <div class="text-center col-sm-6">
@@ -72,7 +72,7 @@
       <div class="container-fluid">
         <div class="heading  " data-wow-duration="1000ms" data-wow-delay="300ms">
           <hr>
-          <h2>Nos Site E-commerce</h2>
+          <h2>Nos Sites E-commerce</h2>
           <hr>
           <div class="row align-items-center" id="service">
             <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
@@ -98,7 +98,7 @@
       <div class="container-fluid">
         <div class="heading  " data-wow-duration="1000ms" data-wow-delay="300ms">
           <hr>
-          <h2>Nos Application interne</h2>
+          <h2>Nos Applications interne</h2>
           <hr>
           <div class="row align-items-center" id="service">
             <div class="text-center col-sm-6">
@@ -222,6 +222,19 @@
         </div>
       </div>
     </section>
+    <div class="container_fluide" id="section4">
+            <div class="jumbotron text-center">
+                <div class="container">
+                    
+                    <p class="lead text-muted">VOUS AVEZ UN PROJET WEB ?</p>
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
+                            role="button">PARLONS-EN !</a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
   </main>
 
   <footer><?php include ('footer.html'); ?></footer>

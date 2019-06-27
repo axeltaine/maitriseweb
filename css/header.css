@@ -124,6 +124,9 @@ nav.black .nav-link {
         display: none;
 
     }
+    .dropdown-menu{
+        z-index: 900;
+    }
 
     .navbar-brand2 {
         display: block;

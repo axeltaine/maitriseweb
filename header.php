@@ -15,8 +15,14 @@
             <li class="nav-item hvr-grow-shadow hvr-underline-from-center">
                 <a class="nav-link" href="index.php">Accueil</a>
             </li>
-            <li class="nav-item hvr-grow-shadow hvr-underline-from-center">
-                <a class="nav-link" href="presentation.php">Présentation</a>
+            <li class="nav-item dropdown hvr-grow-shadow "><!-- hvr-underline-from-center pose probleme pour le menu-->
+                <a class="nav-link dropdown-toggle" href="presentation.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Présentation</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="presentation.php?#service1">Site Vitrine</a>
+          <a class="dropdown-item" href="presentation.php?#service2">Site E-commerce</a>
+          <a class="dropdown-item" href="presentation.php?#service3">Application interne</a>
+          <a class="dropdown-item" href="presentation.php?#service4">Identitée visuel</a>
+        </div>
             </li>
             <a class="navbar-brand" href="index.php">
                 <h1><img class="logo" src="img/logo_transpa.png" alt="logo"></h1>
