@@ -61,8 +61,9 @@
         .truc:hover {
             transform: scale(1.1);
             transition: 0.5s ease;
-    </style>
         }
+    </style>
+        
 </head>
 
 <body>
