@@ -58,16 +58,11 @@
     <script type="text/javascript" src="slider/revolution/js/extensions/revolution.extension.video.min.js"></script>
 
     <style>
-        .stripes-content {
-            overflow: hidden;
-        }
-
-        .stripes-content:hover {
-            transform: scale(1.2);
-            transition: 2s ease-in-out;
-        }
+        .truc:hover {
+            transform: scale(1.1);
+            transition: 0.5s ease;
     </style>
-
+        }
 </head>
 
 <body>
