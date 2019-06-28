@@ -35,7 +35,10 @@
         position: absolute;
         margin-top: -600px;
         z-index: 300;
-        display: none;
+        display: block;
+        left: 10em;
+        color: white;
+        text-shadow: black 0.1em 0.1em 0.2em;
     }
 
     .stripes-img {
@@ -59,7 +62,7 @@
         line-height: 0;
     }
 
-    .stripes-content a:before{
+    .stripes-content:before{
         position: absolute;
         width: 100px;
         height: 100px;
@@ -75,12 +78,12 @@
         transition: all 0.3s linear;
     }
 
-    .stripes-content a:hover:before{
+    .stripes-content:hover:before{
         top: 50%;
         opacity: 0.8;
     }
 
-    .stripes-content a:after{
+    .stripes-content:after{
         position: absolute;
         width: 100%;
         top: 0;
@@ -95,7 +98,7 @@
         margin: 0;
     }
 
-    .stripes-content a:hover:after{
+    .stripes-content:hover:after{
         opacity: 1;
     }
 
@@ -136,7 +139,7 @@
         <div class="stripes-content">
             <a href="presentation.php#services2">
                 <img class="stripes-img" src="img/37775430_1508245949277055_4923942506057433088_o.jpg" alt="">
-                <span class="stripes-title">SITES VITRINES</span>
+                <span class="stripes-title">SITES E-COMMERCE</span>
             </a>
         </div>
     </div>
@@ -144,7 +147,7 @@
         <div class="stripes-content">
             <a href="presentation.php#services3">
                 <img class="stripes-img" src="img/37854358_1508245979277052_1686911270940311552_o.jpg" alt="">
-                <span class="stripes-title">SITES VITRINES</span>
+                <span class="stripes-title">APPLICATION INTERNE</span>
             </a>
         </div>
     </div>
@@ -152,7 +155,7 @@
         <div class="stripes-content">
             <a href="presentation.php#services4">
                 <img class="stripes-img" src="img/49608100_1716725738429074_4809086061131071488_o.jpg" alt="">
-                <span class="stripes-title">SITES VITRINES</span>
+                <span class="stripes-title">IDENTITÉE VISUEL</span>
             </a>
         </div>
     </div>
