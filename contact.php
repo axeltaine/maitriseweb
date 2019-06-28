@@ -64,7 +64,7 @@
                                             placeholder="Enter your message" required="required"></textarea>
                                     </div>
                                     <div class="form-group text-center">
-                                        <button type="submit" class="btn-submit ">Envoyer</button>
+                                        <button type="submit" class="btn-submit btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center">Envoyer</button>
                                     </div>
                                 </form>
                             </div>
