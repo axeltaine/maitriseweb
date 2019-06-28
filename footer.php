@@ -10,17 +10,17 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h5 class="text-uppercase mb-4 font-weight-bold">Nos Sites</h5>
             <p><a href="">AFRE Club de Rugby Reims</a>
-            <p><a href="">La Domoise Livreur de boissons</a>
-            <p><a href="">Bubble Best Loisir et divertissement</a>
-            <p><a href="">Les Bouleaux Camping</a>
+                <p><a href="">La Domoise Livreur de boissons</a>
+                    <p><a href="">Bubble Best Loisir et divertissement</a>
+                        <p><a href="">Les Bouleaux Camping</a>
         </div>
         <hr class="w-100 clearfix d-md-none">
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
             <h5 class="text-uppercase mb-4 font-weight-bold">Nos projets en cours</h5>
             <p><a href="">Blabla frfrfr</a>
-            <p><a href="">Blabla frfrfr</a>
-            <p><a href="">Blabla frfrfr</a>
-            <p><a href="">Blabla frfrfr</a>
+                <p><a href="">Blabla frfrfr</a>
+                    <p><a href="">Blabla frfrfr</a>
+                        <p><a href="">Blabla frfrfr</a>
         </div>
         <hr class="w-100 clearfix d-md-none">
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">

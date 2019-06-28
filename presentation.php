@@ -18,6 +18,7 @@
   <link href="css/header.css" rel="stylesheet">
   <link href="css/hover-min.css" rel="stylesheet">
 </head>
+
 <body>
   <header><?php include ('header.php'); ?> </header>
   <div class="header">
@@ -29,17 +30,17 @@
       <div class="jumbotron text-center">
         <div class="container">
           <h2 class="jumbotron-heading">PRESENTATION</h2><br>
-            <p class="lead text-muted">Notre entreprise Maitrise WEB est située en Champagne-Ardennes, à
-              proximité de
-              Reims, Charlevilles-Mézières et Sedan. Spécialisé dans la création de site internet, le
-              référencement,
-              la rédaction web ainsi que l'intranet. Nous concevons le site internet qui répond aux
-              objectifs
-              de votre
-              entreprise : augmenter votre chiffre d'affaire, générer des contacts entrants, etc. Profitez
-              de
-              notre
-              expérience pour que la création de votre site internet soit une réussite !</p>
+          <p class="lead text-muted">Notre entreprise Maitrise WEB est située en Champagne-Ardennes, à
+            proximité de
+            Reims, Charlevilles-Mézières et Sedan. Spécialisé dans la création de site internet, le
+            référencement,
+            la rédaction web ainsi que l'intranet. Nous concevons le site internet qui répond aux
+            objectifs
+            de votre
+            entreprise : augmenter votre chiffre d'affaire, générer des contacts entrants, etc. Profitez
+            de
+            notre
+            expérience pour que la création de votre site internet soit une réussite !</p>
         </div>
       </div>
     </div>
@@ -60,7 +61,7 @@
                 laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
                 voluptas iste porro eligendi.
               </p><a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
-                            role="button">EN VOIR PLUS</a>
+                role="button">EN VOIR PLUS</a>
             </div>
             <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
             </div>
@@ -78,7 +79,7 @@
             <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
             </div>
             <div class="text-center col-sm-6">
-            <h2>Lorem ipsum dolor sit</h2>
+              <h2>Lorem ipsum dolor sit</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
                 laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
                 voluptas iste porro eligendi.
@@ -88,7 +89,7 @@
                 voluptas iste porro eligendi.
               </p><br>
               <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
-                            role="button">EN VOIR PLUS</a>
+                role="button">EN VOIR PLUS</a>
             </div>
           </div>
         </div>
@@ -102,7 +103,7 @@
           <hr>
           <div class="row align-items-center" id="service">
             <div class="text-center col-sm-6">
-            <h2>Lorem ipsum dolor sit</h2>
+              <h2>Lorem ipsum dolor sit</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
                 laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
                 voluptas iste porro eligendi.
@@ -112,7 +113,7 @@
                 voluptas iste porro eligendi.
               </p><br>
               <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
-                            role="button">EN VOIR PLUS</a>
+                role="button">EN VOIR PLUS</a>
             </div>
             <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
             </div>
@@ -130,7 +131,7 @@
             <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
             </div>
             <div class="text-center col-sm-6">
-            <h2>Lorem ipsum dolor sit</h2>
+              <h2>Lorem ipsum dolor sit</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
                 laudantium asperiores ab deserunt minus? Voluptates nisi molestias, sapiente eveniet labore voluptatem
                 voluptas iste porro eligendi.
@@ -140,7 +141,7 @@
                 voluptas iste porro eligendi.
               </p><br>
               <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
-                            role="button">EN VOIR PLUS</a>
+                role="button">EN VOIR PLUS</a>
             </div>
           </div>
         </div>
@@ -149,10 +150,11 @@
     <section id="team">
       <div class="container-fluid">
         <div class="row">
-          <div class="heading text-center col-sm-12 col-sm-offset-2  " data-wow-duration="1200ms"
-            data-wow-delay="300ms"
+          <div class="heading text-center col-sm-12 col-sm-offset-2  " data-wow-duration="1200ms" data-wow-delay="300ms"
             style="visibility: visible; animation-duration: 1200ms; animation-delay: 300ms; animation-name: fadeInUp;">
-            <hr><h2>Notre Equipe</h2><hr>
+            <hr>
+            <h2>Notre Equipe</h2>
+            <hr>
             <p>SI TU VEUT DU TEST ICI</p>
           </div>
         </div>
@@ -223,29 +225,29 @@
       </div>
     </section>
     <div class="container_fluide" id="section4">
-            <div class="jumbotron text-center">
-                <div class="container">
-                    
-                    <p class="lead text-muted">VOUS AVEZ UN PROJET WEB ?</p>
-                    <p class="lead">
-                        <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
-                            role="button">PARLONS-EN !</a>
-                    </p>
+      <div class="jumbotron text-center">
+        <div class="container">
 
-                </div>
-            </div>
+          <p class="lead text-muted">VOUS AVEZ UN PROJET WEB ?</p>
+          <p class="lead">
+            <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
+              role="button">PARLONS-EN !</a>
+          </p>
+
         </div>
+      </div>
+    </div>
   </main>
 
   <footer><?php include ('footer.php'); ?></footer>
 
-   <!--debut back-to-top-->
+  <!--debut back-to-top-->
 
-   <div id="back-to-top">
-        <a href="#" title="Haut de page" class="scrollup"><i class="fa fa-arrow-circle-up"></i></a> 
-    </div>
+  <div id="back-to-top">
+    <a href="#" title="Haut de page" class="scrollup"><i class="fa fa-arrow-circle-up"></i></a>
+  </div>
 
-    <!--fin back-to-top-->
+  <!--fin back-to-top-->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -61,10 +61,10 @@
 </head>
 
 <body>
-<!-- Preloader -->
-<div id="preloader">
-  <div id="status">&nbsp;</div>
-</div>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
     <header><?php include ('header.php'); ?> </header>
 
     <main class="global">
@@ -77,16 +77,16 @@
             </div>
         </div>
         <div class="container_fluide"><?php include ('slider.php'); ?></div>
-        
+
         <?php include ('stripes.php'); ?>
         <?php include ('gallery.php'); ?>
         <?php include ('parallax.php'); ?>
-        
-        
+
+
         <div class="container_fluide" id="section4">
             <div class="jumbotron text-center">
                 <div class="container">
-                   
+
                     <p class="lead text-muted">Un projet en tête ? venez nous en faire part. MAITRISE WEB répondra a vos
                         besoins en vous écoutant.</p>
                     <p class="lead">
@@ -97,14 +97,14 @@
                 </div>
             </div>
         </div>
-<?php include ('testimodial.php'); ?>
+        <?php include ('testimodial.php'); ?>
     </main>
 
     <footer><?php include ('footer.php'); ?></footer>
     <!--debut back-to-top-->
 
     <div id="back-to-top">
-        <a href="#" title="Haut de page" class="scrollup"><i class="fa fa-arrow-circle-up"></i></a> 
+        <a href="#" title="Haut de page" class="scrollup"><i class="fa fa-arrow-circle-up"></i></a>
     </div>
 
     <!--fin back-to-top-->
@@ -124,11 +124,15 @@
     <script type="text/javascript" src="slider/assets/warning.js"></script>
     <script type="text/javascript" src="js/header.js"></script>
     <script src="js/parallax.min.js"></script>
-    <script> $(window).on('load', function() { // makes sure the whole site is loaded 
-  $('#status').fadeOut(); // will first fade out the loading animation 
-  $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-  $('body').delay(350).css({'overflow':'visible'});
-})</script>
+    <script>
+        $(window).on('load', function () { // makes sure the whole site is loaded 
+            $('#status').fadeOut(); // will first fade out the loading animation 
+            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+            $('body').delay(350).css({
+                'overflow': 'visible'
+            });
+        })
+    </script>
 </body>
 
 </html>

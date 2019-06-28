@@ -25,8 +25,8 @@
     </div>
     <div id="top"></div>
     <main class="global">
-    
-    
+
+
         <section id="contact">
             <div id="contact-us">
                 <div class="container">
@@ -34,7 +34,9 @@
                         <div class="heading text-center col-sm-12 col-sm-offset-2  fadeInUp" data-wow-duration="1000ms"
                             data-wow-delay="300ms">
 
-                            <hr><h2>Une question ? Un projet ? </h2><hr>
+                            <hr>
+                            <h2>Une question ? Un projet ? </h2>
+                            <hr>
                             <p>Envoyer nous un message.</p>
                         </div>
                     </div>
@@ -56,7 +58,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="form-group">
                                         <textarea name="message" id="message" class="form-control" rows="4"
                                             placeholder="Enter your message" required="required"></textarea>
@@ -72,29 +74,28 @@
             </div>
         </section>
         <section id="services2">
-      <div class="container-fluid">
-        <div class="heading wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="300ms">
-          <hr>
-          <h2>Notre agence est là pour vous</h2>
-          <hr>
-          <div class="row align-items-center" id="service">
-            
-            <div class="text-center col-sm-12">
-            <h2>18 A Avenue bleleldlel</h2>
-              <p>08000 Charleville-Mézières
-              </p><br>
-              <p>tel : 0909090909
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+            <div class="container-fluid">
+                <div class="heading wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <hr>
+                    <h2>Notre agence est là pour vous</h2>
+                    <hr>
+                    <div class="row align-items-center" id="service">
 
-            <iframe
-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2576.9561940697363!2d4.720275315706772!3d49.768080979387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ea0e062e03d7e9%3A0xc5cc5f6ee91f2b25!2sCCI+des+Ardennes!5e0!3m2!1sfr!2sfr!4v1553546933236"
-width="100%" height="300" frameborder="0" style="border:0"
-  allowfullscreen></iframe>
+                        <div class="text-center col-sm-12">
+                            <h2>18 A Avenue bleleldlel</h2>
+                            <p>08000 Charleville-Mézières
+                            </p><br>
+                            <p>tel : 0909090909
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2576.9561940697363!2d4.720275315706772!3d49.768080979387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ea0e062e03d7e9%3A0xc5cc5f6ee91f2b25!2sCCI+des+Ardennes!5e0!3m2!1sfr!2sfr!4v1553546933236"
+            width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
         </section>
         <div class="row" id="service">
             <img class="img-fluid" alt="Responsive image" src="img/1624.jpg">
@@ -102,10 +103,10 @@ width="100%" height="300" frameborder="0" style="border:0"
     </main>
     <footer><?php include ('footer.php'); ?></footer>
 
-     <!--debut back-to-top-->
+    <!--debut back-to-top-->
 
-     <div id="back-to-top">
-        <a href="#" title="Haut de page" class="scrollup"><i class="fa fa-arrow-circle-up"></i></a> 
+    <div id="back-to-top">
+        <a href="#" title="Haut de page" class="scrollup"><i class="fa fa-arrow-circle-up"></i></a>
     </div>
 
     <!--fin back-to-top-->

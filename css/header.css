@@ -3,8 +3,9 @@
     letter-spacing: 0.1em;
 }
 
-html{
-    scroll-behavior: smooth;            /* effet scroll entre les liens navbar et les sections  /!\ voir pour IE */
+html {
+    scroll-behavior: smooth;
+    /* effet scroll entre les liens navbar et les sections  /!\ voir pour IE */
 }
 
 h2 {
@@ -20,7 +21,7 @@ h2 {
 }
 
 .nav-title {
-    display: none;    
+    display: none;
 }
 
 .navbar-nav {
@@ -125,7 +126,8 @@ nav.black .nav-link {
         display: none;
 
     }
-    .dropdown-menu{
+
+    .dropdown-menu {
         z-index: 900;
     }
 
@@ -151,10 +153,11 @@ nav.black .nav-link {
         margin: 0 2%;
     }
 
-    nav.black{
+    nav.black {
         height: 65px;
         transition: 0.5s;
     }
+
     nav.black ul,
     nav.black .logo {
         height: 85px;
@@ -169,7 +172,7 @@ nav.black .nav-link {
         justify-content: center;
     }
 
-    nav.black .navbar-toggler{
+    nav.black .navbar-toggler {
         margin: 1% 2% 2% 2%;
         transition: 0.5s;
     }

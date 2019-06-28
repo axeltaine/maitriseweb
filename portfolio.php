@@ -237,27 +237,27 @@
 	</section>
 	<!-- / projects -->
 	<div class="container_fluide" id="section4">
-            <div class="jumbotron text-center">
-                <div class="container">
-                    
-                    <p class="lead text-muted">VOUS AVEZ UN PROJET WEB ?</p>
-                    <p class="lead">
-                        <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
-                            role="button">PARLONS-EN !</a>
-                    </p>
+		<div class="jumbotron text-center">
+			<div class="container">
 
-                </div>
-            </div>
-        </div>
+				<p class="lead text-muted">VOUS AVEZ UN PROJET WEB ?</p>
+				<p class="lead">
+					<a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
+						role="button">PARLONS-EN !</a>
+				</p>
+
+			</div>
+		</div>
+	</div>
 	<footer><?php include ('footer.php');?></footer>
 
-	 <!--debut back-to-top-->
+	<!--debut back-to-top-->
 
-	 <div id="back-to-top">
-        <a href="#" title="Haut de page" class="scrollup"><i class="fa fa-arrow-circle-up"></i></a> 
-    </div>
+	<div id="back-to-top">
+		<a href="#" title="Haut de page" class="scrollup"><i class="fa fa-arrow-circle-up"></i></a>
+	</div>
 
-    <!--fin back-to-top-->
+	<!--fin back-to-top-->
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

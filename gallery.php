@@ -1,8 +1,7 @@
-
 <section class="gallery">
-		<div class="container-fluid mini-gallery">
-				<div class="row">
-					<h2 style="margin: 3% auto;">NOS PROJETS & CREATIONS</h2>
+	<div class="container-fluid mini-gallery">
+		<div class="row">
+			<h2 style="margin: 3% auto;">NOS PROJETS & CREATIONS</h2>
 			<div class="col-sm-12">
 				<ul class="filter font-alt" id="filters">
 					<li><a class="current wow fadeInUp" href="#" data-filter="*"
