@@ -45,13 +45,13 @@
                             <div class="col-sm-12">
                                 <form id="main-contact-form" name="contact-form" method="post" action="#">
                                     <div class="row   fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6" style="   padding-left: 0;">
                                             <div class="form-group">
                                                 <input type="text" name="name" class="form-control" placeholder="Name"
                                                     required="required">
                                             </div>
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6" style="    padding: 0 auto;">
                                             <div class="form-group">
                                                 <input type="email" name="email" class="form-control"
                                                     placeholder="Email Address" required="required">
