@@ -88,7 +88,7 @@
         width: 100%;
         top: 0;
         bottom: 0;
-        background: rgba(0, 0, 0, 0.3);
+        background: rgba(0, 0, 0, 0.5);
         content: "";
         opacity: 0;
         -webkit-transition: all 0.3s linear;
