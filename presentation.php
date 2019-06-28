@@ -258,6 +258,7 @@
   </script>
   <script type="text/javascript" src="js/header.js"></script>
   <script src="js/parallax.min.js"></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 </body>
 
 </html>
