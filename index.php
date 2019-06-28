@@ -105,7 +105,7 @@
 
     
         <a  id="button" title="Haut de page"></a>
-    <
+    
 
     <!--fin back-to-top-->
 
