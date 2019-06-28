@@ -12,7 +12,7 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="contact.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/hover-min.css" rel="stylesheet">
@@ -100,7 +100,7 @@ width="100%" height="300" frameborder="0" style="border:0"
             <img class="img-fluid" alt="Responsive image" src="img/1624.jpg">
         </div>
     </main>
-    <footer><?php include ('footer.html'); ?></footer>
+    <footer><?php include ('footer.php'); ?></footer>
 
      <!--debut back-to-top-->
 

@@ -27,6 +27,9 @@
     margin: -100px 0 0 -100px;
     /* is width and height divided by two */
   }
+
+/* Preloader close*/
+
 .jumbotron {
     margin-bottom: 0;
     background-color: white;
@@ -37,7 +40,7 @@
     min-height: 600px;
     background: transparent;
 }
-/* fin parallax*/
+/*parallax close*/
 
 .btn-lg{
     background-color: #1E2022!important;
@@ -106,33 +109,7 @@
 .white-heading{
     color: #ffffff;
 }
-/*.heading:after {
-    content: ' ';
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    height: 40px;
-    width: 180px;
-    border-radius: 4px;
-    transform: translateX(-50%);
-    background: url(img/heading-line.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.white-heading:after {
-    background: url(https://i.ibb.co/d7tSD1R/heading-line-white.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
-.heading span {
-    font-size: 18px;
-    display: block;
-    font-weight: 500;
-}
-.white-heading span {
-    color: #ffffff;
-}
 /*-----Testimonial-------*/
 
 .testimonial:after {
@@ -326,7 +303,7 @@
 }
 /* ------testimonial  close-------*/
 
-/*-----Testimonial-------*/
+/* ------footer-------*/
 
 footer{
     background-color: #1E2022 !important;
@@ -342,7 +319,7 @@ footer a:hover{
     color: #eee;
 }
 
-/*-----Testimonial  close-------*/
+/* ------footer  close-------*/
 
 @media only screen and (max-width: 576px) {
 

@@ -249,7 +249,7 @@
                 </div>
             </div>
         </div>
-	<footer><?php include ('footer.html');?></footer>
+	<footer><?php include ('footer.php');?></footer>
 
 	 <!--debut back-to-top-->
 

@@ -76,11 +76,11 @@
                 </span>
             </div>
         </div>
-        <div class="container_fluide"><?php include ('slider.html'); ?></div>
+        <div class="container_fluide"><?php include ('slider.php'); ?></div>
         
         <?php include ('stripes.php'); ?>
-        <?php include ('gallery.html'); ?>
-        <?php include ('parallax.html'); ?>
+        <?php include ('gallery.php'); ?>
+        <?php include ('parallax.php'); ?>
         
         
         <div class="container_fluide" id="section4">
@@ -100,7 +100,7 @@
 <?php include ('testimodial.php'); ?>
     </main>
 
-    <footer><?php include ('footer.html'); ?></footer>
+    <footer><?php include ('footer.php'); ?></footer>
     <!--debut back-to-top-->
 
     <div id="back-to-top">
