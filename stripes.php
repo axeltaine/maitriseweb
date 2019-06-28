@@ -62,7 +62,7 @@
         line-height: 0;
     }
 
-    .stripes-content:before{
+    .stripes-content a:before{
         position: absolute;
         width: 100px;
         height: 100px;
@@ -78,12 +78,12 @@
         transition: all 0.3s linear;
     }
 
-    .stripes-content:hover:before{
+    .stripes-content a:hover:before{
         top: 50%;
         opacity: 0.8;
     }
 
-    .stripes-content:after{
+    .stripes-content a:after{
         position: absolute;
         width: 100%;
         top: 0;
@@ -98,7 +98,7 @@
         margin: 0;
     }
 
-    .stripes-content:hover:after{
+    .stripes-content a:hover:after{
         opacity: 1;
     }
 
