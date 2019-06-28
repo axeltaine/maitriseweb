@@ -50,7 +50,7 @@
           <hr>
           <h2>Nos Sites Vitrine</h2>
           <hr>
-          <div class="row align-items-center" id="service">
+          <div class="row align-items-center" id="service" style="flex-wrap: wrap-reverse;">
             <div class="text-center col-sm-6">
               <h2>Lorem ipsum dolor sit</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
@@ -75,7 +75,7 @@
           <hr>
           <h2>Nos Sites E-commerce</h2>
           <hr>
-          <div class="row align-items-center" id="service">
+          <div class="row align-items-center" id="service" >
             <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
             </div>
             <div class="text-center col-sm-6">
@@ -127,7 +127,7 @@
           <hr>
           <h2>Nos Identitées visuel</h2>
           <hr>
-          <div class="row align-items-center" id="service">
+          <div class="row align-items-center" id="service" style="flex-wrap: wrap-reverse;">
             <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
             </div>
             <div class="text-center col-sm-6">
