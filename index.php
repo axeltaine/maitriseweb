@@ -103,9 +103,9 @@
     <footer><?php include ('footer.php'); ?></footer>
     <!--debut back-to-top-->
 
-    <div id="back-to-top">
-        <a href="#" title="Haut de page" class="scrollup"><i class="fa fa-arrow-circle-up"></i></a>
-    </div>
+    
+        <a  id="button" title="Haut de page"></a>
+    <
 
     <!--fin back-to-top-->
 
