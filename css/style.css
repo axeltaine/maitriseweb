@@ -401,7 +401,7 @@ footer a:hover {
   z-index: 1000;
 }
 #button::after {
-  content: "\f077";
+  content: "\2227";
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
