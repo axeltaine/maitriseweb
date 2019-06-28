@@ -69,7 +69,7 @@
         background: url(img/logo_transpa.png) no-repeat;
         content: "";
         opacity: 0;
-        z-index: 990;
+        z-index: 110;
         -webkit-transition: all 0.3s linear;
         -moz-transition: all 0.3s linear;
         transition: all 0.3s linear;
@@ -91,7 +91,7 @@
         -webkit-transition: all 0.3s linear;
         -moz-transition: all 0.3s linear;
         transition: all 0.3s linear;
-        z-index: 999;
+        z-index: 111;
         margin: 0;
     }
 
