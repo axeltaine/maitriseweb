@@ -51,7 +51,7 @@
                                                     required="required">
                                             </div>
                                         </div>
-                                        <div class="col-sm-6" style="    padding: 0 auto;">
+                                        <div class="col-sm-6" style="    padding: 0;">
                                             <div class="form-group">
                                                 <input type="email" name="email" class="form-control"
                                                     placeholder="Email Address" required="required">
