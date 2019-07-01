@@ -1,4 +1,14 @@
-/* Preloader */
+/**************************************************** global ***********************************************/
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* global close */
+
+/**************************************************** Preloader ***********************************************/
 
 #preloader {
   position: fixed;
@@ -30,11 +40,6 @@
 
 /* Preloader close*/
 
-.jumbotron {
-  margin-bottom: 0;
-  background-color: white;
-}
-
 /*parallax*/
 .parallax-window {
   min-height: 600px;
@@ -43,6 +48,8 @@
 
 /*parallax close*/
 
+
+/**************************************************** gallery ***********************************************/
 .btn-lg {
   background-color: #1E2022 !important;
 }
@@ -86,35 +93,25 @@
   line-height: 3em;
 }
 
-@media only screen and (max-width: 990px) {
+/*gallery close*/
 
-  #filters {
-    display: none;
-  }
-
-  .drop {
-    display: block;
-    margin: 3% 0;
-  }
-
-
+/**************************************************** jumbotron ***********************************************/
+.jumbotron {
+  margin-bottom: 0;
+  background-color: white;
 }
 
-.heading {
+/*jumbotron close*/
 
+/**************************************************** Testimonial ***********************************************/
+
+
+.heading {
   color: #454343;
   font-weight: 700;
   position: relative;
   text-transform: uppercase;
-
-
 }
-
-.white-heading {
-  color: #ffffff;
-}
-
-/*-----Testimonial-------*/
 
 .testimonial:after {
   position: absolute;
@@ -324,7 +321,7 @@
 
 /* ------testimonial  close-------*/
 
-/* ------footer-------*/
+/**************************************************** footer ***********************************************/
 
 footer {
   background-color: #1E2022 !important;
@@ -342,47 +339,8 @@ footer a:hover {
 
 /* ------footer  close-------*/
 
-@media only screen and (max-width: 576px) {
 
-  .mini-gallery {
-    padding: 0 !important;
-  }
-
-  .mini-gallery .site {
-    padding: 0;
-  }
-
-
-  .gallery .site {
-    padding: 0;
-    margin-top: 10px;
-  }
-
-  .header {
-    height: 100vh;
-  }
-
-  .tp-mask-wrap {
-    text-align: center !important;
-  }
-
-  .tp-parallax-wrap {
-    left: 4px !important;
-  }
-
-  .tp-splitted {
-    display: flex !important;
-    justify-content: center !important;
-  }
-
-  .sous-texte {
-    margin-left: 20%;
-    margin-top: 50%;
-
-  }
-}
-
-/* debut back-to-top*/
+/**************************************************** debut back-to-top ***********************************************/
 
 #button {
   display: inline-block;
@@ -423,8 +381,71 @@ footer a:hover {
 
 /* fin back-to-top*/
 
-hr {
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
+@media only screen and (max-width: 990px) {
+
+/****************************************************  gallery responsive ***********************************************/
+  
+  #filters {
+    display: none;
+  }
+
+  .drop {
+    display: block;
+    margin: 3% 0;
+  }
+/* ------gallery responsive close-------*/
+
+}
+
+@media only screen and (max-width: 576px) {
+
+/**************************************************** gallery responsive ***********************************************/
+
+  .mini-gallery {
+    padding: 0 !important;
+  }
+
+  .mini-gallery .site {
+    padding: 0;
+  }
+
+
+  .gallery .site {
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  /* ------gallery responsive close-------*/
+
+  /**************************************************** headers responsive **********************************************/
+
+  .header {
+    height: 100vh;
+  }
+
+  /* ------headers responsive close-------*/
+
+  /**************************************************** parallax responsive **********************************************/
+
+  .tp-mask-wrap {
+    text-align: center !important;
+  }
+
+  .tp-parallax-wrap {
+    left: 4px !important;
+  }
+
+  .tp-splitted {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .sous-texte {
+    margin-left: 20%;
+    margin-top: 50%;
+
+  }
+
+    /* ------parallax responsive-------*/
 }
