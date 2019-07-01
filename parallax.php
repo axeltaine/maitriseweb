@@ -76,5 +76,5 @@
           </div>
         </div>
 </div>
-		<div class="parallax__container"><div class="parallax" data-parallax-image="img/para-flou.jpg" style="background-image: url(&quot;img/para-flou.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; top: -0.0507812px;"></div>
+		<div class="parallax__container"><div class="parallax" data-parallax-image="img/para-flou.jpg" style="background-image: url(&quot;img/para-flou.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover; top: -0.0507812px;"></div></div>
 	</section>

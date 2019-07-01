@@ -23,7 +23,6 @@
     <!-- LOADING FONTS AND ICONS -->
     <link href="http://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet" property="stylesheet"
         type="text/css" media="all">
-
     <link rel="stylesheet" type="text/css" href="slider/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
     <link rel="stylesheet" type="text/css" href="slider/revolution/fonts/font-awesome/css/font-awesome.css">
 
@@ -33,7 +32,6 @@
     <!-- FONT AND STYLE FOR BASIC DOCUMENTS, NO NEED FOR FURTHER USAGE IN YOUR PROJECTS-->
     <link href="http://fonts.googleapis.com/css?family=Roboto%3A700%2C300" rel="stylesheet" property="stylesheet"
         type="text/css" media="all" />
-
 
     <!-- REVOLUTION JS FILES -->
     <script type="text/javascript" src="slider/revolution/js/jquery.themepunch.tools.min.js"></script>
@@ -83,7 +81,6 @@
         <?php include ('stripes.php'); ?>
         <?php include ('gallery.php'); ?>
         <?php include ('parallax.php'); ?>
-
 
         <div class="container_fluide" id="section4">
             <div class="jumbotron text-center">

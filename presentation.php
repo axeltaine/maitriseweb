@@ -63,7 +63,8 @@
               </p><a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
                 role="button">EN VOIR PLUS</a>
             </div>
-            <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
+            <div class="text-right col-sm-6">
+            <img class="thumbnail" src="img/para-flou.jpg" alt="image">
             </div>
           </div>
         </div>
@@ -76,7 +77,8 @@
           <h2>Nos Sites E-commerce</h2>
           <hr>
           <div class="row align-items-center" id="service" >
-            <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
+            <div class="text-right col-sm-6">
+            <img class="thumbnail" src="img/para-flou.jpg" alt="image">
             </div>
             <div class="text-center col-sm-6">
               <h2>Lorem ipsum dolor sit</h2>
@@ -115,7 +117,8 @@
               <a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
                 role="button">EN VOIR PLUS</a>
             </div>
-            <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
+            <div class="text-right col-sm-6">
+            <img class="thumbnail" src="img/para-flou.jpg" alt="image">
             </div>
           </div>
         </div>
@@ -128,7 +131,8 @@
           <h2>Nos Identitées visuel</h2>
           <hr>
           <div class="row align-items-center" id="service" >
-            <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
+            <div class="text-right col-sm-6">
+            <img class="thumbnail" src="img/para-flou.jpg" alt="image">
             </div>
             <div class="text-center col-sm-6">
               <h2>Lorem ipsum dolor sit</h2>
@@ -252,7 +256,9 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
   <script type="text/javascript" src="js/header.js"></script>
-  <script src="js/parallax.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+  <script>var image = document.getElementsByClassName('thumbnail');
+new simpleParallax(image);</script>
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 </body>
 
