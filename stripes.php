@@ -30,7 +30,7 @@
         <div class="stripes-content">
             <a href="presentation.php#services4">
                 <img class="stripes-img" src="img/49608100_1716725738429074_4809086061131071488_o.jpg" alt="">
-                <span class="stripes-title">IDENTITÉE VISUEL</span>
+                <span class="stripes-title">IDENTITÉE VISUELLE</span>
             </a>
         </div>
     </div>

@@ -32,10 +32,12 @@
 
 .stripes-title {
     position: absolute;
-    margin-top: -600px;
+    margin-top: -800px;
     z-index: 300;
+    font-size: 1.2em;
+    font-weight: 600;
     display: block;
-    left: 10em;
+    left: -14em;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
@@ -49,6 +51,12 @@
 .stripes-content:hover {
     transform: scale(1.2);
     transition: all 5s ease;
+}
+
+.stripes-content:hover span{
+    opacity:1;
+    transform: translateX(16em);
+	transition: .4s .3s ease;
 }
 
 .stripes-content a{
