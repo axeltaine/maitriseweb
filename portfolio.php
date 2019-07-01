@@ -65,6 +65,7 @@
 						style="color: #2C3034 !important;"></i></a>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item01">
+					<h3 class="site-title">blablabou</h3>
 						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
 							data-wow-duration="1000ms" data-wow-delay="300ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: flipInY;"
@@ -73,6 +74,7 @@
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item01">
+							<h3 class="site-title">blablabou</h3>
 						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
 							data-wow-duration="1000ms" data-wow-delay="500ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 500ms; animation-name: flipInY;"
@@ -81,6 +83,7 @@
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item01">
+							<h3 class="site-title">blablabou</h3>
 						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
 							data-wow-duration="1000ms" data-wow-delay="700ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 700ms; animation-name: flipInY;"
@@ -89,6 +92,7 @@
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item01">
+							<h3 class="site-title">blablabou</h3>
 						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
 							data-wow-duration="1000ms" data-wow-delay="900ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 900ms; animation-name: flipInY;"
@@ -97,6 +101,7 @@
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
+							<h3 class="site-title">blablabou</h3>
 						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
 							data-wow-duration="1000ms" data-wow-delay="1100ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 1100ms; animation-name: flipInY;"
@@ -105,6 +110,7 @@
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
+							<h3 class="site-title">blablabou</h3>
 						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
 							data-wow-duration="1000ms" data-wow-delay="1300ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 1300ms; animation-name: flipInY;"
@@ -113,6 +119,7 @@
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
+							<h3 class="site-title">blablabou</h3>
 						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
 							data-wow-duration="1000ms" data-wow-delay="1500ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 1500ms; animation-name: flipInY;"
@@ -121,6 +128,7 @@
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
+							<h3 class="site-title">blablabou</h3>
 						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
 							data-wow-duration="1000ms" data-wow-delay="1700ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 1700ms; animation-name: flipInY;"
@@ -129,6 +137,7 @@
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
+							<h3 class="site-title">blablabou</h3>
 						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
 							data-wow-duration="1000ms" data-wow-delay="1900ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 1900ms; animation-name: flipInY;"
@@ -137,6 +146,7 @@
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
+							<h3 class="site-title">blablabou</h3>
 						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
 							data-wow-duration="1000ms" data-wow-delay="2100ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 2100ms; animation-name: flipInY;"
@@ -145,6 +155,7 @@
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
+							<h3 class="site-title">blablabou</h3>
 						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
 							data-wow-duration="1000ms" data-wow-delay="2300ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 2300ms; animation-name: flipInY;"
@@ -153,6 +164,7 @@
 				</div>
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a href="#item02">
+							<h3 class="site-title">blablabou</h3>
 						<img src="img/37775430_1508245949277055_4923942506057433088_o.jpg" class="wow flipInY animated"
 							data-wow-duration="1000ms" data-wow-delay="2500ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 2500ms; animation-name: flipInY;"
