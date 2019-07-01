@@ -15,7 +15,6 @@
     <link href="css/header.css" rel="stylesheet">
     <link href="css/hover-min.css" rel="stylesheet">
     <link href="css/stripes.css" rel="stylesheet">
-    <link href="css/nav.css" rel="stylesheet">
     <link href="css/parallax.css" rel="stylesheet">
 
     <!-- LOAD JQUERY LIBRARY -->

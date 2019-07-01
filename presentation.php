@@ -17,7 +17,6 @@
   <link href="css/style.css" rel="stylesheet">
   <link href="css/header.css" rel="stylesheet">
   <link href="css/hover-min.css" rel="stylesheet">
-  <link href="css/nav.css" rel="stylesheet">
 </head>
 
 <body>
