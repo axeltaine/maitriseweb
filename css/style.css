@@ -1,10 +1,75 @@
 /**************************************************** global ***********************************************/
 
+* {
+  font-family: roboto;
+  letter-spacing: 0.1em;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* effet scroll entre les liens navbar et les sections  /!\ voir pour IE */
+}
+
 hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+
+h2 {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.row {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0;
+  clear: both;
+}
+
+.row img {
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+
+/**************************************************** global/headers ***********************************************/
+
+.header {
+  background-image: url(../img/para-flou.jpg);
+  color: #fff;
+  text-align: center;
+  padding: 140px 0 120px;
+}
+
+.header h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 65px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 0.8;
+  padding-top: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header h1 span {
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 25px;
+  line-height: 1;
+}
+
+.header p {
+  padding-top: 30px;
+}
+
+/* global/headers close */
 
 /* global close */
 

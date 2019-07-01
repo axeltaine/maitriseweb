@@ -1,11 +1,26 @@
-#team {
-  padding-top: 0;
+
+/**************************************************** services ***********************************************/
+
+.row {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0;
+  clear: both;
 }
 
-h2 {
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1em;
+#service img {
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+/* services close */
+
+/**************************************************** team ***********************************************/
+
+#team {
+  padding-top: 0;
 }
 
 .team-members {
@@ -89,37 +104,4 @@ h2 {
   margin-bottom: 15px;
   color: #999;
 }
-
-.row {
-  width: 100%;
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0;
-  clear: both;
-}
-
-.row img {
-  max-width: 100%;
-  height: auto;
-  padding: 0;
-  margin: 0;
-}
-
-#service {
-  margin-right: 0;
-  margin-left: 0;
-  max-width: 100%;
-}
-
-#service img {
-  max-width: 100%;
-  height: auto;
-  padding: 0;
-  margin: 0;
-}
-
-hr {
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
+/* team close */

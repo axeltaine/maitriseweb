@@ -1,52 +1,8 @@
-.row {
-  width: 100%;
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0;
-  clear: both;
-}
-
-.row img {
-  max-width: 100%;
-  height: auto;
-  padding: 0;
-  margin: 0;
-}
 
 .gallery ul li {
   float: left;
   margin: 0 0.87719%;
   overflow: hidden;
-}
-
-.header {
-  background-image: url(../img/para-flou.jpg);
-
-  color: #fff;
-  text-align: center;
-  padding: 140px 0 120px;
-}
-
-.header h1 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 65px;
-  font-weight: 400;
-  letter-spacing: 3px;
-  line-height: 0.8;
-  padding-top: 50px;
-  font-family: "Montserrat", sans-serif;
-}
-
-.header h1 span {
-  text-transform: uppercase;
-  letter-spacing: 7px;
-  font-size: 25px;
-  line-height: 1;
-}
-
-.header p {
-  padding-top: 30px;
 }
 
 .filter {
@@ -132,6 +88,8 @@
 .gallery .site a:hover:after {
   opacity: 1;
 }
+
+/**************************************************** modal ***********************************************/
 
 .port {
   position: absolute;
@@ -232,6 +190,10 @@
 .close:not(:disabled):not(.disabled):hover {
   opacity: 1;
 }
+
+/*modal close*/
+
+/**************************************************** media queries ***********************************************/
 
 @media only screen and (max-width: 576px) {
 
