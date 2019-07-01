@@ -98,11 +98,11 @@
     </section>
     <section id="services3">
       <div class="container-fluid">
-        <div class="heading  " data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="heading" data-wow-duration="1000ms" data-wow-delay="300ms">
           <hr>
           <h2>Nos Applications interne</h2>
           <hr>
-          <div class="row align-items-center" id="service">
+          <div class="row align-items-center" id="service" style="flex-wrap: wrap-reverse;">
             <div class="text-center col-sm-6">
               <h2>Lorem ipsum dolor sit</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis qui iure repellat in,
@@ -128,7 +128,7 @@
           <hr>
           <h2>Nos Identitées visuel</h2>
           <hr>
-          <div class="row align-items-center" id="service" style="flex-wrap: wrap-reverse;">
+          <div class="row align-items-center" id="service" >
             <div class="text-right col-sm-6 parallax-window" data-parallax="scroll" data-image-src="img/para-flou.jpg">
             </div>
             <div class="text-center col-sm-6">
