@@ -99,12 +99,10 @@
   left: 0;
   padding-top: 140px;
   background: #ffffff;
-  background-color: #fafafa;
   z-index: 103;
   visibility: hidden;
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
-  border-bottom: 1px solid #d0d0d0;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
