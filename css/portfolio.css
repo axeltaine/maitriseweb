@@ -39,6 +39,20 @@
   position: relative;
 }
 
+.gallery .site-title{
+  display: block;
+  position: absolute;
+  top: -30px;
+  margin-top: 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  left: 30%;
+  z-index: 500;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  opacity: 0;
+}
+
 .gallery .site a {
   display: block;
   position: relative;
@@ -63,6 +77,12 @@
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   transition: all 0.3s linear;
+}
+
+.gallery .site a:hover h3{
+  transform: translateY(40px);
+  transition: all 0.3s linear;
+  opacity: 1;
 }
 
 .gallery .site a:hover:before {
