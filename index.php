@@ -14,6 +14,9 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/hover-min.css" rel="stylesheet">
+    <link href="css/stripes.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/parallax.css" rel="stylesheet">
 
     <!-- LOAD JQUERY LIBRARY -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
@@ -56,7 +59,7 @@
     <script type="text/javascript" src="slider/revolution/js/extensions/revolution.extension.slideanims.min.js">
     </script>
     <script type="text/javascript" src="slider/revolution/js/extensions/revolution.extension.video.min.js"></script>
-
+    <script type="text/javascript" src="js/slider.js"></script>
 
 </head>
 
@@ -101,14 +104,6 @@
     </main>
 
     <footer><?php include ('footer.php'); ?></footer>
-    <!--debut back-to-top-->
-
-    
-        <a  id="button" title="Haut de page"></a>
-    
-
-    <!--fin back-to-top-->
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -123,16 +118,8 @@
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script type="text/javascript" src="slider/assets/warning.js"></script>
     <script type="text/javascript" src="js/header.js"></script>
-    <script src="js/parallax.min.js"></script>
-    <script>
-        $(window).on('load', function () { // makes sure the whole site is loaded 
-            $('#status').fadeOut(); // will first fade out the loading animation 
-            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-            $('body').delay(350).css({
-                'overflow': 'visible'
-            });
-        })
-    </script>
+    <script type="text/javascript" src="js/parallax.min.js"></script>
+    <script type="text/javascript" src="js/loader.js"></script>
+   
 </body>
-
 </html>

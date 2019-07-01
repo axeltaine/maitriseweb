@@ -51,3 +51,9 @@
         </div>
     </div>
 </div>
+
+    <!--debut back-to-top-->
+
+    <a  id="button" title="Haut de page"></a>
+
+    <!--fin back-to-top-->

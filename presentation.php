@@ -17,6 +17,7 @@
   <link href="css/style.css" rel="stylesheet">
   <link href="css/header.css" rel="stylesheet">
   <link href="css/hover-min.css" rel="stylesheet">
+  <link href="css/nav.css" rel="stylesheet">
 </head>
 
 <body>
@@ -240,11 +241,6 @@
   </main>
 
   <footer><?php include ('footer.php'); ?></footer>
-
-  <!--debut back-to-top-->
-
-  <a  id="button" title="Haut de page"></a>
-  <!--fin back-to-top-->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

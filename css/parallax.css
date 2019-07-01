@@ -1,0 +1,76 @@
+  .cadre {
+    height: 26em;
+    transform: translateY(15%);
+    margin: 0 15%;
+    background-color: #eee;
+    opacity: 0.6;
+    border-radius: 5px;
+  }
+
+  .para-title {
+    color: black;
+    font-size: 36px;
+    line-height: 2.8em;
+    font-weight: 600;
+  }
+
+  .para-text {
+    font-size: 22px;
+    color: black;
+  }
+
+  .icon-text {
+    color: black;
+    font-size: 22px;
+    margin: 15% 1%;
+    text-transform: uppercase;
+  }
+
+  .icon {
+    text-align: center;
+  }
+
+  .icon-rang {
+    transform: translateY(30%);
+  }
+
+  .parallax-window {
+    text-align: center;
+    min-height: 530px;
+  }
+
+  #parallax-mobile {
+    display: none;
+  }
+
+  @media only screen and (max-width: 767px) {
+    #parallax-mobile {
+      display: block;
+    }
+
+    #parallax {
+      display: none;
+    }
+
+    .para-title {
+      font-size: 24px;
+      line-height: 2.4em;
+    }
+
+    .para-text {
+      font-size: 18px;
+    }
+
+    .icon {
+      margin-top: 1.8rem;
+    }
+
+    .icon-rang {
+      transform: translateY(3%);
+    }
+
+    .icon-text {
+      font-size: 12px;
+      margin: 10% 2%;
+    }
+  }
