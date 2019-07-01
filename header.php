@@ -5,7 +5,6 @@
       <i class="fas fa-bars"></i>
     </span>
   </button>
-  <h2 class="nav-title" style="color:#eee">Maitrise WEB</h2>
   <a class="navbar-brand2" href="index.php">
     <h1 style="margin: 0!important"><img class="logo2" src="img/logo_transpa.png" alt="logo"></h1>
   </a>

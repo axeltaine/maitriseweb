@@ -160,12 +160,7 @@ nav.black .nav-link {
         transition: 0.5s;
     }
 
-    .nav-title {
-        display: block;
-        margin: 1% 0 0 -4%;
-        transition: 0.5s;
-        font-weight: 600;
-    }
+
 
     .navbar-brand {
         display: none;
