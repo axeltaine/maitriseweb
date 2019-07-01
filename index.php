@@ -104,14 +104,6 @@
 
     <footer><?php include ('footer.php'); ?></footer>
 
-
-    
-    <script>
-  $( function() {
-    $( document ).tooltip();
-  } );
-  </script>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
