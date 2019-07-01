@@ -123,9 +123,9 @@
     }
 </style>
 
-
+<hr>
 <h2 style="text-align: center; text-transform: uppercase; margin: 2% 0;">créations</h2>
-
+<hr>
 <div class="stripes-card">
     <div class="stripes">
         <div class="stripes-content">

@@ -23,6 +23,9 @@
 		<h1>MAitrise Web <br><span>[ Portfolio]</span></h1>
 	</div>
 	<div id="top"></div>
+	<hr>
+	<h2 style="text-align: center; text-transform: uppercase; margin: 2% 0;">NOS PROJETS & CREATIONS</h2>
+	<hr>
 	<section class="gallery">
 		<div class="container mini-gallery">
 			<div class="row">
@@ -253,7 +256,7 @@
 
 	<!--debut back-to-top-->
 
-	<a  id="button" title="Haut de page"></a>
+	<a id="button" title="Haut de page"></a>
 
 	<!--fin back-to-top-->
 
