@@ -218,4 +218,14 @@
   .boutons {
     margin-top: 0 !important;
   }
+
+  .gallery .site a:before {
+    left: 42%;
+  }
+
+  .gallery .site-title{
+    top: 0;
+    font-size: 2em;
+    opacity: 1;
+  }
 }
