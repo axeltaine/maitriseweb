@@ -1,10 +1,43 @@
-  .cadre {
+.parallax__container {
+	clip: rect(0, auto, auto, 0);
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -100;
+}
+
+.parallax {
+	position: fixed;
+	top: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+  width: 100%;
+  height: 100%;
+
+	/* BG behaviour */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}  
+
+.container-fluide {
+  position: relative;
+  min-height: 34em;
+}
+  
+  .content {
     height: 26em;
     transform: translateY(15%);
     margin: 0 15%;
     background-color: #eee;
     opacity: 0.6;
     border-radius: 5px;
+    text-align: center;
   }
 
   .para-title {

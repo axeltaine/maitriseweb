@@ -125,7 +125,7 @@
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script type="text/javascript" src="slider/assets/warning.js"></script>
     <script type="text/javascript" src="js/header.js"></script>
-    <script type="text/javascript" src="js/parallax.min.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/universal-parallax@1.3.2/dist/universal-parallax.min.js'></script>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script type="text/javascript" src="js/loader.js"></script>
    
