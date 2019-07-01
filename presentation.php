@@ -258,7 +258,10 @@
   <script type="text/javascript" src="js/header.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
   <script>var image = document.getElementsByClassName('thumbnail');
-new simpleParallax(image);</script>
+new simpleParallax(image, {
+	delay: .6,
+	transition: 'cubic-bezier(0,0,0,1)'
+});</script>
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 </body>
 
