@@ -1,8 +1,10 @@
+<hr>
+<h2 style="text-align: center; text-transform: uppercase; margin: 2% 0;">Ils nous on deja fait confiance :</h2>
+<hr>
+
 <section class="testimonial text-center">
     <div class="container-fluid">
-        <div class="heading black-heading">
-            Ils nous on deja fait confiance :
-        </div>
+  
         <div id="testimonial4"
             class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x"
             data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
@@ -47,3 +49,18 @@
         </div>
     </div>
 </section>
+<hr>
+<div class="container">
+   <section class="customer-logos slider">
+      <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
+      <div class="slide"><img src="http://www.webcoderskull.com/img/logo.png"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
+   </section>
+   <hr>
+</div>

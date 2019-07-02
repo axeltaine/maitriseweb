@@ -117,6 +117,8 @@
     <script src='https://cdn.jsdelivr.net/npm/universal-parallax@1.3.2/dist/universal-parallax.min.js'></script>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script type="text/javascript" src="js/loader.js"></script>
+    <script type="text/javascript" src="js/carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
    
 </body>
 </html>
