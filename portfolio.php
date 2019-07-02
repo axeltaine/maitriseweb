@@ -26,7 +26,7 @@
 	<hr>
 	<h2 style="text-align: center; text-transform: uppercase; margin: 2% 0;">NOS PROJETS & CREATIONS</h2>
 	<hr>
-	<section class="gallery">
+	<section class="gallery" style="padding-bottom: 40px;">
 		<div class="container mini-gallery">
 			<div class="row">
 				<div class="col-12">
