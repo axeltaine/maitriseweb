@@ -33,7 +33,7 @@
                             data-wow-delay="300ms">
                             <hr>
                             <h2>Une question ? Un projet ? </h2>
-                            <hr>
+                            <hr><br>
                             <p>Envoyer nous un message.</p>
                         </div>
                     </div>
@@ -77,7 +77,7 @@
                     <h2>Notre agence est là pour vous</h2>
                     <hr>
                     <div class="row align-items-center" id="service">
-                        <div class="text-center col-sm-12">
+                        <div class="text-center col-sm-12 mt-3 mb-5">
                             <h2>18 A Avenue bleleldlel</h2>
                             <p>08000 Charleville-Mézières
                             </p><br>

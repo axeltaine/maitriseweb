@@ -9,7 +9,7 @@
 }
 
 #contact-us .heading {
-  padding-top: 95px;
+  padding: 55px 0 20px 0;
 }
 
 .form-control {
@@ -77,3 +77,12 @@ ul.address {
 }
 
 /* global/headers close */
+
+
+@media only screen and (max-width: 576px) {
+
+  #contact-us {
+    padding-bottom: 40px;
+  }
+
+}
