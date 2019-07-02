@@ -34,7 +34,6 @@
 
 
 .nav-item {
-    height: 80px;
     width: 25%;
     margin-top: -3px;
     font-size: 1.6em;
@@ -70,14 +69,7 @@
 
 /**************************************************** dropdown ***********************************************/
 
-.dropbtn {
-    text-align: center;
-    color: white !important;
-    background-color: #1E2022 !important;
-    border: none;
-    line-height: 2.7em;
-    margin-top: 0.3em;
-}
+
 
 .dropbtn:focus {
     outline: none;
@@ -92,10 +84,10 @@
     position: absolute;
     background-color: #1E2022 !important;
     min-width: 160px;
-    z-index: 1900;
+    z-index: 1;
     transition: 2s;
     margin-top: 1%;
-    
+    z-index: 600;
 }
 
 #drop {
@@ -104,7 +96,7 @@
     padding: 12px 34px;
     text-decoration: none;
     display: block;
-    z-index: 1900;
+    z-index: 600;
 }
 
 #drop:hover {
@@ -199,7 +191,7 @@ nav.black .nav-link {
     }
 
     nav.black {
-        height: 65px;
+        
         transition: 0.5s;
     }
 

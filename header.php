@@ -25,7 +25,7 @@
       </div>
     
 </li>
-      </li>
+     
       <a class="navbar-brand" href="index.php">
         <h1><img class="logo" src="img/logo_transpa.png" alt="logo"></h1>
       </a>
