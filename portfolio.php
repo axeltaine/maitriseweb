@@ -22,7 +22,7 @@
 	<div class="header ">
 		<h1>MAitrise Web <br><span>[ Portfolio]</span></h1>
 	</div>
-	<div id="top" style="margin-bottom: 80px;"></div>
+	<div id="top" style="margin-bottom: 40px;"></div>
 	<hr>
 	<h2 style="text-align: center; text-transform: uppercase; margin: 2% 0;">NOS PROJETS & CREATIONS</h2>
 	<hr>

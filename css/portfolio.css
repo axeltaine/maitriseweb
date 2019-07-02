@@ -23,7 +23,7 @@
 }
 
 .gallery {
-  padding: 10px 0 50px;
+  padding: 10px 0 150px;
   position: relative;
   overflow: hidden;
 }
@@ -45,7 +45,7 @@
   font-size: 18px;
   font-weight: 600;
   left: 30%;
-  z-index: 500;
+  z-index: 100;
   text-shadow: black 0.1em 0.1em 0.2em;
   opacity: 0;
 }
@@ -114,7 +114,8 @@
   height: 100%;
   top: 0;
   left: 0;
-  padding-top: 140px;
+  padding-top: 100px;
+  margin-top: -20px!important;
   background: #ffffff;
   z-index: 103;
   visibility: hidden;
@@ -171,7 +172,7 @@
   right: 20px;
   top: -121px;
   opacity: 1;
-  margin-top: 70px;
+  margin-top: 20px;
   z-index: 880;
   font-size: 1.5rem;
   -webkit-transition: all 0.1s ease-in-out;
@@ -224,5 +225,13 @@
     top: 0;
     font-size: 2em;
     opacity: 1;
+  }
+
+  .port{
+    padding-top: 100px;
+  }
+
+  #cross{
+    margin-top: 10px;
   }
 }
