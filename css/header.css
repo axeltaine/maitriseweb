@@ -118,7 +118,7 @@ nav.black,
 nav.black ul,
 nav.black li,
 nav.black .logo {
-    
+    height: 60px;
     background-color: #1E2022 !important;
 }
 
