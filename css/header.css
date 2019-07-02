@@ -87,15 +87,15 @@
     position: relative;
 }
 
-.dropdown-content {
+.dropdown-menu {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #1E2022 !important;
     min-width: 160px;
-    z-index: 1;
+    z-index: 1900;
     transition: 2s;
     margin-top: 1%;
-    z-index: 600;
+    
 }
 
 #drop {
@@ -104,7 +104,7 @@
     padding: 12px 34px;
     text-decoration: none;
     display: block;
-    z-index: 600;
+    z-index: 1900;
 }
 
 #drop:hover {
@@ -113,10 +113,7 @@
     transition: 0.5s;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-    background-color: #1E2022 !important;
-}
+
 
 nav.black .dropbtn {
     line-height: 2em;
@@ -168,7 +165,7 @@ nav.black .nav-link {
     }
 
     .dropdown-menu {
-        z-index: 900;
+        z-index: 1900;
     }
 
     .navbar-brand2 {
