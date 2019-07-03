@@ -83,20 +83,23 @@
     display: none;
     position: absolute;
     background-color: #1E2022 !important;
-    min-width: 160px;
+    min-width: 100%;
     z-index: 1;
     transition: 2s;
-    margin-top: 1%;
     z-index: 600;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    border-radius: 0 0 0.25rem 0.25rem;
 }
 
 #drop {
     color: #eee !important;
     font-size: 16px;
-    padding: 12px 34px;
     text-decoration: none;
     display: block;
     z-index: 600;
+    padding: 0.6em 0;
 }
 
 #drop:hover {
@@ -118,7 +121,7 @@ nav.black,
 nav.black ul,
 nav.black li,
 nav.black .logo {
-    height: 60px;
+
     background-color: #1E2022 !important;
 }
 
@@ -149,8 +152,6 @@ nav.black .nav-link {
         transition: 0.5s;
     }
 
-
-
     .navbar-brand {
         display: none;
 
@@ -174,6 +175,7 @@ nav.black .nav-link {
         margin: 1% auto;
         width: 50%;
         transition: 0.5s;
+        padding: 1em 0 1em 0;
     }
 
     .nav-link {
@@ -190,9 +192,16 @@ nav.black .nav-link {
         margin: 0 0 -6px 15px;
     }
 
-    nav.black {
-        
+    nav.black {        
         transition: 0.5s;
+    }
+
+    
+    nav.black .nav-item {
+        margin: 1% auto;
+        width: 50%;
+        transition: 0.5s;
+        padding: 1em 0 1em 0;
     }
 
     nav.black ul,
