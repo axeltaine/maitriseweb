@@ -47,7 +47,7 @@
 }
 
 .nav-link {
-    margin-top: 0.6em;
+    margin-top: 0.7em;
     text-align: center;
     color: white !important;
 }
@@ -119,9 +119,8 @@ nav.black .dropbtn {
 
 nav.black,
 nav.black ul,
-nav.black li,
 nav.black .logo {
-
+    height: 60px;
     background-color: #1E2022 !important;
 }
 
@@ -132,7 +131,7 @@ nav.black .navbar-brand {
 }
 
 nav.black .nav-link {
-    margin-top: 0.2em;
+    margin-top: 0.4em;
 }
 
 /* nav réduite close */
@@ -146,7 +145,7 @@ nav.black .nav-link {
 
     .navbar-nav {
         width: 100%;
-        height: 100%;
+        height: 100vh;
         padding-bottom: 20px;
         justify-content: center;
         transition: 0.5s;
@@ -213,18 +212,18 @@ nav.black .nav-link {
     nav.black .navbar-nav {
         margin-top: -20px;
         width: 100%;
-        height: 100%;
+        height: 100vh;
         padding-bottom: 20px;
         justify-content: center;
     }
 
     nav.black .navbar-toggler {
-        margin: 1% 2% 2% 2%;
+        margin: 0.6% 2% 2% 2%;
         transition: 0.5s;
     }
 
     nav.black .logo2 {
-        margin: 5px 10px 10px 0;
+        margin: -2px 10px 10px 0;
         transition: 0.5s;
     }
 
