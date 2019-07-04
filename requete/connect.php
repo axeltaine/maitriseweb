@@ -2,7 +2,7 @@
   try
   {
   	// On se connecte à MySQL
-  	$bdd = new PDO('mysql:host=#######;dbname=######;charset=utf8', "####", "####");
+  	$bdd = new PDO('mysql:host=localhost;dbname=maitriseweb;charset=utf8', "root", "root");
   }
   catch(PDOException $e)
   {
