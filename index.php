@@ -5,6 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords"
+        content="Maitrise Web, création, site, ardennes, création de site dans les ardennes, marnes, reims, sedan, charlevilles, site vitrine, e-commerce, communication, flyer, carte de visite, Ardennes, création site web ardennes, création site web marne">
+        <!--
+     ___  ___       ___   _   _____   _____    _   _____   _____        _          __  _____   _____  
+    /   |/   |     /   | | | |_   _| |  _  \  | | /  ___/ | ____|      | |        / / | ____| |  _  \ 
+   / /|   /| |    / /| | | |   | |   | |_| |  | | | |___  | |__        | |  __   / /  | |__   | |_| | 
+  / / |__/ | |   / / | | | |   | |   |  _  /  | | \___  \ |  __|       | | /  | / /   |  __|  |  _  { 
+ / /       | |  / /  | | | |   | |   | | \ \  | |  ___| | | |___       | |/   |/ /    | |___  | |_| | 
+/_/        |_| /_/   |_| |_|   |_|   |_|  \_\ |_| /_____/ |_____|      |___/|___/     |_____| |_____/ 
+
+
+Coucou petite perruche :p, que viens-tu faire ici ? 
+Contacter nous, ça sera plus simple, et on pourra vous aidez !  
+modification@maitrise-web.fr
+
+Si tu veux voir les crédits, licences, ..., n'hésite pas à regarder nos mentions légales ;) 
+-->
     <title>MAitrise Web</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -119,6 +136,7 @@
     <script type="text/javascript" src="js/loader.js"></script>
     <script type="text/javascript" src="js/carousel.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-   
+
 </body>
+
 </html>
