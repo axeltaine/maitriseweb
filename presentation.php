@@ -164,7 +164,7 @@
         </div>
         <div class="team-members">
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-6">
               <div class="team-member wow flipInY " data-wow-duration="1000ms" data-wow-delay="300ms"
                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: flipInY;">
                 <div class="member-image">
@@ -184,27 +184,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
-              <div class="team-member wow flipInY " data-wow-duration="1000ms" data-wow-delay="500ms"
-                style="visibility: visible; animation-duration: 1000ms; animation-delay: 500ms; animation-name: flipInY;">
-                <div class="member-image">
-                  <img class="img-responsive" src="img/enseigne.jpg" alt="">
-                </div>
-                <div class="member-info">
-                  <h3>Joris Lane</h3>
-                  <h4>UI/UX Designer</h4>
-                  <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-                </div>
-                <div class="social-icons">
-                  <ul>
-                    <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
+            
+            <div class="col-sm-6">
               <div class="team-member wow flipInY " data-wow-duration="1000ms" data-wow-delay="1100ms"
                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 1100ms; animation-name: flipInY;">
                 <div class="member-image">
