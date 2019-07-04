@@ -43,7 +43,7 @@
     font-size: 1em;
     font-weight: 600;
     display: block;
-    left: -14em;
+    left: -26em;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
@@ -51,9 +51,9 @@
 .stripes-title-content{
     height: 2.4em; 
     background-color: black; 
-    width: 15em; 
-    padding: 18px; 
-    padding-left: 14%; 
+    width: 28em; 
+    padding: 18px 6px 18px 18px; 
+    padding-left: 15em; 
     margin-left: -2em;
 }
 
@@ -159,8 +159,8 @@
     .stripes-title-content{
         height: 2.4em; 
         background-color: black; 
-        width: 14em; 
-        padding: 18px; 
+        width: 17em; 
+        padding: 18px 6px 18px 18px; 
         padding-left: 14%; 
         margin-left: -2em;
     }

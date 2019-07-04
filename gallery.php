@@ -11,16 +11,15 @@
 							style="visibility: visible; animation-name: fadeInUp;">TOUT</a></li>
 					<li><a class="wow fadeInUp" href="#" data-filter=".illustration" data-wow-delay="0.2s"
 							style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">Site
-							Web</a></li>
+							vitrine</a></li>
 					<li><a class="wow fadeInUp" href="#" data-filter=".marketing" data-wow-delay="0.4s"
-							style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">Flyer</a>
+							style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">Site e-commerce</a>
 					</li>
 					<li><a class="wow fadeInUp" href="#" data-filter=".photography" data-wow-delay="0.6s"
+							style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">Application interne</a></li>
+					<li><a class="wow fadeInUp" href="#" data-filter=".webdesign" data-wow-delay="0.6s"
 							style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">Identité
 							visuelle</a></li>
-					<li><a class="wow fadeInUp" href="#" data-filter=".webdesign" data-wow-delay="0.6s"
-							style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">Projet en
-							Cours</a></li>
 				</ul>
 			</div>
 			<div class="col-12 drop">
