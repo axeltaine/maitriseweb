@@ -59,11 +59,7 @@
 				</a>
 				
 			</div>
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
-				<a class="suite" href="./portfolio.php">
-					<p class="voirplus">+ tout voir</p>
-				</a>
-			</div>
+			
 			
 			<div id="item01<?php echo $id_projet ; ?>" class="port" style="margin-top: -120px;">
 
@@ -109,7 +105,11 @@
     ?>
 			<!-- / Item 01 -->
 
-		
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
+				<a class="suite" href="./portfolio.php">
+					<p class="voirplus">+ tout voir</p>
+				</a>
+			</div>
 	
 	</div>
 	
