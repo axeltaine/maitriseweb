@@ -59,6 +59,11 @@
   padding: 0;
   line-height: 0;
 }
+.gallery .site img {
+  
+  height: 13.4em;
+  
+}
 
 .gallery .site a:before {
   position: absolute;

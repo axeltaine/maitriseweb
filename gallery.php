@@ -26,7 +26,6 @@
 			</div>
 			<div class="col-12 drop">
 				<div class="dropdown">
-
 					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
 						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Catégories
@@ -39,7 +38,6 @@
 					</div>
 				</div>
 			</div>
-			
 			<a href="#" class="close" id="cross"><i class="fas fa-times fa-2x"
 					style="color: #2C3034 !important;"></i></a>
 					<?php
@@ -52,23 +50,16 @@
   
                      ?>
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
-			
 				<a href="#item01<?php echo $id_projet ; ?>" >
 					<h3 class="site-title" id="<?php echo $id_projet; ?>"><?php echo $nom ; ?></h3>
 					<img src="<?php echo $image?>" alt="">
 				</a>
-				
 			</div>
-			
-			
 			<div id="item01<?php echo $id_projet ; ?>" class="port" style="margin-top: -120px;">
-
 				<div class="row" >
 					<div class="col-12 col-md-6">
-
 						<h1><?php echo $nom ; ?></h1>
 						<p><?php echo $description ; ?></p>
-
 					</div>
 					<div class="col-12 col-md-6"><img src="<?php echo $image?>" alt="">
 					</div>
@@ -91,29 +82,19 @@
 							role="button">Visiter le site</a>
 						<a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center close" href="#"
 							role="button" style="margin-left: 5%;">Fermer</a></div>
-				
 				</div>
-				
 				<!-- / row -->
-	
-
 			</div>
-	
-			<?php
+	<?php
       
     }
     ?>
 			<!-- / Item 01 -->
-
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 				<a class="suite" href="./portfolio.php">
 					<p class="voirplus">+ tout voir</p>
 				</a>
 			</div>
-	
 	</div>
-	
-
-
 </section>
 <script src="js/portfolio.js"></script>
