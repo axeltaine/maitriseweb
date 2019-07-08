@@ -31,10 +31,10 @@
 						Catégories
 					</button>
 					<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-						<button class="dropdown-item" type="button">Site Web</button>
-						<button class="dropdown-item" type="button">Flyer</button>
-						<button class="dropdown-item" type="button">Identité visuelle</button>
-						<button class="dropdown-item" type="button">Projet en Cours</button>
+						<button class="dropdown-item" type="button" style="color: white;">Site Web</button>
+						<button class="dropdown-item" type="button" style="color: white;">Flyer</button>
+						<button class="dropdown-item" type="button" style="color: white;">Identité visuelle</button>
+						<button class="dropdown-item" type="button" style="color: white;">Projet en Cours</button>
 					</div>
 				</div>
 			</div>
