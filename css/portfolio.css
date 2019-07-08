@@ -213,6 +213,18 @@
 
 /*modal close*/
 
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
 /**************************************************** media queries ***********************************************/
 
 @media only screen and (max-width: 576px) {
