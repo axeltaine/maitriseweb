@@ -1,7 +1,7 @@
 <?php session_start();
 include '../function/verif_co.php';?>
-<!DOCTYPE php>
-
+<!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -77,6 +77,7 @@ hr {
     </div>
     <hr>
     <div id="contain" class="container-fluid mt-5 pb-5">
+    <div class="row mx-auto">
         <?php
     include '../function/select_all.php';
      
@@ -88,7 +89,7 @@ hr {
                   <h5 class="card-title">'.$article["nom"].'</h5>
                   <p class="card-subtitle">'.$article["description"].'</p>
                   <div class="card-text mt-4">
-                    <a target="_blank" class"text-info ml-4" href="../content.php?id='.$article['id_projet'].'"><i style="font-size:2em; color:white;" class="fas fa-eye"></i></a>
+                    <a target="_blank" class"text-info ml-4" href="../portfolio.php?id='.$article['id_projet'].'"><i style="font-size:2em; color:white;" class="fas fa-eye"></i></a>
                     <a class="text-danger ml-3 " href="../function/delete.php?id='.$article['id_projet'].'"><i style="font-size:2em; color:white;" class="fas fa-trash-alt"></i></a>
                     <a  class="text-warning ml-3" href="modif.php?id='.$article['id_projet'].'"><i style="font-size:2em; color:white;" class="fas fa-pencil-alt"></i></a>
                   </div>
@@ -97,7 +98,11 @@ hr {
         }
     ?>
 
+    
+</div>
+
     </div>
+    
     <hr>
 </body>
 
