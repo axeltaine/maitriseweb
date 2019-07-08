@@ -19,6 +19,21 @@
 </head>
 
 <body>
+<style>
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+</style>
 	<header><?php include ('header.php');?> </header>
 	<div class="header ">
 		<h1>MAitrise Web <br><span>[ Portfolio]</span></h1>
@@ -30,23 +45,13 @@
 	<section class="gallery">
 	<div class="container-fluid mini-gallery">
 		<div class="row">
-			<div class="col-sm-12">
-				<ul class="filter font-alt" id="filters">
-					<li><a class="current wow fadeInUp" href="#" data-filter="*"
-							style="visibility: visible; animation-name: fadeInUp;">TOUT</a></li>
-					<li><a class="wow fadeInUp" href="#" data-filter=".illustration" data-wow-delay="0.2s"
-							style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">Site
-							Web</a></li>
-					<li><a class="wow fadeInUp" href="#" data-filter=".marketing" data-wow-delay="0.4s"
-							style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">Flyer</a>
-					</li>
-					<li><a class="wow fadeInUp" href="#" data-filter=".photography" data-wow-delay="0.6s"
-							style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">Identité
-							visuelle</a></li>
-					<li><a class="wow fadeInUp" href="#" data-filter=".webdesign" data-wow-delay="0.6s"
-							style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">Projet en
-							Cours</a></li>
-				</ul>
+			<div class="col-sm-12" id="myBtnContainer">
+			
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('webTemplates')"> Nature</button>
+  <button class="btn" onclick="filterSelection('logos')"> Cars</button>
+  <button class="btn" onclick="filterSelection('people')"> People</button>
+
 			</div>
 			<div class="col-12 drop">
 				<div class="dropdown">
@@ -73,12 +78,14 @@
                    extract($row);
   
                      ?>
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
+			<div class="column <?php echo $type_name ; ?> col-12 col-sm-6 col-md-4 col-lg-3 site">
+			<div class="content">
 				<a href="#item01<?php echo $id_projet ; ?>" >
 					<h3 class="site-title" id="<?php echo $id_projet; ?>"><?php echo $nom ; ?></h3>
 					<img src="<?php echo $image?>" alt="">
 				</a>
 			</div>
+				 </div>
 			<div id="item01<?php echo $id_projet ; ?>" class="port" style="margin-top: -120px;">
 				<div class="row" >
 					<div class="col-12 col-md-6">
@@ -150,6 +157,53 @@
 	<script type="text/javascript" src="js/header.js"></script>
 	<script src="js/portfolio.js"></script>
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script>filterSelection("all") // Execute the function and show all columns
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1); 
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}</script>
 </body>
 
 </html>
