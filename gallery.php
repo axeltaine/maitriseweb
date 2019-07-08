@@ -65,13 +65,13 @@
 					</div>
 				</div>
 				<div class="row text-align-center mx-auto ">
-					<div class="col-3"> <img src="<?php echo $image?>" class="wow flipInY animated"
+					<div class="col-3"> <img src="<?php echo $image2?>" class="wow flipInY animated"
 							data-wow-duration="1000ms" data-wow-delay="300ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: flipInY;"
 							alt="">
 						</a>
 					</div>
-					<div class="col-3"> <img src="<?php echo $image?>" class="wow flipInY animated"
+					<div class="col-3"> <img src="<?php echo $image3?>" class="wow flipInY animated"
 							data-wow-duration="1000ms" data-wow-delay="300ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: flipInY;"
 							alt="">
