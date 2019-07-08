@@ -2,6 +2,7 @@
 include '../function/verif_co.php';?>
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,71 +18,76 @@ include '../function/verif_co.php';?>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
     <style>
+        [class*="fontawesome-"]:before {
+            font-family: 'FontAwesome', sans-serif;
+        }
 
-[class*="fontawesome-"]:before {
-  font-family: 'FontAwesome', sans-serif;
-}
+        /* ---------- GENERAL ---------- */
 
-/* ---------- GENERAL ---------- */
+        * {
+            box-sizing: border-box;
+            margin: 0px auto;
+        }
 
-* {
-  box-sizing: border-box;
-    margin:0px auto;
-}
+        body {
 
-body {
-   
-    color: #606468;
-  font: 87.5%/1.5em 'Open Sans', sans-serif;
-  background: #0264d6; /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover,  #0264d6 1%, #1c2b5a 100%); /* FF3.6+ */
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#0264d6), color-stop(100%,#1c2b5a)); /* Chrome,Safari4+ */
-background: -webkit-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%); /* Opera 12+ */
-background: -ms-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%); /* IE10+ */
-background: radial-gradient(ellipse at center,  #0264d6 1%,#1c2b5a 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0264d6', endColorstr='#1c2b5a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-height:calc(100vh);
-width:100%;
-}
+            color: #606468;
+            font: 87.5%/1.5em 'Open Sans', sans-serif;
+            background: #0264d6;
+            /* Old browsers */
+            background: -moz-radial-gradient(center, ellipse cover, #0264d6 1%, #1c2b5a 100%);
+            /* FF3.6+ */
+            background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%, #0264d6), color-stop(100%, #1c2b5a));
+            /* Chrome,Safari4+ */
+            background: -webkit-radial-gradient(center, ellipse cover, #0264d6 1%, #1c2b5a 100%);
+            /* Chrome10+,Safari5.1+ */
+            background: -o-radial-gradient(center, ellipse cover, #0264d6 1%, #1c2b5a 100%);
+            /* Opera 12+ */
+            background: -ms-radial-gradient(center, ellipse cover, #0264d6 1%, #1c2b5a 100%);
+            /* IE10+ */
+            background: radial-gradient(ellipse at center, #0264d6 1%, #1c2b5a 100%);
+            /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0264d6', endColorstr='#1c2b5a', GradientType=1);
+            /* IE6-9 fallback on horizontal gradient */
+            height: calc(100vh);
+            width: 100%;
+        }
 
-#contain{
-    margin-top: 20px;
-}
+        #contain {
+            margin-top: 20px;
+        }
 
-    .block{
-        color: white;
-        text-align: center;
-    }
+        .block {
+            color: white;
+            text-align: center;
+        }
 
-    
-hr {
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
+
+        hr {
+            border: 0;
+            height: 1px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+        }
     </style>
 </head>
 
 <body style="font-family:'Roboto Condensed">
 
-    <?php 
-  
+    <?php   
     echo"<h1 class='text-center mt-5'>Bienvenue <span class='text-info'>".$_SESSION['admin']."</span></h1>";
-    include '../function/co.php';
-       
-?>
+    include '../function/co.php';?>
     <div class="container-fluid text-center">
         <a href="create.php" class="mt-5 mb-3 btn btn-success "><i class="fas fa-plus-square"></i> Ajouter un projet</a>
-        <a href="create_user.php" class="mt-5 mb-3 ml-3 btn btn-primary"><i class="fas fa-user"></i> Gestion des comptes</a>
+        <a href="create_user.php" class="mt-5 mb-3 ml-3 btn btn-primary"><i class="fas fa-user"></i> Gestion des
+            comptes</a>
     </div>
     <hr>
     <div id="contain" class="container-fluid mt-5 pb-5">
-    <div class="row mx-auto">
-        <?php
-    include '../function/select_all.php';
+        <div class="row mx-auto">
+            <?php
+            include '../function/select_all.php';
      
-        foreach($articles as $article){
+            foreach($articles as $article){
             echo '
             <div class="col-4 block">
                 <img src="'.$article["image"].'" class="card-img-top " style="max-height:350px; width="100px" alt="'.$article["nom"].'">
@@ -94,15 +100,10 @@ hr {
                     <a  class="text-warning ml-3" href="modif.php?id='.$article['id_projet'].'"><i style="font-size:2em; color:white;" class="fas fa-pencil-alt"></i></a>
                   </div>
                 </div>
-            </div>';
-        }
-    ?>
-
-    
-</div>
-
+            </div>';}
+            ?>
+        </div>
     </div>
-    
     <hr>
 </body>
 

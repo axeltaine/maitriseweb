@@ -19,56 +19,63 @@ include '../function/verif_co.php';
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 
     <style>
+        [class*="fontawesome-"]:before {
+            font-family: 'FontAwesome', sans-serif;
+        }
 
-[class*="fontawesome-"]:before {
-  font-family: 'FontAwesome', sans-serif;
-}
+        /* ---------- GENERAL ---------- */
 
-/* ---------- GENERAL ---------- */
+        * {
+            box-sizing: border-box;
+        }
 
-* {
-  box-sizing: border-box;
-}
+        body {
 
-body {
+            font: 87.5%/1.5em 'Open Sans', sans-serif;
+            background: #0264d6;
+            /* Old browsers */
+            background: -moz-radial-gradient(center, ellipse cover, #0264d6 1%, #1c2b5a 100%);
+            /* FF3.6+ */
+            background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%, #0264d6), color-stop(100%, #1c2b5a));
+            /* Chrome,Safari4+ */
+            background: -webkit-radial-gradient(center, ellipse cover, #0264d6 1%, #1c2b5a 100%);
+            /* Chrome10+,Safari5.1+ */
+            background: -o-radial-gradient(center, ellipse cover, #0264d6 1%, #1c2b5a 100%);
+            /* Opera 12+ */
+            background: -ms-radial-gradient(center, ellipse cover, #0264d6 1%, #1c2b5a 100%);
+            /* IE10+ */
+            background: radial-gradient(ellipse at center, #0264d6 1%, #1c2b5a 100%);
+            /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0264d6', endColorstr='#1c2b5a', GradientType=1);
+            /* IE6-9 fallback on horizontal gradient */
+            height: calc(100vh);
+            width: 100%;
+        }
 
-  font: 87.5%/1.5em 'Open Sans', sans-serif;
-  background: #0264d6; /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover,  #0264d6 1%, #1c2b5a 100%); /* FF3.6+ */
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#0264d6), color-stop(100%,#1c2b5a)); /* Chrome,Safari4+ */
-background: -webkit-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%); /* Opera 12+ */
-background: -ms-radial-gradient(center, ellipse cover,  #0264d6 1%,#1c2b5a 100%); /* IE10+ */
-background: radial-gradient(ellipse at center,  #0264d6 1%,#1c2b5a 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0264d6', endColorstr='#1c2b5a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-height:calc(100vh);
-width:100%;
-}
+        #contain {
+            margin-top: 20px;
+        }
 
-#contain{
-    margin-top: 20px;
-}
+        .block {
+            color: white;
+            text-align: center;
+        }
 
-    .block{
-        color: white;
-        text-align: center;
-    }
 
-    
-hr {
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
+        hr {
+            border: 0;
+            height: 1px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+        }
     </style>
 </head>
 
 <body>
 
     <div class="row ">
-    <a class="btn mx-auto btn-primary mt-5 mb-5" href="index.php"><?=$_SESSION['admin']?></a>
+        <a class="btn mx-auto btn-primary mt-5 mb-5" href="index.php"><?=$_SESSION['admin']?></a>
     </div>
-    
+
     <?php 
     include '../function/co.php';
 
@@ -91,32 +98,29 @@ hr {
        
 ?>
     <div class="container text-center">
-    <h2 class="mx-auto">Ajoutez un projet :</h2>
+        <h2 class="mx-auto">Ajoutez un projet :</h2>
         <div class="row ">
             <div class="col-md-12">
                 <div class="well well-sm ">
                     <form class="form-horizontal offset-3" method="post" action="create.php">
                         <fieldset>
-                            
+
                             <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"></span>
                                 <div class="col-md-8">
-                                    <input name="nom" type="text" placeholder="nom" class="form-control"
-                                        required>
+                                    <input name="nom" type="text" placeholder="nom" class="form-control" required>
                                 </div>
                             </div>
                             <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"></span>
-                            <div class="col-md-8">
-                                <input name="url" type="URL" placeholder="url" class="form-control"
-                                    required>
-                            </div>
+                                <span class="col-md-1 col-md-offset-2 text-center"></span>
+                                <div class="col-md-8">
+                                    <input name="url" type="URL" placeholder="url" class="form-control" required>
+                                </div>
                             </div>
                             <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"></span>
                                 <div class="col-md-8">
-                                    <input name="image" type="text" placeholder="image" class="form-control"
-                                        required>
+                                    <input name="image" type="text" placeholder="image" class="form-control" required>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -125,38 +129,40 @@ hr {
                                     <input name="fullscreen" type="text" placeholder="fullscreen" class="form-control"
                                         required>
                                 </div>
-                                </div>
-                                <div class="form-group">
+                            </div>
+                            <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"></span>
                                 <div class="col-md-8">
                                     <input name="image2" type="text" placeholder="image2" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"></span>
-                                <div class="col-md-8">
-                                    <input name="id_type" type="text" placeholder="vitrine= 1, e-commerce= 2, appli= 3, id. visu= 4" class="form-control">
-                                </div>
-                            
-                                <div class="form-group">
                                     <span class="col-md-1 col-md-offset-2 text-center"></span>
                                     <div class="col-md-8">
-                                        <input name="image3" placeholder="image3" type="text" class="form-control" >
-                                 
+                                        <input name="id_type" type="text"
+                                            placeholder="vitrine= 1, e-commerce= 2, appli= 3, id. visu= 4"
+                                            class="form-control">
                                     </div>
-                                </div>
-                                <div class="form-group">
-                                    <span class="col-md-1 col-md-offset-2 text-center"></span>
-                                    <div class="col-md-8">
-                                        <textarea class="form-control" name="description"
-                                            placeholder="Entrez la description ici..." rows="7" required></textarea>
+
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"></span>
+                                        <div class="col-md-8">
+                                            <input name="image3" placeholder="image3" type="text" class="form-control">
+
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="col-md-8 mt-4 mb-4 text-center">
-                                        <button type="submit" name="submit"
-                                            class="btn btn-primary btn-lg">Ajouter</button>
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"></span>
+                                        <div class="col-md-8">
+                                            <textarea class="form-control" name="description"
+                                                placeholder="Entrez la description ici..." rows="7" required></textarea>
+                                        </div>
                                     </div>
-                                </div>
+                                    <div class="form-group">
+                                        <div class="col-md-8 mt-4 mb-4 text-center">
+                                            <button type="submit" name="submit"
+                                                class="btn btn-primary btn-lg">Ajouter</button>
+                                        </div>
+                                    </div>
                         </fieldset>
                     </form>
                 </div>
