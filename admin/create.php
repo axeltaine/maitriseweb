@@ -42,9 +42,7 @@ include '../function/verif_co.php';
            $conn->query ("INSERT INTO `projet` (`nom`, `description`, `image`, `url`, `fullscreen`, `image2`, `image3`, `id_type`)
             VALUES ('$test', '$test1', '$test2', '$test3', '$test4', '$test5', '$test6', '$test7')");
             header('location:index.php');
-        }
-            
-      
+        }     
        
 ?>
     <div class="container text-center">
