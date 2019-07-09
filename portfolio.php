@@ -31,14 +31,14 @@
 	<section class="gallery" style="height: 100vh;">
 	<div class="container-fluid mini-gallery">
 		<div class="row">
-			<div class="col-sm-12" id="myBtnContainer">
-			
+			<div class="portfolioFilter col-sm-12" id="myBtnContainer">
+			<center>
   <button class="btn active" onclick="filterSelection('all')"> Tout</button>
   <button class="btn" onclick="filterSelection('Site_vitrine')"> Site vitrine</button>
   <button class="btn" onclick="filterSelection('Site_e-commerce')"> Site e-commerce</button>
   <button class="btn" onclick="filterSelection('Application_interne')"> Application interne</button>
   <button class="btn" onclick="filterSelection('Identité_visuelle')"> Identité visuelle</button>
-
+</center>
 			</div>
 			<div class="col-12 drop">
 				<div class="dropdown">

@@ -224,6 +224,21 @@
 .show {
   display: block;
 }
+.portfolioFilter button {
+  margin-right: 6px;
+  color: #666;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  padding: 4px 15px;
+  border-radius: 50px;
+  display: inline-block;
+}
+.portfolioFilter button.active {
+  background: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  color: #f9f9f9;
+  box-shadow: none;
+}
 
 /**************************************************** media queries ***********************************************/
 
