@@ -42,7 +42,7 @@
                      ?>
 			<div class="column <?php echo $Type_projet ; ?> col-12 col-sm-6 col-md-4 col-lg-3 site">
 			
-				<a href="#item01<?php echo $Id_projet ; ?>" >
+				<a href="#item01<?php echo $Id_projet ; ?>" class="zoomIn animated">
 					<h3 class="site-title" id="<?php echo $Id_projet; ?>"><?php echo $Name_projet ; ?></h3>
 					<img src="<?php echo $Img1?>" alt="">
 				</a>
@@ -85,7 +85,7 @@
 			<!-- / Item 01 -->
 			<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 				<a class="suite" href="./portfolio.php">
-					<p class="voirplus">+ tout voir</p>
+					<p class="voirplus zoomIn animated">+ tout voir</p>
 				</a>
 			</div>
 	</div>

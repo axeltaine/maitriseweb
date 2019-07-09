@@ -61,7 +61,7 @@
 .gallery .site img {
   
   height: 13.4em;
-  
+  width: 100%;
 }
 
 .gallery .site a:before {
@@ -260,6 +260,28 @@
 
   .port{
     padding-top: 100px;
+    height: 100%;
+  }
+
+  .gallery{
+    height: 100%!important;
+  }
+
+  .mini-gallery{
+    padding: 0;
+  }
+
+  .mini-gallery .site{
+    padding: 0;
+  }
+
+  .dropdown-item{
+    color: white;
+  }
+
+  .gallery .site{
+    padding: 0;
+    margin-top: 0;
   }
 
   #cross{
