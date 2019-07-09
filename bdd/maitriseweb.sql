@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Jul 09, 2019 at 07:55 AM
+-- Generation Time: Jul 09, 2019 at 08:09 AM
 -- Server version: 5.7.25
 -- PHP Version: 7.3.1
 
@@ -19,6 +19,18 @@ SET time_zone = "+00:00";
 --
 -- Database: `maitriseweb`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ADMIN`
+--
+
+CREATE TABLE `ADMIN` (
+  `Id_admin` int(11) NOT NULL,
+  `Name_admin` varchar(250) NOT NULL,
+  `Mdp_admin` varchar(250) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -42,6 +54,12 @@ CREATE TABLE `PROJET` (
 --
 
 --
+-- Indexes for table `ADMIN`
+--
+ALTER TABLE `ADMIN`
+  ADD PRIMARY KEY (`Id_admin`);
+
+--
 -- Indexes for table `PROJET`
 --
 ALTER TABLE `PROJET`
@@ -50,6 +68,12 @@ ALTER TABLE `PROJET`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `ADMIN`
+--
+ALTER TABLE `ADMIN`
+  MODIFY `Id_admin` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `PROJET`
