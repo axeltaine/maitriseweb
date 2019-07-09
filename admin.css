@@ -6,12 +6,11 @@
 
         * {
             box-sizing: border-box;
-            margin: 0px auto;
         }
 
         body {
 
-            color: #606468;
+            color: white;
             font: 87.5%/1.5em 'Open Sans', sans-serif;
             background: #0264d6;
             /* Old browsers */

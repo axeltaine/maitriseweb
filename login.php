@@ -39,12 +39,12 @@
  
     if(isset($_POST['submit'])){
         $req->execute([
-            'nom' => $_POST['nom'],
-            'mdp' => $_POST['mdp']
+            'Name_admin' => $_POST['Name_admin'],
+            'Mdp_admin' => $_POST['Mdp_admin']
             ]);
             $user = $req->fetch();
         if ($user){
-            $_SESSION['admin'] = $_POST['nom'];
+            $_SESSION['admin'] = $_POST['Name_admin'];
             ob_start();
             header('location:index.php');
             exit;

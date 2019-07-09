@@ -38,14 +38,14 @@ include 'function/verif_co.php';?>
             foreach($articles as $article){
             echo '
             <div class="col-4 block">
-                <img src="'.$article["image"].'" class="card-img-top " style="max-height:350px; width="100px" alt="'.$article["nom"].'">
+                <img src="'.$article["Img1"].'" class="card-img-top " style="max-height:350px; width="100px" alt="'.$article["Name_projet"].'">
                 <div class="card-body">
-                  <h5 class="card-title">'.$article["nom"].'</h5>
-                  <p class="card-subtitle">'.$article["description"].'</p>
+                  <h5 class="card-title">'.$article["Name_projet"].'</h5>
+                  <p class="card-subtitle">'.$article["Description"].'</p>
                   <div class="card-text mt-4">
-                    <a target="_blank" class"text-info ml-4" href="portfolio.php?id='.$article['id_projet'].'"><i style="font-size:2em; color:white;" class="fas fa-eye"></i></a>
-                    <a class="text-danger ml-3 " href="function/delete.php?id='.$article['id_projet'].'"><i style="font-size:2em; color:white;" class="fas fa-trash-alt"></i></a>
-                    <a  class="text-warning ml-3" href="modif.php?id='.$article['id_projet'].'"><i style="font-size:2em; color:white;" class="fas fa-pencil-alt"></i></a>
+                    <a target="_blank" class"text-info ml-4" href="portfolio.php?id='.$article['Id_projet'].'"><i style="font-size:2em; color:white;" class="fas fa-eye"></i></a>
+                    <a class="text-danger ml-3 " href="function/delete.php?id='.$article['Id_projet'].'"><i style="font-size:2em; color:white;" class="fas fa-trash-alt"></i></a>
+                    <a  class="text-warning ml-3" href="modif.php?id='.$article['Id_projet'].'"><i style="font-size:2em; color:white;" class="fas fa-pencil-alt"></i></a>
                   </div>
                 </div>
             </div>';}

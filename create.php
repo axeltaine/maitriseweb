@@ -1,5 +1,5 @@
 <?php session_start();
-include '../function/verif_co.php';
+include 'function/verif_co.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +14,6 @@ include '../function/verif_co.php';
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="admin.css">
-    <link rel="stylesheet" href="../css/style_pages_cont_real_act.css">
     <!--  pour la police des titres  -->
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 
@@ -22,32 +21,31 @@ include '../function/verif_co.php';
 
 <body>
 
-    <div class="row ">
+    <div class="row mx-auto">
         <a class="btn mx-auto btn-primary mt-5 mb-5" href="index.php"><?=$_SESSION['admin']?></a>
     </div>
 
     <?php 
-    include '../function/co.php';
+    include 'function/co.php';
 
-    @$test = $_POST['nom'];
-    @$test1 = $_POST['description'];
-    @$test2= $_POST['image']; 
-    @$test3 = $_POST['url'];
-    @$test4= $_POST['fullscreen']; 
-    @$test5 = $_POST['image2'];
-    @$test6= $_POST['image3']; 
-    @$test7= $_POST['id_type']; 
+    @$test = $_POST['Name_projet'];
+    @$test1 = $_POST['Description'];
+    @$test2= $_POST['Img1']; 
+    @$test3 = $_POST['Url'];
+    @$test4= $_POST['Img2']; 
+    @$test5 = $_POST['Img3'];
+    @$test6= $_POST['Type_projet'];  
         if(isset($_POST['submit'])){
             
-           $conn->query ("INSERT INTO `projet` (`nom`, `description`, `image`, `url`, `fullscreen`, `image2`, `image3`, `id_type`)
-            VALUES ('$test', '$test1', '$test2', '$test3', '$test4', '$test5', '$test6', '$test7')");
-            header('location:index.php');
+           $conn->query ("INSERT INTO `projet` (`Name_projet`, `Description`, `Img1`, `Url`, `Img2`, `Img3`, `Type_projet`)
+            VALUES ('$test', '$test1', '$test2', '$test3', '$test4', '$test5', '$test6')");
+            header('location:create.php');
         }     
        
 ?>
     <div class="container text-center">
         <h2 class="mx-auto">Ajoutez un projet :</h2>
-        <div class="row ">
+        <div class="row mx-auto">
             <div class="col-md-12">
                 <div class="well well-sm ">
                     <form class="form-horizontal offset-3" method="post" action="create.php">
@@ -56,37 +54,30 @@ include '../function/verif_co.php';
                             <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"></span>
                                 <div class="col-md-8">
-                                    <input name="nom" type="text" placeholder="nom" class="form-control" required>
+                                    <input name="Name_projet" type="text" placeholder="nom" class="form-control" required>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"></span>
                                 <div class="col-md-8">
-                                    <input name="url" type="URL" placeholder="url" class="form-control" required>
+                                    <input name="Url" type="URL" placeholder="url" class="form-control" required>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"></span>
                                 <div class="col-md-8">
-                                    <input name="image" type="text" placeholder="image" class="form-control" required>
+                                    <input name="Img1" type="text" placeholder="image" class="form-control" required>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"></span>
                                 <div class="col-md-8">
-                                    <input name="fullscreen" type="text" placeholder="fullscreen" class="form-control"
-                                        required>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <span class="col-md-1 col-md-offset-2 text-center"></span>
-                                <div class="col-md-8">
-                                    <input name="image2" type="text" placeholder="image2" class="form-control">
+                                    <input name="Img2" type="text" placeholder="image2" class="form-control">
                                 </div>
                                 <div class="form-group">
                                     <span class="col-md-1 col-md-offset-2 text-center"></span>
                                     <div class="col-md-8">
-                                        <input name="id_type" type="text"
+                                        <input name="Type_projet" type="text"
                                             placeholder="vitrine= 1, e-commerce= 2, appli= 3, id. visu= 4"
                                             class="form-control">
                                     </div>
@@ -94,14 +85,14 @@ include '../function/verif_co.php';
                                     <div class="form-group">
                                         <span class="col-md-1 col-md-offset-2 text-center"></span>
                                         <div class="col-md-8">
-                                            <input name="image3" placeholder="image3" type="text" class="form-control">
+                                            <input name="Img3" placeholder="image3" type="text" class="form-control">
 
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <span class="col-md-1 col-md-offset-2 text-center"></span>
                                         <div class="col-md-8">
-                                            <textarea class="form-control" name="description"
+                                            <textarea class="form-control" name="Description"
                                                 placeholder="Entrez la description ici..." rows="7" required></textarea>
                                         </div>
                                     </div>
