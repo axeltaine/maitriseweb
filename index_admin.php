@@ -13,7 +13,7 @@ include 'function/verif_co.php';?>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="admin.css">
-    <link rel="stylesheet" href="css/style_pages_cont_real_act.css">
+    
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
@@ -26,8 +26,7 @@ include 'function/verif_co.php';?>
     include 'function/co.php';?>
     <div class="container-fluid text-center">
         <a href="create.php" class="mt-5 mb-3 btn btn-success "><i class="fas fa-plus-square"></i> Ajouter un projet</a>
-        <a href="create_user.php" class="mt-5 mb-3 ml-3 btn btn-primary"><i class="fas fa-user"></i> Gestion des
-            comptes</a>
+        <a href="logout.php" class="mt-5 mb-3 ml-3 btn btn-primary"><i class="fas fa-user"></i> Déco</a>
     </div>
     <hr>
     <div id="contain" class="container-fluid mt-5 pb-5">

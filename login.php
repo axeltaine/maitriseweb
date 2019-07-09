@@ -18,23 +18,26 @@
 <body>
 
     <form  method="post" class="form-signin">
-        <h1 class="text-center text-light">ALLOCINE<strong>MET</strong><h1>
+        <center>
+    <img src="img/logo_transpa.png" alt="logo">
+</center>
+        <h1 class="text-center text-light">MAITRISE<strong>WEB</strong><h1>
         <h1 class="h3 mb-3 text-light text-center font-weight-normal">Connectez vous !</h1>
         <label for="nom" class="sr-only">Nom</label>
-        <input type="text" name="nom" id="inputUserName" class="form-control" placeholder="Votre nom" required
+        <input type="text" name="Name_admin" id="inputUserName" class="form-control" placeholder="Votre nom" required
             autofocus>
         <label for="mdp" class="sr-only">Password</label>
-        <input type="mdp" name="mdp" id="mdp" class="form-control" placeholder="Votre mot de passe"
+        <input type="mdp" name="Mdp_admin" id="mdp" class="form-control" placeholder="Votre mot de passe"
             required>
         <div class="checkbox mb-3">
         </div>
         <button class="btn btn-lg btn-primary btn-block" name="submit" type="submit">Se connecter</button>
-        <p class="mt-5 mb-3 text-light text-center">&copy; Allocinemet 2019</p>
+        
     </form>
 
     <?php
-    include '../function/co.php';
-    include '../function/select_login.php';
+    include 'function/co.php';
+    include 'function/select_login.php';
    
  
     if(isset($_POST['submit'])){
@@ -46,7 +49,7 @@
         if ($user){
             $_SESSION['admin'] = $_POST['Name_admin'];
             ob_start();
-            header('location:index.php');
+            header('location:index_admin.php');
             exit;
             ob_end_flush();
         }else{

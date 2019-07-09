@@ -22,7 +22,7 @@
 <body style="font-family:'Roboto Condensed">
 
     <div class="row mx-auto">
-        <a class="btn mx-auto btn-primary mt-5 mb-5" href="index.php"><?=$_SESSION['admin']?></a>
+        <a class="btn mx-auto btn-primary mt-5 mb-5" href="index_admin.php"><?=$_SESSION['admin']?></a>
     </div>
     <?php 
 
@@ -44,8 +44,8 @@
     @$test6= $_POST['Type_projet']; 
 
         if(isset($_POST['submit'])){
-            $sql1 = $conn->query("UPDATE `projet` SET `Name_projet` = '$test', `Description` = '$test1', `Img1` = '$test2', `Url` = '$test3', `Img2` = '$test4', `Img3`='$test5' WHERE `projet`.`Id_projet`=$current_id");
-            header('location:index.php');
+            $sql1 = $conn->query("UPDATE `projet` SET `Name_projet` = '$test', `Description` = '$test1', `Img1` = '$test2', `Url` = '$test3', `Img2` = '$test4', `Img3`='$test5', `Type_projet` = '$test6' WHERE `projet`.`Id_projet`=$current_id");
+            header('location:index_admin.php');
         }
     ?>
 

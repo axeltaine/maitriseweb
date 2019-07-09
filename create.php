@@ -22,7 +22,7 @@ include 'function/verif_co.php';
 <body>
 
     <div class="row mx-auto">
-        <a class="btn mx-auto btn-primary mt-5 mb-5" href="index.php"><?=$_SESSION['admin']?></a>
+        <a class="btn mx-auto btn-primary mt-5 mb-5" href="index_admin.php"><?=$_SESSION['admin']?></a>
     </div>
 
     <?php 
