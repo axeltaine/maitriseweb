@@ -43,7 +43,7 @@
     font-size: 1em;
     font-weight: 600;
     display: block;
-    left: -26em;
+    left: -28em;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
@@ -51,10 +51,12 @@
 .stripes-title-content{
     height: 2.4em; 
     background-color: black; 
-    width: 28em; 
-    padding: 18px 6px 18px 18px; 
+    width: 30em; 
+    padding: 18px 4px 18px 18px; 
     padding-left: 15em; 
     margin-left: -2em;
+    border-radius: 0 50px 50px 0;
+    border: solid 2px rgba(255, 255, 255, 0.796);
 }
 
 .stripes-img {
@@ -70,7 +72,7 @@
 
 .stripes-content:hover span{
     opacity:1;
-    transform: translateX(16em);
+    transform: translateX(18em);
 	transition: .4s .3s ease;
 }
 
