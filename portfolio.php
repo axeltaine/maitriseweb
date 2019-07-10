@@ -47,14 +47,23 @@
 
 				<a href="#" class="close" id="cross"><i class="fas fa-times fa-2x"
 						style="color: #2C3034 !important;"></i></a>
-				<?php
+						<?php
+					// Partie "Requête"
               $stmt = $conn->prepare('SELECT * FROM projet');
               $stmt->execute();
  
+					// Partie "Boucle"
+					$limite = 7;
+$compteur = 0;
                  while($row=$stmt->fetch(PDO::FETCH_ASSOC))
                  {
+					if ($compteur >= $limite) {
+						break;
+					}
+					// C'est là qu'on affiche les données 
                    extract($row);
   
+				   $compteur++;
                      ?>
 				<div class="column <?php echo $Type_projet ; ?> col-12 col-sm-6 col-md-4 col-lg-3 site">
 
