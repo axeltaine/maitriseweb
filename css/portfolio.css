@@ -38,15 +38,18 @@
 
 .gallery .site-title{
   display: block;
-  position: absolute;
-  width: 100%;
+  position: relative;
   text-align: center;
+  padding: 0.3em;
+  width: 8em;
   color: white;
   font-size: 18px;
   font-weight: 600;
   z-index: 100;
-  text-shadow: black 0.1em 0.1em 0.2em;
+  background-color: #1E2022;
+  border-radius: 50px;
   opacity: 0;
+  margin: 0 auto;
 }
 
 .gallery .site a {
@@ -57,9 +60,10 @@
   margin: 0;
   padding: 0;
   line-height: 0;
+  text-decoration: none;
 }
-.gallery .site img {
-  
+
+.gallery .site img { 
   height: 13.4em;
   width: 100%;
 }
@@ -87,7 +91,7 @@
 
 .gallery .site a:hover:before {
   left: 32%;
-  top: 30%;
+  top: 38%;
   opacity: 0.8;
 }
 
@@ -253,9 +257,10 @@
   }
 
   .gallery .site-title{
-    top: 0;
-    font-size: 2em;
+    top: 10%;
     opacity: 1;
+    margin: 0;
+    border-radius: 0 50px 50px 0;
   }
 
   .port{
