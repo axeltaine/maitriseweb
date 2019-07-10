@@ -55,7 +55,7 @@ $compteur = 0;
 					<div class="col-12 col-md-6"><img src="<?php echo $Img1?>" alt="">
 					</div>
 				</div>
-				<div class="row text-align-center mx-auto ">
+				<div class="row text-align-center mx-auto" style="margin-top: 2em;">
 					<div class="col-3"> <img src="<?php echo $Img2?>" class="wow flipInY animated"
 							data-wow-duration="1000ms" data-wow-delay="300ms"
 							style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: flipInY;"

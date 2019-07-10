@@ -92,7 +92,7 @@
 						<div class="col-12 col-md-6"><img src="<?php echo $Img1?>" alt="">
 						</div>
 					</div>
-					<div class="row text-align-center mx-auto ">
+					<div class="row text-align-center mx-auto" style="margin-top: 2em;">
 						<div class="col-3"> <img src="<?php echo $Img2?>" class="wow flipInY animated"
 								data-wow-duration="1000ms" data-wow-delay="300ms"
 								style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: flipInY;"
@@ -132,7 +132,7 @@
 				* vers la précédente. On va donc l'afficher que si on est sur une autre
 				* page que la première */
 				if ($page > 1):
-					?><a href="?page=<?php echo $page - 1; ?>#top-gallery" style="color: #2C3034 !important; border: solid 1px #ccc; border-radius: 50px; margin-left:1em; padding:0.4em 0.5em; text-decoration: none; font-size: 1.2em; font-weight: 600;">Page précédente</a> — <?php
+					?><a href="?page=<?php echo $page - 1; ?>#top-gallery" style="color: #2C3034 !important; border: solid 1px #ccc; border-radius: 50px; margin-left:1em; padding:0.4em 0.5em; text-decoration: none; font-size: 1.2em; font-weight: 600;">Page précédente</a><?php
 				endif;
 
 				/* On va effectuer une boucle autant de fois que l'on a de pages */
@@ -143,7 +143,7 @@
 				/* Avec le nombre total de pages, on peut aussi masquer le lien
 				* vers la page suivante quand on est sur la dernière */
 				if ($page < $nombreDePages):
-					?>— <a href="?page=<?php echo $page + 1; ?>#top-gallery" style="color: #2C3034 !important; border: solid 1px #ccc; border-radius: 50px; margin-left:1em; padding:0.4em 0.5em; text-decoration: none; font-size: 1.2em; font-weight: 600;">Page suivante</a><?php
+					?><a href="?page=<?php echo $page + 1; ?>#top-gallery" style="color: #2C3034 !important; border: solid 1px #ccc; border-radius: 50px; margin-left:1em; padding:0.4em 0.5em; text-decoration: none; font-size: 1.2em; font-weight: 600;">Page suivante</a><?php
 				endif;
 				?>
 			</center>
