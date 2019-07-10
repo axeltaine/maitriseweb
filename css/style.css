@@ -571,8 +571,13 @@ footer a:hover {
 
 /****************************************************  gallery responsive ***********************************************/
   
-  #filters {
-    display: none;
+  #filt {
+    font-size: 0.8em;
+    margin: 0;
+  }
+
+  #myBtnContainer{
+    margin-bottom: 1em;
   }
 
   .drop {
