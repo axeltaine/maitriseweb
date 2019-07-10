@@ -1,4 +1,4 @@
-<?php include ('requete/connect.php'); ?>
+<?php include ('function/co.php'); ?>
 <!DOCTYPE html>
 <html>
 

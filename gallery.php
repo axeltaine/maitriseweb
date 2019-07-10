@@ -1,4 +1,4 @@
-<?php include ('requete/connect.php'); ?>
+<?php include ('function/co.php'); ?>
 <div id="top" style="margin-bottom: 80px;"></div>
 <hr>
 	<h2 style="text-align: center; text-transform: uppercase; margin: 2% 0;">NOS PROJETS & CREATIONS</h2>
