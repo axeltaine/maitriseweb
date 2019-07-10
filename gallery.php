@@ -5,7 +5,7 @@
 <hr>
 <section class="gallery" style="min-height:60vh;">
 	<div class="container-fluid mini-gallery">
-		<div class="row">
+		<div class="row justify-content-center">
 			<div class="portfolioFilter col-sm-12" id="myBtnContainer">
 				<center>
 					<button class="btn active" id="filt" onclick="filterSelection('all')"> Tout</button>
