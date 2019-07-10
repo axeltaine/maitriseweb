@@ -66,7 +66,7 @@
                    extract($row);
   
                      ?>
-			<div class="column<?php echo $Type_projet ; ?> col-12 col-sm-6 col-md-4 col-lg-3 site">
+			<div class="column <?php echo $Type_projet ; ?> col-12 col-sm-6 col-md-4 col-lg-3 site">
 			
 				<a href="#item01<?php echo $Id_projet ; ?>" class=" zoomIn animated">
 					<h3 class="site-title" id="<?php echo $Id_projet; ?>"><?php echo $Name_projet ; ?></h3>
