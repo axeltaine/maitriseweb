@@ -137,7 +137,7 @@
 
 				/* On va effectuer une boucle autant de fois que l'on a de pages */
 				for ($i = 1; $i <= $nombreDePages; $i++):
-					?><a href="?page=<?php echo $i; ?>#top-gallery" style="color: #2C3034 !important; border: solid 2px black; border-radius: 50px; margin-left:1em; padding:0.5em;"><?php echo $i; ?></a> <?php
+					?><a href="?page=<?php echo $i; ?>#top-gallery" style="color: #2C3034 !important; border: solid 1px #ccc; border-radius: 50px; margin-left:1em; padding:0.4em 0.5em; text-decoration: none; font-size: 1.2em; font-weight: 600;"><?php echo $i; ?></a> <?php
 				endfor;
 
 				/* Avec le nombre total de pages, on peut aussi masquer le lien

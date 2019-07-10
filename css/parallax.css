@@ -90,6 +90,10 @@
       line-height: 2.4em;
     }
 
+    .content{
+      height: 28em;
+    }
+
     .para-text {
       font-size: 18px;
     }
