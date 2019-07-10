@@ -47,23 +47,33 @@
 
 				<a href="#" class="close" id="cross"><i class="fas fa-times fa-2x"
 						style="color: #2C3034 !important;"></i></a>
-						<?php
+				<?php
+						$page = (!empty($_GET['page']) ? $_GET['page'] : 1);
+						$limite = 11;
 					// Partie "Requête"
-              $stmt = $conn->prepare('SELECT * FROM projet');
-              $stmt->execute();
- 
+					$debut = ($page - 1) * $limite;
+					$query = 'SELECT SQL_CALC_FOUND_ROWS * FROM `projet` LIMIT :limite OFFSET :debut';
+					$query = $conn->prepare($query);
+					$query->bindValue('debut', $debut, PDO::PARAM_INT);
+					$query->bindValue('limite', $limite, PDO::PARAM_INT);
+					$query->execute();
+				
+					/* Ici on récupère le nombre d'éléments total. Comme c'est une requête, il ne
+					* faut pas oublier qu'on ne récupère pas directement le nombre.
+					* De plus, comme la requête ne contient aucune donnée client pour fonctionner,
+					* on peut l'exécuter ainsi directement */
+					$resultFoundRows = $conn->query('SELECT found_rows()');
+					/* On doit extraire le nombre du jeu de résultat */
+					$nombredElementsTotal = $resultFoundRows->fetchColumn();
+
 					// Partie "Boucle"
-					$limite = 7;
-$compteur = 0;
-                 while($row=$stmt->fetch(PDO::FETCH_ASSOC))
+					
+					
+                 while($element=$query->fetch(PDO::FETCH_ASSOC))
                  {
-					if ($compteur >= $limite) {
-						break;
-					}
 					// C'est là qu'on affiche les données 
-                   extract($row);
-  
-				   $compteur++;
+					extract($element);
+					
                      ?>
 				<div class="column <?php echo $Type_projet ; ?> col-12 col-sm-6 col-md-4 col-lg-3 site">
 
@@ -87,13 +97,11 @@ $compteur = 0;
 								data-wow-duration="1000ms" data-wow-delay="300ms"
 								style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: flipInY;"
 								alt="">
-							</a>
 						</div>
 						<div class="col-3"> <img src="<?php echo $Img3?>" class="wow flipInY animated"
 								data-wow-duration="1000ms" data-wow-delay="300ms"
 								style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: flipInY;"
 								alt="">
-							</a>
 						</div>
 						<div class="col-6 mt-5" style="text-align:center!important;"><a
 								class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center"
@@ -103,10 +111,13 @@ $compteur = 0;
 					</div>
 					<!-- / row -->
 				</div>
+
 				<?php
       
-    }
-    ?>
+					}
+					// Partie "Liens"
+				?>
+
 				<!-- / Item 01 -->
 				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
 					<a class="suite" href="./portfolio.php">
@@ -114,23 +125,45 @@ $compteur = 0;
 					</a>
 				</div>
 			</div>
+			<center>
+				<?php
+				// Partie "Liens"
+				/* On calcule le nombre de pages */
+				$nombreDePages = ceil($nombredElementsTotal / $limite);
+
+				/* Si on est sur la première page, on n'a pas besoin d'afficher de lien
+				* vers la précédente. On va donc l'afficher que si on est sur une autre
+				* page que la première */
+				if ($page > 1):
+					?><a href="?page=<?php echo $page - 1; ?>" style="color: #2C3034 !important;">Page précédente</a> — <?php
+				endif;
+
+				/* On va effectuer une boucle autant de fois que l'on a de pages */
+				for ($i = 1; $i <= $nombreDePages; $i++):
+					?><a href="?page=<?php echo $i; ?>" style="color: #2C3034 !important;"><?php echo $i; ?>,</a> <?php
+				endfor;
+
+				/* Avec le nombre total de pages, on peut aussi masquer le lien
+				* vers la page suivante quand on est sur la dernière */
+				if ($page < $nombreDePages):
+					?>— <a href="?page=<?php echo $page + 1; ?>" style="color: #2C3034 !important;">Page suivante</a><?php
+				endif;
+				?>
+			</center>
 	</section>
 	<!-- / projects -->
 	<div class="container_fluide" id="section4">
 		<div class="jumbotron text-center">
 			<div class="container">
-
 				<p class="lead text-muted">VOUS AVEZ UN PROJET WEB ?</p>
 				<p class="lead">
 					<a class="btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center" href="contact.php"
 						role="button">PARLONS-EN !</a>
 				</p>
-
 			</div>
 		</div>
 	</div>
 	<footer><?php include ('footer.php');?></footer>
-
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -146,7 +179,4 @@ $compteur = 0;
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 	<script src="js/filter.js"></script>
 </body>
-
 </html>
-
-
