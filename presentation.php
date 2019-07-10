@@ -29,7 +29,6 @@
     <div class="container_fluide">
       <div class="jumbotron text-center">
         <div class="container">
-          <h2 class="jumbotron-heading">PRESENTATION</h2><br>
           <p class="lead text-muted">Notre entreprise Maitrise WEB est située en Champagne-Ardennes, à
             proximité de
             Reims, Charlevilles-Mézières et Sedan. Spécialisé dans la création de site internet, le
