@@ -58,7 +58,7 @@
 			<a href="#" class="close" id="cross"><i class="fas fa-times fa-2x"
 					style="color: #2C3034 !important;"></i></a>
 					<?php
-              $stmt = $bdd->prepare('SELECT * FROM projet');
+              $stmt = $conn->prepare('SELECT * FROM projet');
               $stmt->execute();
  
                  while($row=$stmt->fetch(PDO::FETCH_ASSOC))
