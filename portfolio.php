@@ -132,18 +132,18 @@
 				* vers la précédente. On va donc l'afficher que si on est sur une autre
 				* page que la première */
 				if ($page > 1):
-					?><a href="?page=<?php echo $page - 1; ?>#top-gallery" style="color: #2C3034 !important; border: solid 1px #ccc; border-radius: 50px; margin-left:1em; padding:0.4em 0.5em; text-decoration: none; font-size: 1.2em; font-weight: 600;">Page précédente</a><?php
+					?><a href="?page=<?php echo $page - 1; ?>#top-gallery" style="border: solid 1px #ccc; border-radius: 50px; margin-left:1em; padding:0.4em 0.5em; text-decoration: none; font-size: 1.2em; color: #666!important">Page précédente</a><?php
 				endif;
 
 				/* On va effectuer une boucle autant de fois que l'on a de pages */
 				for ($i = 1; $i <= $nombreDePages; $i++):
-					?><a href="?page=<?php echo $i; ?>#top-gallery" style="color: #2C3034 !important; border: solid 1px #ccc; border-radius: 50px; margin-left:1em; padding:0.4em 0.5em; text-decoration: none; font-size: 1.2em; font-weight: 600;"><?php echo $i; ?></a> <?php
+					?><a href="?page=<?php echo $i; ?>#top-gallery" style="border: solid 1px #ccc; border-radius: 50px; margin-left:1em; padding:0.4em 0.5em; text-decoration: none; font-size: 1.2em; color: #666!important"><?php echo $i; ?></a> <?php
 				endfor;
 
 				/* Avec le nombre total de pages, on peut aussi masquer le lien
 				* vers la page suivante quand on est sur la dernière */
 				if ($page < $nombreDePages):
-					?><a href="?page=<?php echo $page + 1; ?>#top-gallery" style="color: #2C3034 !important; border: solid 1px #ccc; border-radius: 50px; margin-left:1em; padding:0.4em 0.5em; text-decoration: none; font-size: 1.2em; font-weight: 600;">Page suivante</a><?php
+					?><a href="?page=<?php echo $page + 1; ?>#top-gallery" style="border: solid 1px #ccc; border-radius: 50px; margin-left:1em; padding:0.4em 0.5em; text-decoration: none; font-size: 1.2em; color: #666!important">Page suivante</a><?php
 				endif;
 				?>
 			</center>
