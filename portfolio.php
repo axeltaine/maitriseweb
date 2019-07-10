@@ -49,7 +49,7 @@
 						style="color: #2C3034 !important;"></i></a>
 				<?php
 						$page = (!empty($_GET['page']) ? $_GET['page'] : 1);
-						$limite = 11;
+						$limite = 12;
 					// Partie "Requête"
 					$debut = ($page - 1) * $limite;
 					$query = 'SELECT SQL_CALC_FOUND_ROWS * FROM `projet` LIMIT :limite OFFSET :debut';
@@ -119,12 +119,9 @@
 				?>
 
 				<!-- / Item 01 -->
-				<div class="col-12 col-sm-6 col-md-4 col-lg-3 site">
-					<a class="suite" href="./portfolio.php">
-						<p class="voirplus zoomIn animated">+ tout voir</p>
-					</a>
-				</div>
+				
 			</div>
+			<br>
 			<center>
 				<?php
 				// Partie "Liens"
@@ -140,7 +137,7 @@
 
 				/* On va effectuer une boucle autant de fois que l'on a de pages */
 				for ($i = 1; $i <= $nombreDePages; $i++):
-					?><a href="?page=<?php echo $i; ?>" style="color: #2C3034 !important;"><?php echo $i; ?>,</a> <?php
+					?><a href="?page=<?php echo $i; ?>" style="color: #2C3034 !important; border: solid 2px black; border-radius: 50px; margin-left:1em; padding:0.5em;"><?php echo $i; ?></a> <?php
 				endfor;
 
 				/* Avec le nombre total de pages, on peut aussi masquer le lien
