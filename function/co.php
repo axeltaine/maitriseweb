@@ -13,26 +13,4 @@ $conn = new PDO('mysql:host=db776287041.hosting-data.io;port=3306;dbname=db77628
     die('Erreur : '.$e->getMessage());
 }
 
-
-
-
-?>
-
-
-
-<?php
-/*
-
-  try
-  {
-  	// On se connecte à MySQL
-  	$bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', "root", "");
-  }
-  catch(PDOException $e)
-  {
-  	// En cas d'erreur, on affiche un message et on arrête tout
-          die('Erreur : '.$e->getMessage());
-  }
-
-  */
 ?>

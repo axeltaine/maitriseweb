@@ -22,7 +22,7 @@
 <body>
   <header><?php include ('header.php'); ?> </header>
   <div class="header">
-    <h1>MAitrise Web <br><span>[ Présentation ]</span></h1>
+    <h1>Maitrise Web <br><span>[ Présentation ]</span></h1>
   </div>
   <div id="top"></div>
   <main class="global">
@@ -47,7 +47,7 @@
       <div class="container-fluid">
         <div class="heading  " data-wow-duration="1000ms" data-wow-delay="300ms">
           <hr>
-          <h2>Nos Sites Vitrine</h2>
+          <h2>Nos Sites Vitrines</h2>
           <hr>
           <div class="row align-items-center" id="service" style="flex-wrap: wrap-reverse;">
             <div class="text-center col-sm-6">
@@ -100,7 +100,7 @@
       <div class="container-fluid">
         <div class="heading" data-wow-duration="1000ms" data-wow-delay="300ms">
           <hr>
-          <h2>Nos Applications interne</h2>
+          <h2>Nos Applications internes</h2>
           <hr>
           <div class="row align-items-center" id="service" style="flex-wrap: wrap-reverse;">
             <div class="text-center col-sm-6">
@@ -127,7 +127,7 @@
       <div class="container-fluid">
         <div class="heading  " data-wow-duration="1000ms" data-wow-delay="300ms">
           <hr>
-          <h2>Nos Identitées visuel</h2>
+          <h2>Nos Identitées visuelles</h2>
           <hr>
           <div class="row align-items-center" id="service" >
             <div class="text-right col-sm-6">
@@ -158,7 +158,6 @@
             <hr>
             <h2>Notre Equipe</h2>
             <hr>
-            <p>SI TU VEUT DU TEST ICI</p>
           </div>
         </div>
         <div class="team-members">

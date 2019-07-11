@@ -23,7 +23,7 @@
 
 	<header><?php include ('header.php');?> </header>
 	<div class="header ">
-		<h1>MAitrise Web <br><span>[ Réalisations ]</span></h1>
+		<h1>Maitrise Web <br><span>[ Réalisations ]</span></h1>
 	</div>
 	<div id="top" style="margin-bottom: 40px;"></div>
 	<hr id="top-gallery">
