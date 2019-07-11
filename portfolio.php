@@ -52,7 +52,7 @@
 						$limite = 12;
 					// Partie "Requête"
 					$debut = ($page - 1) * $limite;
-					$query = 'SELECT SQL_CALC_FOUND_ROWS * FROM `projet` LIMIT :limite OFFSET :debut';
+					$query = 'SELECT SQL_CALC_FOUND_ROWS * FROM `PROJET` LIMIT :limite OFFSET :debut';
 					$query = $conn->prepare($query);
 					$query->bindValue('debut', $debut, PDO::PARAM_INT);
 					$query->bindValue('limite', $limite, PDO::PARAM_INT);

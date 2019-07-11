@@ -47,7 +47,7 @@
             ]);
             $user = $req->fetch();
         if ($user){
-            $_SESSION['admin'] = $_POST['Name_admin'];
+            $_SESSION['ADMIN'] = $_POST['Name_admin'];
             ob_start();
             header('location:index_admin.php');
             exit;

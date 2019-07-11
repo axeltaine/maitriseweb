@@ -22,7 +22,7 @@
 					style="color: #2C3034 !important;"></i></a>
 					<?php
 					// Partie "Requête"
-              $stmt = $conn->prepare('SELECT * FROM projet');
+              $stmt = $conn->prepare('SELECT * FROM PROJET');
               $stmt->execute();
  
 					// Partie "Boucle"
