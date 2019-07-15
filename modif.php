@@ -45,7 +45,7 @@
     @$test6= $_POST['Type_projet']; 
 
         if(isset($_POST['submit'])){
-            $sql1 = $conn->query("UPDATE `PROJET` SET `Name_projet` = '$test', `Description` = '$test1', `Img1` = '$test2', `Url` = '$test3', `Img2` = '$test4', `Img3`='$test5', `Type_projet` = '$test6' WHERE `projet`.`Id_projet`=$current_id");
+            $sql1 = $conn->query("UPDATE `projet` SET `Name_projet` = '$test', `Description` = '$test1', `Img1` = '$test2', `Url` = '$test3', `Img2` = '$test4', `Img3`='$test5', `Type_projet` = '$test6' WHERE `projet`.`Id_projet`=$current_id");
             header('location:index_admin.php');
         }
     ?>

@@ -95,8 +95,7 @@ Si tu veux voir les crédits, licences, ..., n'hésite pas à regarder nos menti
                 </span>
             </div>
         </div>
-        <div class="container_fluide"><?php include ('slider.php'); ?></div>
-
+        <div class="container_fluide"><?php  include ('slider.php');  ?></div>  
         <?php include ('stripes.php'); ?>
         <?php include ('gallery.php'); ?>
         <?php include ('parallax.php'); ?>

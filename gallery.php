@@ -3,7 +3,7 @@
 <hr>
 <h2 style="text-align: center; text-transform: uppercase; margin: 2% 0;">NOS PROJETS & CREATIONS</h2>
 <hr>
-<section class="gallery" style="min-height:60vh;">
+<section class="gallery" style="min-height:70vh;">
 	<div class="container-fluid mini-gallery">
 		<div class="row justify-content-center">
 			<div class="portfolioFilter col-sm-12" id="myBtnContainer">
@@ -22,7 +22,7 @@
 					style="color: #2C3034 !important;"></i></a>
 					<?php
 					// Partie "Requête"
-              $stmt = $conn->prepare('SELECT * FROM PROJET');
+              $stmt = $conn->prepare('SELECT * FROM projet');
               $stmt->execute();
  
 					// Partie "Boucle"

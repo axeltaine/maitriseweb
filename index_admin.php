@@ -23,7 +23,7 @@ include 'function/verif_co.php';?>
 <body style="font-family:'Roboto Condensed">
 
     <?php   
-    echo"<h1 class='text-center mt-5'>Bienvenue <span class='text-info'>".$_SESSION['ADMIN']."</span></h1>";
+    echo"<h1 class='text-center mt-5'>Bienvenue <span class='text-info'>".$_SESSION['admin']."</span></h1>";
     include 'function/co.php';?>
     <div class="container-fluid text-center">
         <a href="create.php" class="mt-5 mb-3 btn btn-success "><i class="fas fa-plus-square"></i> Ajouter un projet</a>

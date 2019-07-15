@@ -1,4 +1,4 @@
 <?php
-$req = $conn->query("SELECT * FROM PROJET");
+$req = $conn->query("SELECT * FROM projet");
      $articles = $req->fetchAll();
 ?>

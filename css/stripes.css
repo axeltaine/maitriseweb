@@ -50,7 +50,7 @@
 
 .stripes-title-content{
     height: 2.4em; 
-    background-color: black; 
+    background-color: #1E2022; 
     width: 30em; 
     padding: 18px 4px 18px 18px; 
     padding-left: 15em; 
@@ -146,7 +146,27 @@
     }
 }
 
-@media only screen and (max-width: 576px) {
+
+@media only screen and (max-width: 1140px) {
+
+    .stripes-title {
+        font-size: 0.8em;
+        left: -20em;
+    }
+
+    .stripes-content:hover span{
+        transform: translateX(21em);
+    }
+  
+    .stripes-title-content{
+        width: 18em; 
+        padding: 18px 6px 18px 18px; 
+        padding-left: 14%; 
+        margin-left: -2em;
+    }
+}
+
+@media only screen and (max-width: 960px) {
 
     .gallery{
         padding-bottom: 40px;
@@ -159,8 +179,6 @@
     }
 
     .stripes-title-content{
-        height: 2.4em; 
-        background-color: black; 
         width: 17em; 
         padding: 18px 6px 18px 18px; 
         padding-left: 14%; 

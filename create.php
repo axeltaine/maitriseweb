@@ -23,7 +23,7 @@ include 'function/verif_co.php';
 <body>
 
     <div class="row mx-auto">
-        <a class="btn mx-auto btn-primary mt-5 mb-5" href="index_admin.php"><?=$_SESSION['ADMIN']?></a>
+        <a class="btn mx-auto btn-primary mt-5 mb-5" href="index_admin.php"><?=$_SESSION['admin']?></a>
     </div>
 
     <?php 
@@ -38,7 +38,7 @@ include 'function/verif_co.php';
     @$test6= $_POST['Type_projet'];  
         if(isset($_POST['submit'])){
             
-           $conn->query ("INSERT INTO `PROJET` (`Name_projet`, `Description`, `Img1`, `Url`, `Img2`, `Img3`, `Type_projet`)
+           $conn->query ("INSERT INTO `projet` (`Name_projet`, `Description`, `Img1`, `Url`, `Img2`, `Img3`, `Type_projet`)
             VALUES ('$test', '$test1', '$test2', '$test3', '$test4', '$test5', '$test6')");
             header('location:create.php');
         }     

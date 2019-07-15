@@ -16,6 +16,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/hover-min.css" rel="stylesheet">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 </head>
 
 <body>
@@ -40,7 +41,7 @@
                     <div class="contact-form  fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="row">
                             <div class="col-sm-12">
-                                <form id="main-contact-form" name="contact-form" method="post" action="#">
+                                <form id="main-contact-form" name="contact-form" method="post" action="sendmail.php">
                                     <div class="row   fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                                         <div class="col-sm-6" style="   padding-left: 0;">
                                             <div class="form-group">
@@ -56,12 +57,17 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
+                                        <input type="text" name="subject" class="form-control" placeholder="Subject"
+                                            required="required">
+                                    </div>
+                                    <div class="form-group">
                                         <textarea name="message" id="message" class="form-control" rows="4"
                                             placeholder="Entrer votre message" required="required"></textarea>
                                     </div>
                                     <div class="form-group text-center">
                                         <button type="submit"
-                                            class="btn-submit btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center">Envoyer</button>
+                                            class="btn-submit btn btn-primary btn-lg hvr-grow-shadow hvr-underline-from-center"
+                                            name="submit">Envoyer</button>
                                     </div>
                                 </form>
                             </div>
